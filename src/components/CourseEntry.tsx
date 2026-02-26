@@ -17,11 +17,13 @@ function normalize(input: string): string {
 
 function parseCourseInput(raw: string): CourseChip {
   const normalized = normalize(raw)
-  // Try full "COMP 251 001" format first
-  const fullMatch = normalized.match(/^([A-Z]{3,4}\s+\d{3}[A-Z0-9]{0,3})\s+(\d{3}[A-Z]?\d?)$/)
+  // Try full "COMP 251 001" or "COMP251 001" format first
+  const fullMatch = normalized.match(/^([A-Z]{3,4})\s*(\d{3}[A-Z0-9]{0,3})\s+(\d{3}[A-Z]?\d?)$/)
   if (fullMatch) {
-    const course = fullMatch[1]
-    const section = fullMatch[2]
+    const courseCode = fullMatch[1]
+    const courseNum = fullMatch[2]
+    const course = `${courseCode} ${courseNum}`
+    const section = fullMatch[3]
     const key = `${course} ${section}`
     return {
       display: key,
@@ -30,10 +32,12 @@ function parseCourseInput(raw: string): CourseChip {
       valid: validCourseSections.has(key)
     }
   }
-  // Try just course code "COMP 251"
-  const courseMatch = normalized.match(/^([A-Z]{3,4}\s+\d{3}[A-Z0-9]{0,3})$/)
+  // Try just course code "COMP 251" or "COMP251"
+  const courseMatch = normalized.match(/^([A-Z]{3,4})\s*(\d{3}[A-Z0-9]{0,3})$/)
   if (courseMatch) {
-    const course = courseMatch[1]
+    const courseCode = courseMatch[1]
+    const courseNum = courseMatch[2]
+    const course = `${courseCode} ${courseNum}`
     return {
       display: course,
       course,
