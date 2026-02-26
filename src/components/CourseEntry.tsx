@@ -141,11 +141,19 @@ export default function CourseEntry({ initialCourses, onSubmit, onBack }: Course
             placeholder={placeholder}
             spellCheck={false}
             autoCapitalize="characters"
-            className="w-full bg-transparent border-b-2 border-obsidian pb-4 text-3xl md:text-5xl font-display placeholder-obsidian/20 text-obsidian outline-none focus:border-mcgill transition-colors duration-500 uppercase"
+            className="w-full bg-transparent border-b-2 border-obsidian pb-4 text-3xl md:text-5xl font-display placeholder-obsidian/20 text-obsidian outline-none focus:border-mcgill transition-colors duration-500 uppercase pr-24 md:pr-48"
           />
-          <span className="absolute right-0 bottom-4 text-xs font-body uppercase tracking-widest opacity-40 transition-opacity">
-            Press Enter
-          </span>
+          <div className="absolute right-0 bottom-4 flex items-center gap-4">
+            <span className="text-xs font-body uppercase tracking-widest opacity-40 transition-opacity hidden md:inline">
+              Press Enter
+            </span>
+            <button
+              onClick={addChip}
+              className={`px-5 py-2 md:px-6 md:py-3 bg-obsidian text-cream hover:bg-mcgill hover:text-white transition-all duration-300 rounded-full text-xs font-body font-medium uppercase tracking-widest cursor-pointer ${input.trim() ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-1 pointer-events-none'}`}
+            >
+              Add
+            </button>
+          </div>
         </div>
 
         {/* Selected Chips */}
@@ -171,10 +179,22 @@ export default function CourseEntry({ initialCourses, onSubmit, onBack }: Course
             </span>
           ))}
         </div>
+
+        {/* Inline Mobile Generate Button */}
+        <div className={`flex md:hidden justify-center items-center w-full transition-all duration-700 ${hasValid ? 'mt-8 h-20 opacity-100 translate-y-0' : 'mt-0 h-0 opacity-0 translate-y-4 pointer-events-none'}`}>
+          <button
+            onClick={handleSubmit}
+            disabled={!hasValid}
+            className="flex items-center justify-center w-full gap-4 px-8 py-5 bg-obsidian text-cream hover:bg-mcgill hover:text-white transition-colors duration-500 rounded-full group cursor-pointer shadow-xl"
+          >
+            <span className="text-sm uppercase tracking-widest font-body font-medium">Generate Schedule</span>
+            <ArrowRight width={20} strokeWidth={1.5} className="group-hover:translate-x-1 transition-transform duration-500" />
+          </button>
+        </div>
       </div>
 
-      {/* Fixed Bottom CTA */}
-      <div className={`fixed bottom-0 left-0 w-full p-6 md:p-12 flex justify-end transition-all duration-700 transform ${hasValid ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0 pointer-events-none'}`}>
+      {/* Fixed Bottom CTA (Desktop Only) */}
+      <div className={`fixed bottom-0 left-0 w-full p-6 md:p-12 hidden md:flex justify-end transition-all duration-700 transform ${hasValid ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0 pointer-events-none'}`}>
         <button
           onClick={handleSubmit}
           disabled={!hasValid}
