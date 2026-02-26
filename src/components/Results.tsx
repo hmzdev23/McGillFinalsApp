@@ -90,7 +90,7 @@ export default function Results({ courses, onBack }: ResultsProps) {
   }, [courses])
 
   return (
-    <div className={`min-h-screen w-full bg-cream transition-opacity duration-1000 ${mounted ? 'opacity-100' : 'opacity-0'}`}>
+    <div className={`min-h-[100dvh] w-full bg-cream transition-opacity duration-1000 ${mounted ? 'opacity-100' : 'opacity-0'}`}>
 
       {/* Editorial Nav */}
       <nav className="absolute top-0 left-0 w-full z-50 px-6 py-6 md:px-12 flex justify-between items-center mix-blend-multiply pointer-events-none">

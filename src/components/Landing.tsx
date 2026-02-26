@@ -15,16 +15,16 @@ export default function Landing({ onStart }: LandingProps) {
   }, [])
 
   return (
-    <div className={`min-h-screen w-full transition-opacity duration-1000 ${mounted ? 'opacity-100' : 'opacity-0'}`}>
+    <div className={`min-h-[100dvh] w-full transition-opacity duration-1000 ${mounted ? 'opacity-100' : 'opacity-0'}`}>
 
       {/* Navigation */}
-      <nav className="absolute top-0 left-0 w-full z-50 px-6 py-6 md:px-12 md:py-8 flex justify-between items-center mix-blend-multiply pointer-events-none">
+      <nav className="absolute top-0 left-0 w-full z-50 px-6 pt-12 pb-6 md:px-12 md:py-8 flex justify-between items-center mix-blend-multiply pointer-events-none">
         <div className="pointer-events-auto">
-          <span className="font-display text-2xl tracking-tighter italic">FindMyExams</span>
+          <span className="font-display text-2xl tracking-tighter italic mt-safe opacity-40 md:opacity-100">FindMyExams</span>
         </div>
         <button
           onClick={onStart}
-          className="pointer-events-auto group flex items-center gap-2 text-xs uppercase tracking-widest hover:opacity-60 transition-opacity duration-500"
+          className="pointer-events-auto group hidden md:flex items-center gap-2 text-xs uppercase tracking-widest hover:opacity-60 transition-opacity duration-500"
         >
           <span>Start Search</span>
           <ArrowRight width={16} strokeWidth={1.5} className="group-hover:translate-x-1 transition-transform" />
@@ -32,7 +32,7 @@ export default function Landing({ onStart }: LandingProps) {
       </nav>
 
       {/* Hero Block - Using McGill Light Red instead of Yellow */}
-      <header className="relative w-full min-h-screen flex flex-col justify-end bg-mcgill-light px-6 pb-12 pt-32 md:px-12 md:pb-20">
+      <header className="relative w-full min-h-[100dvh] flex flex-col justify-end bg-mcgill-light px-6 pb-12 pt-32 md:px-12 md:pb-20">
         <div className="max-w-screen-2xl mx-auto w-full reveal-on-scroll">
           <div className="grid grid-cols-1 md:grid-cols-12 gap-8 items-end">
             <div className="md:col-span-9">
@@ -45,6 +45,15 @@ export default function Landing({ onStart }: LandingProps) {
               <p className="font-body font-light text-sm md:text-base leading-relaxed opacity-90">
                 A fast and easy way to locate your April 2026 Finals without digging through endless PDF schedules.
               </p>
+
+              <button
+                onClick={onStart}
+                className="flex md:hidden items-center justify-center w-full gap-4 px-8 py-5 bg-obsidian text-cream hover:bg-mcgill hover:text-white transition-colors duration-500 rounded-full group cursor-pointer shadow-xl mb-4"
+              >
+                <span className="text-sm uppercase tracking-widest font-body font-medium">Start Search</span>
+                <ArrowRight width={20} strokeWidth={1.5} className="group-hover:translate-x-1 transition-transform duration-500" />
+              </button>
+
               <div className="w-full h-[1px] bg-obsidian opacity-20"></div>
               <div className="flex items-center gap-2 text-xs uppercase tracking-widest opacity-80">
                 <MapPin width={16} strokeWidth={1.5} />

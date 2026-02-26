@@ -111,7 +111,7 @@ export default function CourseEntry({ initialCourses, onSubmit, onBack }: Course
   }
 
   return (
-    <div className={`min-h-screen w-full bg-cream transition-opacity duration-700 ${mounted ? 'opacity-100' : 'opacity-0'} flex flex-col`}>
+    <div className={`min-h-[100dvh] w-full bg-cream transition-opacity duration-700 ${mounted ? 'opacity-100' : 'opacity-0'} flex flex-col`}>
 
       {/* Editorial Nav */}
       <nav className="w-full px-6 py-8 md:px-12 flex justify-between items-center relative z-10">
