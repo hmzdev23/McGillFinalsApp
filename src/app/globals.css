@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+@theme {
+  --color-mcgill: #ED1B2F;
+  --color-mcgill-dark: #c8152a;
+  --color-mcgill-light: #FEF2F2;
+
+  --color-cream: #FBF7EF;
+  --color-cream-dark: #F2EDE4;
+  --color-obsidian: #141414;
+
+  --font-display: var(--font-display), "Instrument Serif", serif;
+  --font-body: var(--font-body), "Manrope", sans-serif;
+}
+
+/* Hide scrollbar for clean horizontal scroll if needed */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+@layer base {
+  ::selection {
+    background-color: var(--color-obsidian);
+    color: var(--color-mcgill);
+  }
+}
+
+/* Smooth slow spin for icons */
+@keyframes spin-slow {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin-slow {
+  animation: spin-slow linear infinite;
+}
+
+/* ===== SCROLL REVEAL ===== */
+.reveal-on-scroll {
+  opacity: 0;
+  transform: translateY(30px) scale(0.98);
+  filter: blur(3px);
+  transition: opacity 0.7s ease-out, transform 0.7s cubic-bezier(0.2, 0.8, 0.2, 1), filter 0.7s ease-out;
+  will-change: opacity, transform, filter;
+}
+
+.reveal-on-scroll.is-visible {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+  filter: blur(0);
+}
