@@ -107,15 +107,7 @@ export default function Results({ courses, onBack }: ResultsProps) {
           <span className="font-display text-xl tracking-tighter italic opacity-40 hidden md:block">FindMyExams</span>
         </div>
 
-        {exams.length > 0 && (
-          <button
-            onClick={() => downloadICS(exams, 'findmyexams-all.ics')}
-            className="pointer-events-auto group flex items-center gap-2 text-xs uppercase tracking-widest hover:text-mcgill transition-colors duration-500 cursor-pointer"
-          >
-            <span>Export All</span>
-            <Download width={14} strokeWidth={1.5} />
-          </button>
-        )}
+
       </nav>
 
       {/* Main Content Area */}
@@ -131,13 +123,19 @@ export default function Results({ courses, onBack }: ResultsProps) {
           </div>
         ) : (
           <div className="mb-24">
-            <div className="flex justify-between items-end border-b border-obsidian/20 pb-12 mb-16">
+            <div className="flex flex-col sm:flex-row justify-between items-start sm:items-end border-b border-obsidian/20 pb-12 mb-16 gap-6 sm:gap-0">
               <h1 className="font-display text-6xl md:text-8xl tracking-tight leading-[0.9] font-light">
                 Your <span className="italic">Schedule</span>
               </h1>
-              <span className="font-body text-xs uppercase tracking-widest opacity-40 text-right">
-                {exams.length} Exam{exams.length !== 1 ? 's' : ''} Documented
-              </span>
+              {exams.length > 0 && (
+                <button
+                  onClick={() => downloadICS(exams, 'findmyexams-all.ics')}
+                  className="flex items-center gap-4 px-8 py-4 bg-obsidian text-cream hover:bg-mcgill hover:text-white transition-colors duration-500 rounded-full group cursor-pointer shadow-xl shrink-0"
+                >
+                  <span className="text-sm uppercase tracking-widest font-body font-medium">Export All</span>
+                  <Download width={20} strokeWidth={1.5} className="group-hover:-translate-y-1 transition-transform duration-500" />
+                </button>
+              )}
             </div>
 
             <div className="flex flex-col gap-24">

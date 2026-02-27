@@ -164,9 +164,14 @@ export default function Landing({ onStart }: LandingProps) {
       </section>
 
       {/* Simple Footer */}
-      <footer className="w-full py-8 px-6 md:px-12 bg-mcgill-light flex justify-between items-center border-t border-obsidian border-opacity-10">
-        <span className="font-body text-xs opacity-40">© FindMyExams McGill</span>
-        <div className="flex gap-4 opacity-40 uppercase text-xs tracking-widest">
+      <footer className="w-full py-8 px-6 md:px-12 bg-mcgill-light flex flex-col md:flex-row justify-between items-center gap-4 border-t border-obsidian border-opacity-10 text-center md:text-left">
+        <div className="flex flex-col gap-1">
+          <span className="font-body text-xs opacity-40 font-medium tracking-wide">© FindMyExams McGill</span>
+          <span className="font-body text-[10px] md:text-xs opacity-40 max-w-lg mt-1">
+            Disclaimer: This is not an official McGill University website. The exam schedule is tentative and subject to change. Always verify your schedule with official university sources.
+          </span>
+        </div>
+        <div className="flex gap-4 opacity-40 uppercase text-xs tracking-widest mt-4 md:mt-0">
           Made by Hamza
         </div>
       </footer>
