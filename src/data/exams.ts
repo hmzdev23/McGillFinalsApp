@@ -1666,6 +1666,57 @@ export const EXAMS = [
     "start": "2026-04-23T14:00",
     "end": "2026-04-23T17:00"
   },
+  // ECON 230D2 - CORRECTED (both sections are Apr 16, not Apr 22)
+  {
+    "course": "ECON 230D2",
+    "section": "001",
+    "title": "Microeconomic Theory",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-04-16T14:00",
+    "end": "2026-04-16T17:00"
+  },
+  {
+    "course": "ECON 230D2",
+    "section": "002",
+    "title": "Microeconomic Theory",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-04-16T14:00",
+    "end": "2026-04-16T17:00"
+  },
+
+  // NEW - previously missing D2 courses
+  {
+    "course": "ECON 227D2",
+    "section": "001",
+    "title": "Economic Statistics",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-04-22T09:00",
+    "end": "2026-04-22T12:00"
+  },
+  {
+    "course": "ECON 227D2",
+    "section": "002",
+    "title": "Economic Statistics",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-04-22T09:00",
+    "end": "2026-04-22T12:00"
+  },
+  {
+    "course": "ECON 250D2",
+    "section": "001",
+    "title": "Intro to Econ Theory: Honours",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-04-29T18:30",
+    "end": "2026-04-29T21:30"
+  },
+  {
+    "course": "ECON 257D2",
+    "section": "001",
+    "title": "Economic Statistics-Honours",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-04-22T09:00",
+    "end": "2026-04-22T12:00"
+  },
   {
     "course": "ECON 304",
     "section": "001",
@@ -5617,5 +5668,13 @@ export const EXAMS = [
     "type": "IN-PERSON - LAB EXAM - MAC CAMPUS",
     "start": "2026-04-28T14:00",
     "end": "2026-04-28T17:00"
+  },
+  {
+    "course": "MUPG 575D2",
+    "section": "001",
+    "title": "Organ Rep. and Perf. Practice",
+    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
+    "start": "2026-04-20T09:00",
+    "end": "2026-04-20T12:00"
   }
 ];

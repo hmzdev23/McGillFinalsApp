@@ -17,7 +17,7 @@ function normalize(input: string): string {
 
 function parseCourseInput(raw: string): CourseChip {
   const normalized = normalize(raw)
-  // Try full "COMP 251 001" or "COMP251 001" format first
+  // Try full "COMP 251 001", "COMP251 001", "ECON 230D2 001", or "ECON230D2 001" format first
   const fullMatch = normalized.match(/^([A-Z]{3,4})\s*(\d{3}[A-Z0-9]{0,3})\s+(\d{3}[A-Z]?\d?)$/)
   if (fullMatch) {
     const courseCode = fullMatch[1]
@@ -32,7 +32,7 @@ function parseCourseInput(raw: string): CourseChip {
       valid: validCourseSections.has(key)
     }
   }
-  // Try just course code "COMP 251" or "COMP251"
+  // Try just course code "COMP 251", "COMP251", "ECON 230D2", or "ECON230D2"
   const courseMatch = normalized.match(/^([A-Z]{3,4})\s*(\d{3}[A-Z0-9]{0,3})$/)
   if (courseMatch) {
     const courseCode = courseMatch[1]
