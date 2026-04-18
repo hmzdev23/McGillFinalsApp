@@ -129,12 +129,22 @@ export default function ExamCard({ exam, style }: ExamCardProps) {
             </div>
           )}
 
-          {campus && (
+          {exam.building && exam.room ? (
+            <div className="flex items-center gap-3">
+              <MapPin width={18} strokeWidth={1.5} className="opacity-40 shrink-0" />
+              <span>{exam.building} · {exam.room}</span>
+            </div>
+          ) : exam.building ? (
+            <div className="flex items-center gap-3">
+              <MapPin width={18} strokeWidth={1.5} className="opacity-40 shrink-0" />
+              <span>{exam.building}</span>
+            </div>
+          ) : campus ? (
             <div className="flex items-center gap-3">
               <MapPin width={18} strokeWidth={1.5} className="opacity-40 shrink-0" />
               <span>{campus}</span>
             </div>
-          )}
+          ) : null}
         </div>
 
         {/* Actions */}

@@ -17,6 +17,8 @@ function buildDescription(exam: Exam): string {
   if (exam.sections) parts.push(`Sections: ${exam.sections.join(', ')}`)
   else parts.push(`Section: ${exam.section}`)
   parts.push(`Type: ${exam.type}`)
+  if (exam.building && exam.room) parts.push(`Location: ${exam.building}, Room ${exam.room}`)
+  else if (exam.building) parts.push(`Location: ${exam.building}`)
   return parts.join('\\n')
 }
 
@@ -26,13 +28,19 @@ function getCampus(type: string): string {
   return 'McGill University'
 }
 
+function getLocation(exam: Exam): string {
+  if (exam.building && exam.room) return `${exam.building}, Room ${exam.room}, McGill University`
+  if (exam.building) return `${exam.building}, McGill University`
+  return getCampus(exam.type)
+}
+
 export function googleCalUrl(exam: Exam): string {
   const params = new URLSearchParams({
     action: 'TEMPLATE',
     text: `${exam.course} — Final Exam`,
     dates: toGoogleDate(exam.start, exam.end),
     details: buildDescription(exam).replace(/\\n/g, '\n'),
-    location: getCampus(exam.type),
+    location: getLocation(exam),
   })
   return `https://calendar.google.com/calendar/render?${params.toString()}`
 }
@@ -46,7 +54,7 @@ export function generateICS(exams: Exam[]): string {
       `DTEND;TZID=America/Toronto:${toICSDate(exam.end)}`,
       `SUMMARY:${exam.course} — Final Exam`,
       `DESCRIPTION:${desc}`,
-      `LOCATION:${getCampus(exam.type)}`,
+      `LOCATION:${getLocation(exam)}`,
       `STATUS:CONFIRMED`,
       'END:VEVENT',
     ].join('\r\n')

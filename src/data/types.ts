@@ -5,6 +5,8 @@ export interface Exam {
     type: string;
     start: string;
     end: string;
+    building?: string;
+    room?: string;
     sections?: string[]; // Used when grouping multiple sections
 }
 
