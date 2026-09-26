@@ -19,9 +19,7 @@ function buildDescription(exam: Exam): string {
   parts.push(`Type: ${exam.type}`)
   parts.push('Fall 2026 tentative schedule - dates and times are subject to change.')
   parts.push('All times are Eastern Standard Time (America/Toronto).')
-  if (exam.building && exam.room) parts.push(`Location: ${exam.building}, Room ${exam.room}`)
-  else if (exam.building) parts.push(`Location: ${exam.building}`)
-  else if (exam.type.includes('IN-PERSON')) parts.push('Room location not yet published.')
+  if (exam.type.includes('IN-PERSON')) parts.push('Room location not yet published.')
   return parts.join('\n')
 }
 
@@ -52,20 +50,14 @@ function getCampus(type: string): string {
   return 'McGill University'
 }
 
-function getLocation(exam: Exam): string {
-  if (exam.building && exam.room) return `${exam.building}, Room ${exam.room}, McGill University`
-  if (exam.building) return `${exam.building}, McGill University`
-  return getCampus(exam.type)
-}
-
 export function googleCalUrl(exam: Exam): string {
   const params = new URLSearchParams({
     action: 'TEMPLATE',
-    text: `${exam.course} — Final Exam`,
+    text: `${exam.course} — Fall 2026 Final Exam`,
     dates: toGoogleDate(exam.start, exam.end),
     ctz: 'America/Toronto',
     details: buildDescription(exam),
-    location: getLocation(exam),
+    location: getCampus(exam.type),
   })
   return `https://calendar.google.com/calendar/render?${params.toString()}`
 }
@@ -82,9 +74,9 @@ export function generateICS(exams: Exam[]): string {
       `DTSTAMP:${timestamp}`,
       `DTSTART;TZID=America/Toronto:${toICSDate(exam.start)}`,
       `DTEND;TZID=America/Toronto:${toICSDate(exam.end)}`,
-      `SUMMARY:${escapeICSText(`${exam.course} — Final Exam`)}`,
+      `SUMMARY:${escapeICSText(`${exam.course} — Fall 2026 Final Exam`)}`,
       `DESCRIPTION:${escapeICSText(desc)}`,
-      `LOCATION:${escapeICSText(getLocation(exam))}`,
+      `LOCATION:${escapeICSText(getCampus(exam.type))}`,
       `STATUS:TENTATIVE`,
       'END:VEVENT',
     ].map(foldICSLine).join('\r\n')
@@ -95,6 +87,7 @@ export function generateICS(exams: Exam[]): string {
     'VERSION:2.0',
     'PRODID:-//McGill Finals//EN',
     'CALSCALE:GREGORIAN',
+    'X-WR-CALNAME:McGill Fall 2026 Finals',
     'BEGIN:VTIMEZONE',
     'TZID:America/Toronto',
     'BEGIN:DAYLIGHT',
@@ -117,7 +110,7 @@ export function generateICS(exams: Exam[]): string {
   return cal
 }
 
-export function downloadICS(exams: Exam[], filename: string = 'mcgill-finals.ics'): void {
+export function downloadICS(exams: Exam[], filename: string = 'mcgill-fall-2026-finals.ics'): void {
   const ics = generateICS(exams)
   const blob = new Blob([ics], { type: 'text/calendar;charset=utf-8' })
   const url = URL.createObjectURL(blob)

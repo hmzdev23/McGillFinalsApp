@@ -1,5 +1,5 @@
 import React from 'react'
-import { Clock, MapPin, Download } from 'lucide-react'
+import { Clock, MapPin } from 'lucide-react'
 import { googleCalUrl, downloadICS } from '../lib/calendarUtils'
 import type { Exam } from '../data/types'
 
@@ -129,17 +129,7 @@ export default function ExamCard({ exam, style }: ExamCardProps) {
             </div>
           )}
 
-          {exam.building && exam.room ? (
-            <div className="flex items-center gap-3">
-              <MapPin width={18} strokeWidth={1.5} className="opacity-40 shrink-0" />
-              <span>{exam.building} · {exam.room}</span>
-            </div>
-          ) : exam.building ? (
-            <div className="flex items-center gap-3">
-              <MapPin width={18} strokeWidth={1.5} className="opacity-40 shrink-0" />
-              <span>{exam.building}</span>
-            </div>
-          ) : campus ? (
+          {campus ? (
             <div className="flex items-center gap-3">
               <MapPin width={18} strokeWidth={1.5} className="opacity-40 shrink-0" />
               <span>{campus}</span>
@@ -160,7 +150,7 @@ export default function ExamCard({ exam, style }: ExamCardProps) {
           <span className="opacity-20">|</span>
           <button
             className="text-xs uppercase tracking-widest font-body hover:text-mcgill transition-colors flex items-center gap-2 cursor-pointer"
-            onClick={() => downloadICS([exam], `${exam.course.replace(/\s/g, '-')}-final.ics`)}
+            onClick={() => downloadICS([exam], `${exam.course.replace(/\s/g, '-')}-fall-2026-final.ics`)}
           >
             Apple Cal
           </button>
