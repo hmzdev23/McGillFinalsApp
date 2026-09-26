@@ -18,7 +18,7 @@ const manrope = Manrope({
 
 export const metadata: Metadata = {
   title: "FindMyExams — McGill",
-  description: "A fast, privacy-first way to find your McGill University final exams for April 2026.",
+  description: "Find your McGill University Fall 2026 final exams with the tentative December 2026 schedule. Search courses and export to your calendar.",
 };
 
 export default function RootLayout({

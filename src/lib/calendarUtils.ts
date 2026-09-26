@@ -1,13 +1,13 @@
 import type { Exam } from '../data/types'
 
-// Format: 20260424T140000
+// Format: 20261215T140000 (Montreal local time)
 function toICSDate(isoStr: string): string {
   const d = new Date(isoStr)
   const pad = (n: number) => String(n).padStart(2, '0')
   return `${d.getFullYear()}${pad(d.getMonth() + 1)}${pad(d.getDate())}T${pad(d.getHours())}${pad(d.getMinutes())}${pad(d.getSeconds())}`
 }
 
-// Format for Google Calendar: 20260424T140000/20260424T170000
+// Format for Google Calendar: 20261215T140000/20261215T170000
 function toGoogleDate(startISO: string, endISO: string): string {
   return `${toICSDate(startISO)}/${toICSDate(endISO)}`
 }
@@ -17,9 +17,33 @@ function buildDescription(exam: Exam): string {
   if (exam.sections) parts.push(`Sections: ${exam.sections.join(', ')}`)
   else parts.push(`Section: ${exam.section}`)
   parts.push(`Type: ${exam.type}`)
+  parts.push('Fall 2026 tentative schedule - dates and times are subject to change.')
+  parts.push('All times are Eastern Standard Time (America/Toronto).')
   if (exam.building && exam.room) parts.push(`Location: ${exam.building}, Room ${exam.room}`)
   else if (exam.building) parts.push(`Location: ${exam.building}`)
-  return parts.join('\\n')
+  else if (exam.type.includes('IN-PERSON')) parts.push('Room location not yet published.')
+  return parts.join('\n')
+}
+
+function escapeICSText(value: string): string {
+  return value.replace(/\\/g, '\\\\').replace(/\r?\n/g, '\\n').replace(/,/g, '\\,').replace(/;/g, '\\;')
+}
+
+// iCalendar content lines must be folded at 75 UTF-8 bytes.
+function foldICSLine(line: string): string {
+  const encoder = new TextEncoder()
+  let result = ''
+  let bytes = 0
+  for (const character of line) {
+    const size = encoder.encode(character).length
+    if (bytes + size > 75) {
+      result += '\r\n '
+      bytes = 1
+    }
+    result += character
+    bytes += size
+  }
+  return result
 }
 
 function getCampus(type: string): string {
@@ -39,25 +63,31 @@ export function googleCalUrl(exam: Exam): string {
     action: 'TEMPLATE',
     text: `${exam.course} — Final Exam`,
     dates: toGoogleDate(exam.start, exam.end),
-    details: buildDescription(exam).replace(/\\n/g, '\n'),
+    ctz: 'America/Toronto',
+    details: buildDescription(exam),
     location: getLocation(exam),
   })
   return `https://calendar.google.com/calendar/render?${params.toString()}`
 }
 
 export function generateICS(exams: Exam[]): string {
+  const timestamp = new Date().toISOString().replace(/[-:]/g, '').replace(/\.\d{3}Z$/, 'Z')
   const events = exams.map(exam => {
     const desc = buildDescription(exam)
+    const sections = [...(exam.sections ?? [exam.section])].sort().join(',')
+    const uid = encodeURIComponent(`${exam.course}|${sections}|${exam.type}|${exam.start}|${exam.end}`)
     return [
       'BEGIN:VEVENT',
+      `UID:${uid}@findmyexams`,
+      `DTSTAMP:${timestamp}`,
       `DTSTART;TZID=America/Toronto:${toICSDate(exam.start)}`,
       `DTEND;TZID=America/Toronto:${toICSDate(exam.end)}`,
-      `SUMMARY:${exam.course} — Final Exam`,
-      `DESCRIPTION:${desc}`,
-      `LOCATION:${getLocation(exam)}`,
-      `STATUS:CONFIRMED`,
+      `SUMMARY:${escapeICSText(`${exam.course} — Final Exam`)}`,
+      `DESCRIPTION:${escapeICSText(desc)}`,
+      `LOCATION:${escapeICSText(getLocation(exam))}`,
+      `STATUS:TENTATIVE`,
       'END:VEVENT',
-    ].join('\r\n')
+    ].map(foldICSLine).join('\r\n')
   })
 
   const cal = [
@@ -82,7 +112,7 @@ export function generateICS(exams: Exam[]): string {
     'END:VTIMEZONE',
     ...events,
     'END:VCALENDAR',
-  ].join('\r\n')
+  ].join('\r\n') + '\r\n'
 
   return cal
 }

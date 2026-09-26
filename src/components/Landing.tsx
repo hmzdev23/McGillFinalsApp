@@ -2,6 +2,7 @@
 
 import React, { useEffect, useState } from 'react'
 import { ArrowRight, MapPin, Search, Calendar, Compass, Sun } from 'lucide-react'
+import ScheduleNotice from './ScheduleNotice'
 
 interface LandingProps {
   onStart: () => void;
@@ -43,8 +44,9 @@ export default function Landing({ onStart }: LandingProps) {
             </div>
             <div className="md:col-span-3 flex flex-col justify-end gap-6">
               <p className="font-body font-light text-sm md:text-base leading-relaxed opacity-90">
-                A fast and easy way to locate your April 2026 Finals without digging through endless PDF schedules.
+                A fast and easy way to locate your Fall 2026 finals this December without digging through endless PDF schedules.
               </p>
+              <ScheduleNotice />
 
               <button
                 onClick={onStart}
@@ -75,7 +77,7 @@ export default function Landing({ onStart }: LandingProps) {
             <div className="w-full md:w-1/12 border-t border-obsidian opacity-20 pt-2"></div>
             <div className="w-full md:w-11/12">
               <p className="font-body text-lg md:text-xl font-light leading-relaxed text-obsidian opacity-80">
-                The official exam schedule is a massive document. We understand that during finals season, you need absolute clarity—exact times, specific rooms, and seamless calendar integration. We extracted the data so you don't have to search manually.
+                The official exam schedule is a massive document. Find your tentative exam dates, times, and calendar exports in one place. Room locations are not yet published in this schedule.
               </p>
             </div>
           </div>

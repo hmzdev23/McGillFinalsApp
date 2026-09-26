@@ -1,7010 +1,6393 @@
-// Auto-generated from McGill April 2026 Final Exam Schedule PDF (with room locations)
-// Total: 702 exams
+// Auto-generated from McGill December 2026 Tentative Final Examination Schedule.
+// Source: december_2026_tentative_schedule_2.pdf
+// SHA-256: 2b327ababe8201dd1be4493906bce2c0fad26abf897c695949a6dce5239a2465
+// 799 source rows; 798 unique exams (identical CIVE 320 row appears twice).
+// Times are Montreal local time (EST). Room locations are not yet published.
+import type { Exam } from './types'
 
-export const EXAMS = [
-    {
+export const EXAMS: Exam[] = [
+  {
     "course": "ACCT 351",
     "section": "001",
     "title": "Intermediate Financial Acct 1",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-28T14:00",
-    "end": "2026-04-28T17:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
+    "start": "2026-12-15T14:00",
+    "end": "2026-12-15T17:00"
   },
-    {
+  {
+    "course": "ACCT 351",
+    "section": "002",
+    "title": "Intermediate Financial Acct 1",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-15T14:00",
+    "end": "2026-12-15T17:00"
+  },
+  {
     "course": "ACCT 352",
     "section": "001",
     "title": "Intermediate Financial Acct 2",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-28T14:00",
-    "end": "2026-04-28T17:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
+    "start": "2026-12-10T14:00",
+    "end": "2026-12-10T17:00"
   },
-    {
-    "course": "ACCT 352",
-    "section": "002",
-    "title": "Intermediate Financial Acct 2",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-28T14:00",
-    "end": "2026-04-28T17:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
-  },
-    {
+  {
     "course": "ACCT 361",
     "section": "001",
     "title": "Management Accounting",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-21T14:00",
-    "end": "2026-04-21T17:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
+    "start": "2026-12-17T09:00",
+    "end": "2026-12-17T12:00"
   },
-    {
+  {
     "course": "ACCT 361",
     "section": "002",
     "title": "Management Accounting",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-21T14:00",
-    "end": "2026-04-21T17:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
+    "start": "2026-12-17T09:00",
+    "end": "2026-12-17T12:00"
   },
-    {
+  {
+    "course": "ACCT 361",
+    "section": "003",
+    "title": "Management Accounting",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-17T09:00",
+    "end": "2026-12-17T12:00"
+  },
+  {
     "course": "ACCT 362",
     "section": "001",
     "title": "Cost Accounting",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-30T14:00",
-    "end": "2026-04-30T17:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
+    "start": "2026-12-09T14:00",
+    "end": "2026-12-09T17:00"
   },
-    {
-    "course": "ACCT 362",
-    "section": "002",
-    "title": "Cost Accounting",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-30T14:00",
-    "end": "2026-04-30T17:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
-  },
-    {
-    "course": "ACCT 385",
-    "section": "001",
-    "title": "Principles of Taxation",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-29T09:00",
-    "end": "2026-04-29T12:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
-  },
-    {
-    "course": "ACCT 385",
-    "section": "002",
-    "title": "Principles of Taxation",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-29T09:00",
-    "end": "2026-04-29T12:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
-  },
-    {
+  {
     "course": "ACCT 453",
     "section": "001",
     "title": "Advanced Financial Accounting",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-22T14:00",
-    "end": "2026-04-22T17:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
+    "start": "2026-12-16T09:00",
+    "end": "2026-12-16T12:00"
   },
-    {
-    "course": "ACCT 453",
-    "section": "002",
-    "title": "Advanced Financial Accounting",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-22T14:00",
-    "end": "2026-04-22T17:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
-  },
-    {
+  {
     "course": "ACCT 463",
     "section": "001",
     "title": "Management Control",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-20T09:00",
-    "end": "2026-04-20T12:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
+    "start": "2026-12-08T09:00",
+    "end": "2026-12-08T12:00"
   },
-    {
+  {
+    "course": "ACCT 463",
+    "section": "002",
+    "title": "Management Control",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-08T09:00",
+    "end": "2026-12-08T12:00"
+  },
+  {
     "course": "ACCT 475",
     "section": "001",
     "title": "Principles of Auditing",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-27T14:00",
-    "end": "2026-04-27T17:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
+    "start": "2026-12-22T09:00",
+    "end": "2026-12-22T12:00"
   },
-    {
-    "course": "AEBI 211",
+  {
+    "course": "AEBI 120",
     "section": "001",
-    "title": "Organisms 2",
+    "title": "Integrated Life Sciences",
     "type": "IN-PERSON - FORMAL EXAM - MAC CAMPUS",
-    "start": "2026-04-23T09:00",
-    "end": "2026-04-23T12:00",
-    "building": "CENTEN",
-    "room": "Ballroom"
+    "start": "2026-12-14T09:00",
+    "end": "2026-12-14T12:00"
   },
-    {
-    "course": "AECH 111",
+  {
+    "course": "AEBI 210",
     "section": "001",
-    "title": "General Chemistry 2",
+    "title": "Organisms 1",
     "type": "IN-PERSON - FORMAL EXAM - MAC CAMPUS",
-    "start": "2026-04-16T09:00",
-    "end": "2026-04-16T12:00",
-    "building": "CENTEN",
-    "room": "Ballroom"
+    "start": "2026-12-21T09:00",
+    "end": "2026-12-21T12:00"
   },
-    {
-    "course": "AEMA 102",
+  {
+    "course": "AEMA 101",
     "section": "001",
-    "title": "Calculus 2",
+    "title": "Calculus 1",
     "type": "IN-PERSON - FORMAL EXAM - MAC CAMPUS",
-    "start": "2026-04-24T09:00",
-    "end": "2026-04-24T12:00",
-    "building": "CENTEN",
-    "room": "Ballroom"
+    "start": "2026-12-07T14:00",
+    "end": "2026-12-07T17:00"
   },
-    {
-    "course": "AEMA 204",
+  {
+    "course": "AEMA 202",
     "section": "001",
-    "title": "Data Analytics for Biosystems",
-    "type": "IN-PERSON - LAB EXAM - MAC CAMPUS",
-    "start": "2026-04-22T14:00",
-    "end": "2026-04-22T17:00",
-    "building": "MCD-STEWART",
-    "room": "MS2-026, MS2-028, MS2-029"
-  },
-    {
-    "course": "AEMA 305",
-    "section": "001",
-    "title": "Differential Equations",
+    "title": "Intermediate Calculus",
     "type": "IN-PERSON - FORMAL EXAM - MAC CAMPUS",
-    "start": "2026-04-21T14:00",
-    "end": "2026-04-21T17:00",
-    "building": "CENTEN",
-    "room": "Ballroom"
+    "start": "2026-12-22T09:00",
+    "end": "2026-12-22T12:00"
   },
-    {
+  {
     "course": "AEMA 310",
     "section": "001",
     "title": "Statistical Methods 1",
     "type": "IN-PERSON - FORMAL EXAM - MAC CAMPUS",
-    "start": "2026-04-29T14:00",
-    "end": "2026-04-29T17:00",
-    "building": "CENTEN",
-    "room": "Ballroom"
-  },
-    {
-    "course": "AEMA 414",
-    "section": "001",
-    "title": "Temporal&Spatial Statistics 01",
-    "type": "IN-PERSON - FORMAL EXAM - MAC CAMPUS",
-    "start": "2026-04-24T14:00",
-    "end": "2026-04-24T17:00",
-    "building": "CENTEN",
-    "room": "Ballroom"
-  },
-    {
-    "course": "AEMA 614",
-    "section": "001",
-    "title": "Temporal&Spatial Statistics 1",
-    "type": "IN-PERSON - FORMAL EXAM - MAC CAMPUS",
-    "start": "2026-04-24T14:00",
-    "end": "2026-04-24T17:00",
-    "building": "CENTEN",
-    "room": "Ballroom"
-  },
-    {
-    "course": "AEPH 114",
-    "section": "001",
-    "title": "Introductory Physics 2",
-    "type": "IN-PERSON - FORMAL EXAM - MAC CAMPUS",
-    "start": "2026-04-21T14:00",
-    "end": "2026-04-21T17:00",
-    "building": "CENTEN",
-    "room": "Ballroom"
-  },
-    {
-    "course": "AEPH 115",
-    "section": "001",
-    "title": "Physics 2",
-    "type": "IN-PERSON - FORMAL EXAM - MAC CAMPUS",
-    "start": "2026-04-21T14:00",
-    "end": "2026-04-21T17:00",
-    "building": "CENTEN",
-    "room": "Ballroom"
-  },
-    {
-    "course": "AGEC 231",
-    "section": "001",
-    "title": "Econ Systems of Agriculture",
-    "type": "IN-PERSON - FORMAL EXAM - MAC CAMPUS",
-    "start": "2026-04-23T09:00",
-    "end": "2026-04-23T12:00",
-    "building": "CENTEN",
-    "room": "Ballroom"
-  },
-    {
-    "course": "AGEC 320",
-    "section": "001",
-    "title": "Intermed Microeconomic Theory",
-    "type": "IN-PERSON - FORMAL EXAM - MAC CAMPUS",
-    "start": "2026-04-17T14:00",
-    "end": "2026-04-17T17:00",
-    "building": "CENTEN",
-    "room": "Ballroom"
-  },
-    {
-    "course": "AGEC 430",
-    "section": "001",
-    "title": "Agric, Food & Resource Policy",
-    "type": "IN-PERSON - FORMAL EXAM - MAC CAMPUS",
-    "start": "2026-04-24T14:00",
-    "end": "2026-04-24T17:00",
-    "building": "CENTEN",
-    "room": "Ballroom"
-  },
-    {
-    "course": "AGEC 450",
-    "section": "001",
-    "title": "Agribusiness Management",
-    "type": "IN-PERSON - FORMAL EXAM - MAC CAMPUS",
-    "start": "2026-04-16T14:00",
-    "end": "2026-04-16T17:00",
-    "building": "CENTEN",
-    "room": "Ballroom"
+    "start": "2026-12-11T14:00",
+    "end": "2026-12-11T17:00"
   },
   {
-    "course": "AGRI 330",
+    "course": "AEPH 100",
     "section": "001",
-    "title": "Agricultural Legislation",
-    "type": "ONLINE - TAKE-HOME - 72 HOURS",
-    "start": "2026-04-20T14:00",
-    "end": "2026-04-23T14:00"
-  },
-    {
-    "course": "AGRI 411",
-    "section": "001",
-    "title": "Global Issues on Dev, Food&Agr",
+    "title": "Elements of Physics",
     "type": "IN-PERSON - FORMAL EXAM - MAC CAMPUS",
-    "start": "2026-04-27T09:00",
-    "end": "2026-04-27T12:00",
-    "building": "CENTEN",
-    "room": "Ballroom"
-  },
-    {
-    "course": "ANAT 212",
-    "section": "001",
-    "title": "Molec Mechanisms of Cell Funct",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-16T14:00",
-    "end": "2026-04-16T17:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
-  },
-    {
-    "course": "ANAT 262",
-    "section": "001",
-    "title": "Intro Molecular &Cell Biol",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-30T09:00",
-    "end": "2026-04-30T12:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
-  },
-    {
-    "course": "ANAT 314",
-    "section": "001",
-    "title": "Human Musculoskeletal Anatomy",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-20T09:00",
-    "end": "2026-04-20T12:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
-  },
-    {
-    "course": "ANAT 314",
-    "section": "001L",
-    "title": "Human Musculoskeletal Anatomy",
-    "type": "IN-PERSON - LAB EXAM - D.T. CAMPUS",
-    "start": "2026-04-24T14:00",
-    "end": "2026-04-24T17:00",
-    "building": "SADB",
-    "room": "2/49"
-  },
-    {
-    "course": "ANAT 316",
-    "section": "001",
-    "title": "Clinical Human Visceral Anat",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-20T09:00",
-    "end": "2026-04-20T12:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
-  },
-    {
-    "course": "ANAT 316",
-    "section": "001L",
-    "title": "Clinical Human Visceral Anat",
-    "type": "IN-PERSON - LAB EXAM - D.T. CAMPUS",
-    "start": "2026-04-27T09:00",
-    "end": "2026-04-27T12:00",
-    "building": "SADB",
-    "room": "2/49"
-  },
-    {
-    "course": "ANAT 322",
-    "section": "001",
-    "title": "Neuroendocrinology",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-29T09:00",
-    "end": "2026-04-29T12:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
-  },
-    {
-    "course": "ANAT 416",
-    "section": "001",
-    "title": "Dev., Disease and Regeneration",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-16T09:00",
-    "end": "2026-04-16T12:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
-  },
-    {
-    "course": "ANAT 458",
-    "section": "001",
-    "title": "Membranes & Cellular Signaling",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-27T18:30",
-    "end": "2026-04-27T21:30",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
-  },
-    {
-    "course": "ANAT 514",
-    "section": "001L",
-    "title": "Adv Human Anatomy Laboratory",
-    "type": "IN-PERSON - LAB EXAM - D.T. CAMPUS",
-    "start": "2026-04-22T09:00",
-    "end": "2026-04-22T12:00",
-    "building": "SADB",
-    "room": "2/49"
-  },
-    {
-    "course": "ANAT 542",
-    "section": "001",
-    "title": "TEM of Biological Samples",
-    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-04-24T14:00",
-    "end": "2026-04-24T17:00",
-    "building": "SADB",
-    "room": "B/32"
-  },
-    {
-    "course": "ANSC 234",
-    "section": "001",
-    "title": "Biochemistry 2",
-    "type": "IN-PERSON - FORMAL EXAM - MAC CAMPUS",
-    "start": "2026-04-20T14:00",
-    "end": "2026-04-20T17:00",
-    "building": "CENTEN",
-    "room": "Ballroom"
-  },
-    {
-    "course": "ANSC 251",
-    "section": "001",
-    "title": "Comparative Anatomy",
-    "type": "IN-PERSON - LAB EXAM - MAC CAMPUS",
-    "start": "2026-04-24T14:00",
-    "end": "2026-04-24T17:00",
-    "building": "MCD-STEWART",
-    "room": "MSB-063"
-  },
-    {
-    "course": "ANSC 301",
-    "section": "001",
-    "title": "Principles of Animal Breeding",
-    "type": "IN-PERSON - FORMAL EXAM - MAC CAMPUS",
-    "start": "2026-04-29T14:00",
-    "end": "2026-04-29T17:00",
-    "building": "CENTEN",
-    "room": "Ballroom"
-  },
-    {
-    "course": "ANSC 350",
-    "section": "001",
-    "title": "Food-Borne Pathogens",
-    "type": "IN-PERSON - FORMAL EXAM - MAC CAMPUS",
-    "start": "2026-04-22T09:00",
-    "end": "2026-04-22T12:00",
-    "building": "CENTEN",
-    "room": "Ballroom"
-  },
-    {
-    "course": "ANSC 424",
-    "section": "001",
-    "title": "Metabolic Endocrinology",
-    "type": "IN-PERSON - FORMAL EXAM - MAC CAMPUS",
-    "start": "2026-04-21T14:00",
-    "end": "2026-04-21T17:00",
-    "building": "CENTEN",
-    "room": "Ballroom"
-  },
-    {
-    "course": "ANSC 458",
-    "section": "001",
-    "title": "Advanced Livestock Management",
-    "type": "IN-PERSON - FORMAL EXAM - MAC CAMPUS",
-    "start": "2026-04-24T09:00",
-    "end": "2026-04-24T12:00",
-    "building": "CENTEN",
-    "room": "Ballroom"
-  },
-    {
-    "course": "ANTH 209",
-    "section": "001",
-    "title": "Anthropology of Religion",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-22T18:30",
-    "end": "2026-04-22T21:30",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
-  },
-    {
-    "course": "ANTH 222",
-    "section": "001",
-    "title": "Legal Anthropology",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-28T09:00",
-    "end": "2026-04-28T12:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
+    "start": "2026-12-09T09:00",
+    "end": "2026-12-09T12:00"
   },
   {
-    "course": "ANTH 308",
+    "course": "AEPH 113",
     "section": "001",
-    "title": "Political Anthropology 01",
+    "title": "Physics 1",
+    "type": "IN-PERSON - FORMAL EXAM - MAC CAMPUS",
+    "start": "2026-12-09T14:00",
+    "end": "2026-12-09T17:00"
+  },
+  {
+    "course": "AERO 633",
+    "section": "001",
+    "title": "Aerodynamics",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-08T09:00",
+    "end": "2026-12-08T12:00"
+  },
+  {
+    "course": "AGEC 333",
+    "section": "001",
+    "title": "Resource Economics",
+    "type": "IN-PERSON - FORMAL EXAM - MAC CAMPUS",
+    "start": "2026-12-14T09:00",
+    "end": "2026-12-14T12:00"
+  },
+  {
+    "course": "AGEC 491",
+    "section": "001",
+    "title": "Research & Methodology",
+    "type": "MAC ONLINE - TIMED EXAM - 3 HOURS",
+    "start": "2026-12-22T09:00",
+    "end": "2026-12-22T12:00"
+  },
+  {
+    "course": "AGRI 215",
+    "section": "001",
+    "title": "Agro-Ecosystems Field Course",
+    "type": "MAC ONLINE - TAKE-HOME - 48 HOURS",
+    "start": "2026-12-15T09:00",
+    "end": "2026-12-17T09:00"
+  },
+  {
+    "course": "ANAT 214",
+    "section": "001",
+    "title": "Systemic Human Anatomy",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-11T09:00",
+    "end": "2026-12-11T12:00"
+  },
+  {
+    "course": "ANAT 261",
+    "section": "001",
+    "title": "Intro to Dynamic Histology",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-08T18:30",
+    "end": "2026-12-08T21:30"
+  },
+  {
+    "course": "ANAT 315",
+    "section": "001",
+    "title": "Clin Hum Musculoskeletal Anat",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-17T09:00",
+    "end": "2026-12-17T12:00"
+  },
+  {
+    "course": "ANAT 315",
+    "section": "001L",
+    "title": "Clin Hum Musculoskeletal Anat",
+    "type": "IN-PERSON - LAB EXAM - D.T. CAMPUS",
+    "start": "2026-12-07T09:00",
+    "end": "2026-12-07T12:00"
+  },
+  {
+    "course": "ANAT 321",
+    "section": "001",
+    "title": "Circuitry of the Human Brain",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-15T18:30",
+    "end": "2026-12-15T21:30"
+  },
+  {
+    "course": "ANAT 323",
+    "section": "001",
+    "title": "Clinical Neuroanatomy",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-22T09:00",
+    "end": "2026-12-22T12:00"
+  },
+  {
+    "course": "ANAT 365",
+    "section": "001",
+    "title": "Cellular Trafficking",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-10T09:00",
+    "end": "2026-12-10T12:00"
+  },
+  {
+    "course": "ANAT 381",
+    "section": "001",
+    "title": "Experimental Embryology",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-18T09:00",
+    "end": "2026-12-18T12:00"
+  },
+  {
+    "course": "ANSC 250",
+    "section": "001",
+    "title": "Intro to Livestock Management",
+    "type": "IN-PERSON - FORMAL EXAM - MAC CAMPUS",
+    "start": "2026-12-07T14:00",
+    "end": "2026-12-07T17:00"
+  },
+  {
+    "course": "ANSC 323",
+    "section": "001",
+    "title": "Mammalian Physiology",
+    "type": "IN-PERSON - FORMAL EXAM - MAC CAMPUS",
+    "start": "2026-12-10T09:00",
+    "end": "2026-12-10T12:00"
+  },
+  {
+    "course": "ANTH 202",
+    "section": "001",
+    "title": "Socio-Cultural Anthropology",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-17T14:00",
+    "end": "2026-12-17T17:00"
+  },
+  {
+    "course": "ANTH 227",
+    "section": "001",
+    "title": "Medical Anthropology",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-10T14:00",
+    "end": "2026-12-10T17:00"
+  },
+  {
+    "course": "ANTH 319",
+    "section": "001",
+    "title": "Inka Arch. & Ethnohistory",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-07T09:00",
+    "end": "2026-12-07T12:00"
+  },
+  {
+    "course": "ANTH 352",
+    "section": "001",
+    "title": "Hist of Anthropological Theory",
     "type": "ONLINE - TAKE-HOME - 72 HOURS",
-    "start": "2026-04-20T09:00",
-    "end": "2026-04-23T09:00"
+    "start": "2026-12-15T14:00",
+    "end": "2026-12-18T14:00"
   },
-    {
-    "course": "ANTH 332",
+  {
+    "course": "ANTH 370",
     "section": "001",
-    "title": "Mesoamerican Archaeology",
+    "title": "Anthropology and the Image",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-17T09:00",
+    "end": "2026-12-17T12:00"
+  },
+  {
+    "course": "ANTH 385",
+    "section": "001",
+    "title": "Sex, Science and Culture",
     "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-04-20T14:00",
-    "end": "2026-04-20T17:00",
-    "building": "ENGMC",
-    "room": "13"
+    "start": "2026-12-22T09:00",
+    "end": "2026-12-22T12:00"
   },
-    {
-    "course": "ANTH 339",
+  {
+    "course": "ANTH 432",
     "section": "001",
-    "title": "Ecological Anthropology",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-28T14:00",
-    "end": "2026-04-28T17:00",
-    "building": "McGill Sports Complex",
-    "room": "STUDIO 1"
+    "title": "The Aztecs",
+    "type": "IN-PERSON - ORAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-21T09:00",
+    "end": "2026-12-21T12:00"
   },
-    {
-    "course": "ARCH 202",
+  {
+    "course": "ANTH 530",
     "section": "001",
-    "title": "Arch Graphics&Elements of Des",
-    "type": "IN-PERSON - ALL DAY ORAL - D.T. CAMPUS",
-    "start": "2026-04-21T09:00",
-    "end": "2026-04-22T17:00",
-    "building": "MDHAR",
-    "room": "114"
+    "title": "Material Turn in Archaeology",
+    "type": "IN-PERSON - ORAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-22T09:00",
+    "end": "2026-12-22T12:00"
   },
-    {
-    "course": "ARCH 241",
+  {
+    "course": "ARCH 250",
     "section": "001",
-    "title": "Architectural Structures 1",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-29T14:00",
-    "end": "2026-04-29T17:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
+    "title": "Architectural History 1",
+    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
+    "start": "2026-12-08T09:00",
+    "end": "2026-12-08T12:00"
   },
-    {
-    "course": "ARCH 251",
-    "section": "001",
-    "title": "Architectural History 2",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-17T09:00",
-    "end": "2026-04-17T12:00",
-    "building": "MDHAR",
-    "room": "212"
-  },
-    {
-    "course": "ARCH 251",
+  {
+    "course": "ARCH 250",
     "section": "002",
-    "title": "Architectural History 2",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-17T09:00",
-    "end": "2026-04-17T12:00",
-    "building": "MDHAR",
-    "room": "212"
-  },
-    {
-    "course": "ARCH 304",
-    "section": "001",
-    "title": "Design and Construction 2",
-    "type": "IN-PERSON - ALL DAY ORAL - D.T. CAMPUS",
-    "start": "2026-04-22T09:00",
-    "end": "2026-04-23T17:00",
-    "building": "MDHAR",
-    "room": "215"
-  },
-    {
-    "course": "ARCH 406",
-    "section": "001",
-    "title": "Design and Construction 4",
-    "type": "IN-PERSON - ALL DAY ORAL - D.T. CAMPUS",
-    "start": "2026-04-22T09:00",
-    "end": "2026-04-23T17:00",
-    "building": "MDHAR",
-    "room": "101, 102, 114, 310"
-  },
-    {
-    "course": "ARCH 673",
-    "section": "001",
-    "title": "Architectural Design Studio 2",
-    "type": "IN-PERSON - ALL DAY ORAL - D.T. CAMPUS",
-    "start": "2026-04-22T09:00",
-    "end": "2026-04-23T17:00",
-    "building": "MDHAR",
-    "room": "101, 5th Floor"
-  },
-    {
-    "course": "ARCH 683",
-    "section": "001",
-    "title": "Directed Research Project",
-    "type": "IN-PERSON - ALL DAY ORAL - D.T. CAMPUS",
-    "start": "2026-04-16T09:00",
-    "end": "2026-04-17T17:00",
-    "building": "MDHAR",
-    "room": "1st, 3rd, 5th Floors"
+    "title": "Architectural History 1",
+    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
+    "start": "2026-12-08T09:00",
+    "end": "2026-12-08T12:00"
   },
   {
-    "course": "ARTH 202",
+    "course": "ARTH 223",
     "section": "001",
-    "title": "Intro to Contemporary Art",
+    "title": "Intro Ital Renai Art 1300-1500",
     "type": "ONLINE - TAKE-HOME - 72 HOURS",
-    "start": "2026-04-21T09:00",
-    "end": "2026-04-24T09:00"
+    "start": "2026-12-14T09:00",
+    "end": "2026-12-17T09:00"
   },
   {
-    "course": "ARTH 205",
+    "course": "ARTH 225",
     "section": "001",
-    "title": "Introduction to Modern Art",
-    "type": "ONLINE - TAKE-HOME - 72 HOURS",
-    "start": "2026-04-17T09:00",
-    "end": "2026-04-20T09:00"
+    "title": "Intro to 17th-Century Art",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-16T14:00",
+    "end": "2026-12-16T17:00"
   },
   {
-    "course": "ARTH 207",
+    "course": "ATOC 181",
     "section": "001",
-    "title": "Intro Early Mod. Art 1400-1700",
-    "type": "ONLINE - TAKE-HOME - 72 HOURS",
-    "start": "2026-04-20T09:00",
-    "end": "2026-04-23T09:00"
-  },
-    {
-    "course": "ARTH 321",
-    "section": "001",
-    "title": "Visual Culture-Dutch Republic",
+    "title": "Intro to Atmospheric Science",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-28T14:00",
-    "end": "2026-04-28T17:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
+    "start": "2026-12-17T18:30",
+    "end": "2026-12-17T21:30"
   },
   {
-    "course": "ARTH 339",
+    "course": "ATOC 182",
     "section": "001",
-    "title": "Critical Issues-Contemp Art",
-    "type": "ONLINE - TAKE-HOME - 72 HOURS",
-    "start": "2026-04-27T09:00",
-    "end": "2026-04-30T09:00"
-  },
-    {
-    "course": "ATOC 183",
-    "section": "001",
-    "title": "Climate and Climate Change",
+    "title": "Intro to Oceanic Sciences",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-24T09:00",
-    "end": "2026-04-24T12:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
+    "start": "2026-12-07T09:00",
+    "end": "2026-12-07T12:00"
   },
-    {
-    "course": "ATOC 184",
+  {
+    "course": "ATOC 185",
     "section": "001",
-    "title": "Science of Storms",
+    "title": "Natural Disasters",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-17T14:00",
-    "end": "2026-04-17T17:00",
-    "building": "McGill Sports Complex",
-    "room": "STUDIO 2"
+    "start": "2026-12-15T09:00",
+    "end": "2026-12-15T12:00"
   },
-    {
-    "course": "ATOC 215",
+  {
+    "course": "ATOC 404",
     "section": "001",
-    "title": "Oceans, Weather and Climate",
+    "title": "Climate Physics",
     "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-04-29T09:00",
-    "end": "2026-04-29T12:00",
-    "building": "BURN",
-    "room": "934"
+    "start": "2026-12-07T14:00",
+    "end": "2026-12-07T17:00"
   },
-    {
-    "course": "ATOC 219",
+  {
+    "course": "ATOC 540",
     "section": "001",
-    "title": "Intro to Atmospheric Chemistry",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-27T14:00",
-    "end": "2026-04-27T17:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
-  },
-    {
-    "course": "ATOC 309",
-    "section": "001",
-    "title": "Weather Radars and Satellites",
+    "title": "Synoptic Meteorology 1",
     "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-04-28T09:00",
-    "end": "2026-04-28T12:00",
-    "building": "BURN",
-    "room": "719A"
+    "start": "2026-12-09T14:00",
+    "end": "2026-12-09T17:00"
   },
-    {
-    "course": "ATOC 517",
-    "section": "001",
-    "title": "Boundary Layer Meteorology",
-    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-04-24T09:00",
-    "end": "2026-04-24T12:00",
-    "building": "BURN",
-    "room": "719A"
-  },
-    {
-    "course": "ATOC 541",
-    "section": "001",
-    "title": "Synoptic Meteorology 2",
-    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-04-29T14:00",
-    "end": "2026-04-29T17:00",
-    "building": "BURN",
-    "room": "719A"
-  },
-    {
+  {
     "course": "BIEN 203",
     "section": "001",
     "title": "Intro. to Stats & Data Science",
-    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-04-16T14:00",
-    "end": "2026-04-16T17:00",
-    "building": "ENGMC",
-    "room": "204"
-  },
-    {
-    "course": "BIEN 203",
-    "section": "002",
-    "title": "Intro. to Stats & Data Science",
-    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-04-16T14:00",
-    "end": "2026-04-16T17:00",
-    "building": "ENGMC",
-    "room": "204"
-  },
-    {
-    "course": "BIEN 300",
-    "section": "001",
-    "title": "Thermodynamics in Bioengin",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-23T18:30",
-    "end": "2026-04-23T21:30",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
-  },
-    {
-    "course": "BIEN 330",
-    "section": "001",
-    "title": "Tissue Eng & Regenerative Med",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-29T09:00",
-    "end": "2026-04-29T12:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
-  },
-    {
-    "course": "BIEN 360",
-    "section": "001",
-    "title": "Physical Chemistry in Bioengin",
-    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-04-24T09:00",
-    "end": "2026-04-24T12:00",
-    "building": "ENGTR",
-    "room": "0100"
+    "start": "2026-12-22T09:00",
+    "end": "2026-12-22T12:00"
   },
   {
-    "course": "BIEN 505",
+    "course": "BIEN 219",
     "section": "001",
-    "title": "Medical Techno Innovtn & Dev.",
-    "type": "ONLINE - TIMED EXAM - 24 HOURS",
-    "start": "2026-04-21T09:00",
-    "end": "2026-04-22T09:00"
+    "title": "Intro to Phys Mol & Cell Biol",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-22T09:00",
+    "end": "2026-12-22T12:00"
   },
   {
-    "course": "BIEN 505",
-    "section": "002",
-    "title": "Medical Techno Innovtn & Dev.",
-    "type": "ONLINE - TIMED EXAM - 24 HOURS",
-    "start": "2026-04-21T09:00",
-    "end": "2026-04-22T09:00"
-  },
-    {
-    "course": "BIEN 535",
+    "course": "BIEN 310",
     "section": "001",
-    "title": "ElecMicro&3D Img for BioMatl's",
+    "title": "Intro to Biomolecular Eng",
     "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-04-23T09:00",
-    "end": "2026-04-23T12:00",
-    "building": "ENGTR",
-    "room": "0060"
-  },
-    {
-    "course": "BIEN 535",
-    "section": "002",
-    "title": "ElecMicro&3D Img for BioMatl's",
-    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-04-23T09:00",
-    "end": "2026-04-23T12:00",
-    "building": "ENGTR",
-    "room": "0060"
-  },
-    {
-    "course": "BIOC 212",
-    "section": "001",
-    "title": "Molec Mechanisms of Cell Funct",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-16T14:00",
-    "end": "2026-04-16T17:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
-  },
-    {
-    "course": "BIOC 312",
-    "section": "001",
-    "title": "Biochemistry of Macromolecules",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-21T09:00",
-    "end": "2026-04-21T12:00",
-    "building": "McGill Sports Complex",
-    "room": "408"
-  },
-    {
-    "course": "BIOC 404",
-    "section": "001",
-    "title": "Biophysical Methods in Biochem",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-24T09:00",
-    "end": "2026-04-24T12:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
-  },
-    {
-    "course": "BIOC 458",
-    "section": "001",
-    "title": "Membranes & Cellular Signaling",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-27T18:30",
-    "end": "2026-04-27T21:30",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
-  },
-    {
-    "course": "BIOC 470",
-    "section": "001",
-    "title": "Lipids&Lipoproteins in Disease",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-22T09:00",
-    "end": "2026-04-22T12:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
-  },
-    {
-    "course": "BIOC 503",
-    "section": "001",
-    "title": "Biochemistry of ImmuneDiseases",
-    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-04-20T09:00",
-    "end": "2026-04-20T12:00",
-    "building": "MCMED",
-    "room": "908"
-  },
-    {
-    "course": "BIOL 112",
-    "section": "001",
-    "title": "Cell and Molecular Biology",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-28T14:00",
-    "end": "2026-04-28T17:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
-  },
-    {
-    "course": "BIOL 201",
-    "section": "001",
-    "title": "Cell Biology & Metabolism",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-16T09:00",
-    "end": "2026-04-16T12:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
-  },
-    {
-    "course": "BIOL 202",
-    "section": "001",
-    "title": "Basic Genetics",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-28T09:00",
-    "end": "2026-04-28T12:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
-  },
-    {
-    "course": "BIOL 205",
-    "section": "001",
-    "title": "Functional Biol of Plnts&Anmls",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-29T09:00",
-    "end": "2026-04-29T12:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
-  },
-    {
-    "course": "BIOL 303",
-    "section": "001",
-    "title": "Developmental Biology",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-23T09:00",
-    "end": "2026-04-23T12:00",
-    "building": "McGill Sports Complex",
-    "room": "STUDIO 2"
-  },
-    {
-    "course": "BIOL 305",
-    "section": "001",
-    "title": "Animal Diversity",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-20T14:00",
-    "end": "2026-04-20T17:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
-  },
-    {
-    "course": "BIOL 307",
-    "section": "001",
-    "title": "Behavioural Ecology",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-30T14:00",
-    "end": "2026-04-30T17:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
-  },
-    {
-    "course": "BIOL 307",
-    "section": "002",
-    "title": "Behavioural Ecology",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-30T14:00",
-    "end": "2026-04-30T17:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
-  },
-    {
-    "course": "BIOL 319",
-    "section": "001",
-    "title": "Introduction to Biophysics",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-22T09:00",
-    "end": "2026-04-22T12:00",
-    "building": "McGill Sports Complex",
-    "room": "STUDIO 2"
-  },
-    {
-    "course": "BIOL 441",
-    "section": "001",
-    "title": "Biological Oceanography",
-    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-04-23T14:00",
-    "end": "2026-04-23T17:00",
-    "building": "STBIO",
-    "room": "S3/4"
-  },
-    {
-    "course": "BIOL 568",
-    "section": "001",
-    "title": "Topics on the Human Genome",
-    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-04-16T14:00",
-    "end": "2026-04-16T17:00",
-    "building": "STBIO",
-    "room": "S3/4"
-  },
-    {
-    "course": "BMDE 504",
-    "section": "001",
-    "title": "Biomaterials & Bioperformance",
-    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-04-29T09:00",
-    "end": "2026-04-29T12:00",
-    "building": "ENGTR",
-    "room": "0060"
-  },
-    {
-    "course": "BREE 217",
-    "section": "001",
-    "title": "Hydrology and Water Resources",
-    "type": "IN-PERSON - FORMAL EXAM - MAC CAMPUS",
-    "start": "2026-04-22T09:00",
-    "end": "2026-04-22T12:00",
-    "building": "CENTEN",
-    "room": "Ballroom"
-  },
-    {
-    "course": "BREE 301",
-    "section": "001",
-    "title": "Biothermodynamics",
-    "type": "IN-PERSON - FORMAL EXAM - MAC CAMPUS",
-    "start": "2026-04-28T14:00",
-    "end": "2026-04-28T17:00",
-    "building": "CENTEN",
-    "room": "Ballroom"
-  },
-    {
-    "course": "BREE 314",
-    "section": "001",
-    "title": "Agri-Food Buildings",
-    "type": "IN-PERSON - FORMAL EXAM - MAC CAMPUS",
-    "start": "2026-04-23T14:00",
-    "end": "2026-04-23T17:00",
-    "building": "CENTEN",
-    "room": "Ballroom"
-  },
-    {
-    "course": "BREE 341",
-    "section": "001",
-    "title": "Mechanics of Materials",
-    "type": "IN-PERSON - FORMAL EXAM - MAC CAMPUS",
-    "start": "2026-04-24T14:00",
-    "end": "2026-04-24T17:00",
-    "building": "CENTEN",
-    "room": "Ballroom"
-  },
-    {
-    "course": "BREE 403",
-    "section": "001",
-    "title": "Biological Material Properties",
-    "type": "IN-PERSON - FORMAL EXAM - MAC CAMPUS",
-    "start": "2026-04-29T09:00",
-    "end": "2026-04-29T12:00",
-    "building": "CENTEN",
-    "room": "Ballroom"
-  },
-    {
-    "course": "BREE 501",
-    "section": "001",
-    "title": "Simulation and Modelling",
-    "type": "IN-PERSON - LAB EXAM - MAC CAMPUS",
-    "start": "2026-04-27T14:00",
-    "end": "2026-04-27T17:00",
-    "building": "MCD-STEWART",
-    "room": "MS2-026, MS2-028, MS2-029"
-  },
-    {
-    "course": "BREE 603",
-    "section": "001",
-    "title": "Adv Properties: Food&Plant Mat",
-    "type": "IN-PERSON - FORMAL EXAM - MAC CAMPUS",
-    "start": "2026-04-29T09:00",
-    "end": "2026-04-29T12:00",
-    "building": "CENTEN",
-    "room": "Ballroom"
-  },
-    {
-    "course": "CANS 406",
-    "section": "001",
-    "title": "Canadian Studies Seminar 6.",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-22T09:00",
-    "end": "2026-04-22T12:00",
-    "building": "McGill Sports Complex",
-    "room": "BLEACHERS"
-  },
-    {
-    "course": "CHEE 204",
-    "section": "001",
-    "title": "Chem Engineering Principles 2",
-    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-04-24T14:00",
-    "end": "2026-04-24T17:00",
-    "building": "ENGMC",
-    "room": "13"
-  },
-    {
-    "course": "CHEE 220",
-    "section": "001",
-    "title": "Chemical Engrg Thermodynamics",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-22T18:30",
-    "end": "2026-04-22T21:30",
-    "building": "McGill Sports Complex",
-    "room": "STUDIO 1"
-  },
-    {
-    "course": "CHEE 315",
-    "section": "001",
-    "title": "Heat and Mass Transfer",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-29T09:00",
-    "end": "2026-04-29T12:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
-  },
-    {
-    "course": "CHEE 351",
-    "section": "001",
-    "title": "Separation Processes",
-    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-04-24T09:00",
-    "end": "2026-04-24T12:00",
-    "building": "ENGMC",
-    "room": "13"
-  },
-    {
-    "course": "CHEE 440",
-    "section": "001",
-    "title": "Process Modelling",
-    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-04-21T14:00",
-    "end": "2026-04-21T17:00",
-    "building": "ENGMC",
-    "room": "13"
-  },
-    {
-    "course": "CHEE 456D2",
-    "section": "001",
-    "title": "Design Project",
-    "type": "IN-PERSON - 2 DAY ORAL - D.T. CAMPUS",
-    "start": "2026-04-27T09:00",
-    "end": "2026-04-28T17:00",
-    "building": "WONG",
-    "room": "1020"
-  },
-    {
-    "course": "CHEE 474",
-    "section": "001",
-    "title": "Biochemical Engineering",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-22T14:00",
-    "end": "2026-04-22T17:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
-  },
-    {
-    "course": "CHEE 484",
-    "section": "001",
-    "title": "Materials Engineering",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-20T14:00",
-    "end": "2026-04-20T17:00",
-    "building": "McGill Sports Complex",
-    "room": "BLEACHERS"
-  },
-    {
-    "course": "CHEE 582",
-    "section": "001",
-    "title": "Polymer Science & Engineering",
-    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-04-17T14:00",
-    "end": "2026-04-17T17:00",
-    "building": "ENGTR",
-    "room": "0060"
-  },
-    {
-    "course": "CHEM 120",
-    "section": "001",
-    "title": "General Chemistry 2",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-23T09:00",
-    "end": "2026-04-23T12:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
-  },
-    {
-    "course": "CHEM 120",
-    "section": "002",
-    "title": "General Chemistry 2",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-23T09:00",
-    "end": "2026-04-23T12:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
+    "start": "2026-12-21T09:00",
+    "end": "2026-12-21T12:00"
   },
   {
-    "course": "CHEM 181",
+    "course": "BIEN 314",
     "section": "001",
-    "title": "World of Chem: Food",
+    "title": "Transp. Phenom in Biol. Sys 1",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-15T09:00",
+    "end": "2026-12-15T12:00"
+  },
+  {
+    "course": "BIEN 410",
+    "section": "001",
+    "title": "Comput Methods in Biomol Eng",
+    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
+    "start": "2026-12-16T14:00",
+    "end": "2026-12-16T17:00"
+  },
+  {
+    "course": "BIEN 510",
+    "section": "001",
+    "title": "Eng'd Nanomtls for Biomed Appl",
+    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
+    "start": "2026-12-14T09:00",
+    "end": "2026-12-14T12:00"
+  },
+  {
+    "course": "BIEN 510",
+    "section": "002",
+    "title": "Eng'd Nanomtls for Biomed Appl",
+    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
+    "start": "2026-12-14T09:00",
+    "end": "2026-12-14T12:00"
+  },
+  {
+    "course": "BIEN 595",
+    "section": "001",
+    "title": "Adv Biomol Systems Modelling",
+    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
+    "start": "2026-12-14T09:00",
+    "end": "2026-12-14T12:00"
+  },
+  {
+    "course": "BIEN 595",
+    "section": "002",
+    "title": "Adv Biomol Systems Modelling",
+    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
+    "start": "2026-12-14T09:00",
+    "end": "2026-12-14T12:00"
+  },
+  {
+    "course": "BIOC 311",
+    "section": "001",
+    "title": "Metabolic Biochemistry",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-14T18:30",
+    "end": "2026-12-14T21:30"
+  },
+  {
+    "course": "BIOC 320",
+    "section": "001",
+    "title": "Lab Meth in Biochem&Mol Biol 2",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-21T09:00",
+    "end": "2026-12-21T12:00"
+  },
+  {
+    "course": "BIOC 454",
+    "section": "001",
+    "title": "Nucleic Acids",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-09T09:00",
+    "end": "2026-12-09T12:00"
+  },
+  {
+    "course": "BIOL 111",
+    "section": "001",
+    "title": "Principles:Organismal Biology",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-17T14:00",
+    "end": "2026-12-17T17:00"
+  },
+  {
+    "course": "BIOL 115",
+    "section": "001",
+    "title": "Essential Biology",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-14T14:00",
+    "end": "2026-12-14T17:00"
+  },
+  {
+    "course": "BIOL 200",
+    "section": "001",
+    "title": "Molecular Biology",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-16T14:00",
+    "end": "2026-12-16T17:00"
+  },
+  {
+    "course": "BIOL 200",
+    "section": "002",
+    "title": "Molecular Biology",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-16T14:00",
+    "end": "2026-12-16T17:00"
+  },
+  {
+    "course": "BIOL 215",
+    "section": "001",
+    "title": "Intro to Ecology and Evolution",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-08T18:30",
+    "end": "2026-12-08T21:30"
+  },
+  {
+    "course": "BIOL 219",
+    "section": "001",
+    "title": "Intro to Phys Mol & Cell Biol",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-22T09:00",
+    "end": "2026-12-22T12:00"
+  },
+  {
+    "course": "BIOL 300",
+    "section": "001",
+    "title": "Molecular Biology of the Gene",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-15T09:00",
+    "end": "2026-12-15T12:00"
+  },
+  {
+    "course": "BIOL 302",
+    "section": "001",
+    "title": "Fundls of Genetics & Genomics",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-17T18:30",
+    "end": "2026-12-17T21:30"
+  },
+  {
+    "course": "BIOL 304",
+    "section": "001",
+    "title": "Evolution",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-21T09:00",
+    "end": "2026-12-21T12:00"
+  },
+  {
+    "course": "BIOL 306",
+    "section": "001",
+    "title": "Neural Basis of Behaviour",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-09T14:00",
+    "end": "2026-12-09T17:00"
+  },
+  {
+    "course": "BIOL 308",
+    "section": "001",
+    "title": "Ecological Dynamics",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-09T09:00",
+    "end": "2026-12-09T12:00"
+  },
+  {
+    "course": "BIOL 309",
+    "section": "001",
+    "title": "Mathematical Models in Biology",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-17T14:00",
+    "end": "2026-12-17T17:00"
+  },
+  {
+    "course": "BIOL 313",
+    "section": "001",
+    "title": "Eukaryotic Cell Biology",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-16T14:00",
+    "end": "2026-12-16T17:00"
+  },
+  {
+    "course": "BMDE 503",
+    "section": "001",
+    "title": "Biomedical Instrumentation",
     "type": "ONLINE - TIMED EXAM - 3 HOURS",
-    "start": "2026-04-17T18:30",
-    "end": "2026-04-17T21:30"
+    "start": "2026-12-21T09:00",
+    "end": "2026-12-21T12:00"
   },
-    {
+  {
+    "course": "BMDE 519",
+    "section": "001",
+    "title": "Biomedical Signals & Systems",
+    "type": "ONLINE - TAKE-HOME - 72 HOURS",
+    "start": "2026-12-22T09:00",
+    "end": "2026-12-25T09:00"
+  },
+  {
+    "course": "BMDE 558",
+    "section": "001",
+    "title": "Health Startups & Entrprnrship",
+    "type": "ONLINE - TIMED EXAM - 72 HOURS",
+    "start": "2026-12-15T14:00",
+    "end": "2026-12-18T14:00"
+  },
+  {
+    "course": "BREE 216",
+    "section": "001",
+    "title": "Bioresource Eng. Materials",
+    "type": "IN-PERSON - FORMAL EXAM - MAC CAMPUS",
+    "start": "2026-12-18T14:00",
+    "end": "2026-12-18T17:00"
+  },
+  {
+    "course": "BREE 252",
+    "section": "001",
+    "title": "Computing for Engineers",
+    "type": "IN-PERSON - LAB EXAM - MAC CAMPUS",
+    "start": "2026-12-17T14:00",
+    "end": "2026-12-17T17:00"
+  },
+  {
+    "course": "BREE 305",
+    "section": "001",
+    "title": "Fluid Mechanics",
+    "type": "IN-PERSON - FORMAL EXAM - MAC CAMPUS",
+    "start": "2026-12-17T14:00",
+    "end": "2026-12-17T17:00"
+  },
+  {
+    "course": "BREE 312",
+    "section": "001",
+    "title": "Electric Circuits and Machines",
+    "type": "IN-PERSON - FORMAL EXAM - MAC CAMPUS",
+    "start": "2026-12-08T14:00",
+    "end": "2026-12-08T17:00"
+  },
+  {
+    "course": "BREE 319",
+    "section": "001",
+    "title": "Engineering Mathematics",
+    "type": "IN-PERSON - FORMAL EXAM - MAC CAMPUS",
+    "start": "2026-12-09T14:00",
+    "end": "2026-12-09T17:00"
+  },
+  {
+    "course": "BREE 322",
+    "section": "001",
+    "title": "Management of Organic Residue",
+    "type": "IN-PERSON - FORMAL EXAM - MAC CAMPUS",
+    "start": "2026-12-21T09:00",
+    "end": "2026-12-21T12:00"
+  },
+  {
+    "course": "BREE 324",
+    "section": "001",
+    "title": "Elements of Food Engineering",
+    "type": "IN-PERSON - FORMAL EXAM - MAC CAMPUS",
+    "start": "2026-12-17T14:00",
+    "end": "2026-12-17T17:00"
+  },
+  {
+    "course": "BREE 325",
+    "section": "001",
+    "title": "Food Process Engineering",
+    "type": "IN-PERSON - FORMAL EXAM - MAC CAMPUS",
+    "start": "2026-12-17T14:00",
+    "end": "2026-12-17T17:00"
+  },
+  {
+    "course": "BREE 327",
+    "section": "001",
+    "title": "Bio-Environmental Engineering",
+    "type": "IN-PERSON - FORMAL EXAM - MAC CAMPUS",
+    "start": "2026-12-10T14:00",
+    "end": "2026-12-10T17:00"
+  },
+  {
+    "course": "BREE 415",
+    "section": "001",
+    "title": "Design of Mach.&Struct.Elems",
+    "type": "IN-PERSON - FORMAL EXAM - MAC CAMPUS",
+    "start": "2026-12-15T14:00",
+    "end": "2026-12-15T17:00"
+  },
+  {
+    "course": "BTEC 501",
+    "section": "001",
+    "title": "Bioinformatics",
+    "type": "IN-PERSON - FORMAL EXAM - MAC CAMPUS",
+    "start": "2026-12-21T14:00",
+    "end": "2026-12-21T17:00"
+  },
+  {
+    "course": "CACC 621",
+    "section": "781",
+    "title": "Concepts of Financial Acct.",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-16T18:30",
+    "end": "2026-12-16T21:30"
+  },
+  {
+    "course": "CACF 210",
+    "section": "751",
+    "title": "Introductory Financial Acct",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-17T18:30",
+    "end": "2026-12-17T21:30"
+  },
+  {
+    "course": "CACF 215",
+    "section": "771",
+    "title": "Introductory Managerial Acct",
+    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
+    "start": "2026-12-21T18:30",
+    "end": "2026-12-21T21:30"
+  },
+  {
+    "course": "CACF 305",
+    "section": "761",
+    "title": "Info Sys Tools in Accounting",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-15T18:30",
+    "end": "2026-12-15T21:30"
+  },
+  {
+    "course": "CACF 450",
+    "section": "781",
+    "title": "Financial&Working Capital Mgmt",
+    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
+    "start": "2026-12-21T18:30",
+    "end": "2026-12-21T21:30"
+  },
+  {
+    "course": "CANS 200",
+    "section": "001",
+    "title": "Understanding Canada",
+    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
+    "start": "2026-12-17T09:00",
+    "end": "2026-12-17T12:00"
+  },
+  {
+    "course": "CATH 200",
+    "section": "001",
+    "title": "Introduction to Catholicism",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-17T09:00",
+    "end": "2026-12-17T12:00"
+  },
+  {
+    "course": "CCAU 611",
+    "section": "741",
+    "title": "Auditing 1",
+    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
+    "start": "2026-12-21T18:30",
+    "end": "2026-12-21T21:30"
+  },
+  {
+    "course": "CCCS 300",
+    "section": "764",
+    "title": "Programming Techniques 1",
+    "type": "ONLINE - TIMED EXAM - 3 HOURS",
+    "start": "2026-12-21T18:30",
+    "end": "2026-12-21T21:30"
+  },
+  {
+    "course": "CCCS 300",
+    "section": "784",
+    "title": "Programming Techniques 1",
+    "type": "ONLINE - TIMED EXAM - 3 HOURS",
+    "start": "2026-12-21T18:30",
+    "end": "2026-12-21T21:30"
+  },
+  {
+    "course": "CCCS 400",
+    "section": "784",
+    "title": "Spec Top: Technology & Innovtn",
+    "type": "ONLINE - ORAL EXAM",
+    "start": "2026-12-21T18:30",
+    "end": "2026-12-21T21:30"
+  },
+  {
+    "course": "CCCS 450",
+    "section": "754",
+    "title": "Access Control&Defence Methods",
+    "type": "ONLINE - TIMED EXAM - 3 HOURS",
+    "start": "2026-12-16T18:30",
+    "end": "2026-12-16T21:30"
+  },
+  {
+    "course": "CCCS 450",
+    "section": "774",
+    "title": "Access Control&Defence Methods",
+    "type": "ONLINE - TIMED EXAM - 3 HOURS",
+    "start": "2026-12-16T18:30",
+    "end": "2026-12-16T21:30"
+  },
+  {
+    "course": "CCCS 452",
+    "section": "754",
+    "title": "Security Program Arch and Eng",
+    "type": "ONLINE - TIMED EXAM - 3 HOURS",
+    "start": "2026-12-17T18:30",
+    "end": "2026-12-17T21:30"
+  },
+  {
+    "course": "CCCS 452",
+    "section": "774",
+    "title": "Security Program Arch and Eng",
+    "type": "ONLINE - TIMED EXAM - 3 HOURS",
+    "start": "2026-12-17T18:30",
+    "end": "2026-12-17T21:30"
+  },
+  {
+    "course": "CCCS 454",
+    "section": "764",
+    "title": "Security Incident Resp&Recvry",
+    "type": "ONLINE - TIMED EXAM - 3 HOURS",
+    "start": "2026-12-21T18:30",
+    "end": "2026-12-21T21:30"
+  },
+  {
+    "course": "CCCS 454",
+    "section": "784",
+    "title": "Security Incident Resp&Recvry",
+    "type": "ONLINE - TIMED EXAM - 3 HOURS",
+    "start": "2026-12-21T18:30",
+    "end": "2026-12-21T21:30"
+  },
+  {
+    "course": "CCFA 680",
+    "section": "764",
+    "title": "Adv. Financial Technologies",
+    "type": "ONLINE - ORAL EXAM",
+    "start": "2026-12-07T18:30",
+    "end": "2026-12-07T21:30"
+  },
+  {
+    "course": "CCFC 611",
+    "section": "781",
+    "title": "Financial Accounting 1",
+    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
+    "start": "2026-12-21T18:30",
+    "end": "2026-12-21T21:30"
+  },
+  {
+    "course": "CCFC 613",
+    "section": "781",
+    "title": "Financial Accounting 3",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-15T18:30",
+    "end": "2026-12-15T21:30"
+  },
+  {
+    "course": "CCLW 205",
+    "section": "781",
+    "title": "Introduction to Business Law",
+    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
+    "start": "2026-12-16T18:30",
+    "end": "2026-12-16T21:30"
+  },
+  {
+    "course": "CCMA 611",
+    "section": "761",
+    "title": "Managerial Accounting 1",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-16T18:30",
+    "end": "2026-12-16T21:30"
+  },
+  {
+    "course": "CCMA 622",
+    "section": "761",
+    "title": "Managerial Accounting 2",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-16T18:30",
+    "end": "2026-12-16T21:30"
+  },
+  {
+    "course": "CCTX 611",
+    "section": "751",
+    "title": "Taxation 1",
+    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
+    "start": "2026-12-17T18:30",
+    "end": "2026-12-17T21:30"
+  },
+  {
+    "course": "CCTX 632",
+    "section": "751",
+    "title": "Taxation 2",
+    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
+    "start": "2026-12-07T18:30",
+    "end": "2026-12-07T21:30"
+  },
+  {
+    "course": "CEC2 632",
+    "section": "751",
+    "title": "Business Economics",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-21T18:30",
+    "end": "2026-12-21T21:30"
+  },
+  {
+    "course": "CGMG 282",
+    "section": "771",
+    "title": "Introduction to Business",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-10T18:30",
+    "end": "2026-12-10T21:30"
+  },
+  {
+    "course": "CHEE 200",
+    "section": "001",
+    "title": "Chem Engineering Principles 1",
+    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
+    "start": "2026-12-22T09:00",
+    "end": "2026-12-22T12:00"
+  },
+  {
+    "course": "CHEE 231",
+    "section": "001",
+    "title": "Data Anal & Design of Exp",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-18T09:00",
+    "end": "2026-12-18T12:00"
+  },
+  {
+    "course": "CHEE 314",
+    "section": "001",
+    "title": "Fluid Mechanics",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-09T14:00",
+    "end": "2026-12-09T17:00"
+  },
+  {
+    "course": "CHEE 370",
+    "section": "001",
+    "title": "Elements of Biotechnology",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-14T14:00",
+    "end": "2026-12-14T17:00"
+  },
+  {
+    "course": "CHEE 380",
+    "section": "001",
+    "title": "Materials Science",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-07T14:00",
+    "end": "2026-12-07T17:00"
+  },
+  {
+    "course": "CHEE 400",
+    "section": "001",
+    "title": "Princ of Sustnble Energy Conv",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-16T14:00",
+    "end": "2026-12-16T17:00"
+  },
+  {
+    "course": "CHEE 423",
+    "section": "001",
+    "title": "Chemical Reaction Engineering",
+    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
+    "start": "2026-12-08T14:00",
+    "end": "2026-12-08T17:00"
+  },
+  {
+    "course": "CHEE 453",
+    "section": "001",
+    "title": "Process Design",
+    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
+    "start": "2026-12-21T09:00",
+    "end": "2026-12-21T12:00"
+  },
+  {
+    "course": "CHEE 455",
+    "section": "001",
+    "title": "Process Control",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-09T09:00",
+    "end": "2026-12-09T12:00"
+  },
+  {
+    "course": "CHEE 591",
+    "section": "001",
+    "title": "Environmental Bioremediation",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-15T14:00",
+    "end": "2026-12-15T17:00"
+  },
+  {
+    "course": "CHEE 593",
+    "section": "001",
+    "title": "Indus Water Pollution Control",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-14T14:00",
+    "end": "2026-12-14T17:00"
+  },
+  {
+    "course": "CHEM 110",
+    "section": "001",
+    "title": "General Chemistry 1",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-18T14:00",
+    "end": "2026-12-18T17:00"
+  },
+  {
+    "course": "CHEM 110",
+    "section": "002",
+    "title": "General Chemistry 1",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-18T14:00",
+    "end": "2026-12-18T17:00"
+  },
+  {
+    "course": "CHEM 183",
+    "section": "001",
+    "title": "World of Chem: Drugs",
+    "type": "ONLINE - TIMED EXAM - 3 HOURS",
+    "start": "2026-12-18T14:00",
+    "end": "2026-12-18T17:00"
+  },
+  {
+    "course": "CHEM 203",
+    "section": "001",
+    "title": "Survey of Physical Chemistry",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-17T09:00",
+    "end": "2026-12-17T12:00"
+  },
+  {
     "course": "CHEM 204",
     "section": "001",
     "title": "Physical Chem/Biological Scis1",
-    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-04-22T18:30",
-    "end": "2026-04-22T21:30",
-    "building": "MAASS",
-    "room": "010"
-  },
-    {
-    "course": "CHEM 214",
-    "section": "001",
-    "title": "Physical Chem./Biol. Sci. 2",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-17T09:00",
-    "end": "2026-04-17T12:00",
-    "building": "McGill Sports Complex",
-    "room": "STUDIO 2"
+    "start": "2026-12-07T18:30",
+    "end": "2026-12-07T21:30"
   },
-    {
-    "course": "CHEM 219",
+  {
+    "course": "CHEM 212",
     "section": "001",
-    "title": "Intro to Atmospheric Chemistry",
+    "title": "Intro Organic Chemistry 1",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-27T14:00",
-    "end": "2026-04-27T17:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
+    "start": "2026-12-14T18:30",
+    "end": "2026-12-14T21:30"
   },
-    {
-    "course": "CHEM 222",
+  {
+    "course": "CHEM 213",
     "section": "001",
-    "title": "Intro Organic Chemistry 2",
+    "title": "Intrdctry Physcl Chem1:Thermo",
+    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
+    "start": "2026-12-07T09:00",
+    "end": "2026-12-07T12:00"
+  },
+  {
+    "course": "CHEM 242",
+    "section": "001",
+    "title": "Orgnc Chem 1 for Chem&Biochem",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-23T14:00",
-    "end": "2026-04-23T17:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
+    "start": "2026-12-14T18:30",
+    "end": "2026-12-14T21:30"
   },
-    {
-    "course": "CHEM 233",
+  {
+    "course": "CHEM 267",
     "section": "001",
-    "title": "Topics in Physical Chemistry",
-    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-04-20T09:00",
-    "end": "2026-04-20T12:00",
-    "building": "MAASS",
-    "room": "112"
-  },
-    {
-    "course": "CHEM 234",
-    "section": "001",
-    "title": "Topics in Organic Chemistry",
+    "title": "Introductory Chemical Analysis",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-23T14:00",
-    "end": "2026-04-23T17:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
+    "start": "2026-12-15T14:00",
+    "end": "2026-12-15T17:00"
   },
-    {
-    "course": "CHEM 252",
+  {
+    "course": "CHEM 302",
     "section": "001",
-    "title": "Orgn Chem 2 for Chem&Biochem",
+    "title": "Intrdctry Organic Chemistry 3",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-23T14:00",
-    "end": "2026-04-23T17:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
+    "start": "2026-12-18T14:00",
+    "end": "2026-12-18T17:00"
   },
-    {
-    "course": "CHEM 273",
+  {
+    "course": "CHEM 345",
     "section": "001",
-    "title": "IntroPhysclChem2:Kinetics&Meth",
-    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-04-22T09:00",
-    "end": "2026-04-22T12:00",
-    "building": "MAASS",
-    "room": "217"
-  },
-    {
-    "course": "CHEM 281",
-    "section": "001",
-    "title": "Inorganic Chemistry 1",
-    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-04-20T14:00",
-    "end": "2026-04-20T17:00",
-    "building": "MAASS",
-    "room": "112"
-  },
-    {
-    "course": "CHEM 332",
-    "section": "001",
-    "title": "Biological Chemistry",
+    "title": "Intro to Quantum Chemistry",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-28T09:00",
-    "end": "2026-04-28T12:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
+    "start": "2026-12-21T09:00",
+    "end": "2026-12-21T12:00"
   },
-    {
-    "course": "CHEM 334",
+  {
+    "course": "CHEM 367",
     "section": "001",
-    "title": "Advanced Materials",
-    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-04-16T09:00",
-    "end": "2026-04-16T12:00",
-    "building": "MAASS",
-    "room": "217"
-  },
-    {
-    "course": "CHEM 355",
-    "section": "001",
-    "title": "Applications of Quantum Chem.",
+    "title": "Instrumental Analysis 1",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-17T09:00",
-    "end": "2026-04-17T12:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
+    "start": "2026-12-17T14:00",
+    "end": "2026-12-17T17:00"
   },
-    {
-    "course": "CHEM 377",
+  {
+    "course": "CHEM 381",
     "section": "001",
-    "title": "Instrumental Analysis 2",
+    "title": "Inorganic Chemistry 2",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-20T14:00",
-    "end": "2026-04-20T17:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
+    "start": "2026-12-09T14:00",
+    "end": "2026-12-09T17:00"
   },
-    {
-    "course": "CHEM 482",
+  {
+    "course": "CHEM 512",
     "section": "001",
-    "title": "Organic Chem:Natural Products",
+    "title": "Catalysis, Concepts and App",
+    "type": "IN-PERSON - ORAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-22T09:00",
+    "end": "2026-12-22T12:00"
+  },
+  {
+    "course": "CHEM 514",
+    "section": "001",
+    "title": "Biophysical Chemistry",
     "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-04-23T09:00",
-    "end": "2026-04-23T12:00",
-    "building": "MAASS",
-    "room": "217"
+    "start": "2026-12-22T09:00",
+    "end": "2026-12-22T12:00"
   },
-    {
-    "course": "CHEM 502",
+  {
+    "course": "CHEM 532",
     "section": "001",
-    "title": "Advanced Bio-Organic Chemistry",
+    "title": "Structural Organic Chemistry",
     "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-04-17T14:00",
-    "end": "2026-04-17T17:00",
-    "building": "MAASS",
-    "room": "217"
+    "start": "2026-12-21T09:00",
+    "end": "2026-12-21T12:00"
   },
-    {
-    "course": "CHEM 503",
+  {
+    "course": "CHEM 552",
     "section": "001",
-    "title": "Drug Discovery",
+    "title": "Physical Organic Chem",
     "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-04-21T14:00",
-    "end": "2026-04-21T17:00",
-    "building": "MAASS",
-    "room": "217"
+    "start": "2026-12-17T14:00",
+    "end": "2026-12-17T17:00"
   },
-    {
-    "course": "CHEM 533",
+  {
+    "course": "CHEM 577",
     "section": "001",
-    "title": "Small Molecule Crystallography",
-    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-04-29T14:00",
-    "end": "2026-04-29T17:00",
-    "building": "MAASS",
-    "room": "217"
+    "title": "Electrochemistry",
+    "type": "ONLINE - TAKE-HOME - 72 HOURS",
+    "start": "2026-12-08T14:00",
+    "end": "2026-12-11T14:00"
   },
-    {
-    "course": "CHEM 572",
-    "section": "001",
-    "title": "Synthetic Organic Chem",
-    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-04-23T14:00",
-    "end": "2026-04-23T17:00",
-    "building": "MAASS",
-    "room": "217"
-  },
-    {
-    "course": "CHEM 629",
-    "section": "001",
-    "title": "Organic Synthesis",
-    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-04-23T14:00",
-    "end": "2026-04-23T17:00",
-    "building": "MAASS",
-    "room": "217"
-  },
-    {
-    "course": "CIVE 202",
-    "section": "001",
-    "title": "Construction Materials",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-17T14:00",
-    "end": "2026-04-17T17:00",
-    "building": "McGill Sports Complex",
-    "room": "BLEACHERS"
-  },
-    {
+  {
     "course": "CIVE 205",
     "section": "001",
     "title": "Statics",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-29T09:00",
-    "end": "2026-04-29T12:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
+    "start": "2026-12-22T09:00",
+    "end": "2026-12-22T12:00"
   },
-    {
-    "course": "CIVE 206",
-    "section": "001",
-    "title": "Dynamics",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-29T09:00",
-    "end": "2026-04-29T12:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
-  },
-    {
+  {
     "course": "CIVE 207",
     "section": "001",
     "title": "Solid Mechanics",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-24T09:00",
-    "end": "2026-04-24T12:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
+    "start": "2026-12-08T14:00",
+    "end": "2026-12-08T17:00"
   },
-    {
-    "course": "CIVE 207",
-    "section": "009",
-    "title": "Solid Mechanics",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-24T09:00",
-    "end": "2026-04-24T12:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
-  },
-    {
-    "course": "CIVE 225",
+  {
+    "course": "CIVE 208",
     "section": "001",
-    "title": "Environmental Engineering",
+    "title": "Civil Engineering Sys Analysis",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-20T14:00",
-    "end": "2026-04-20T17:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
+    "start": "2026-12-10T14:00",
+    "end": "2026-12-10T17:00"
   },
-    {
-    "course": "CIVE 302",
+  {
+    "course": "CIVE 290",
     "section": "001",
-    "title": "Probabilistic Systems",
+    "title": "Thermodynamics & Heat Transfer",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-27T14:00",
-    "end": "2026-04-27T17:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
+    "start": "2026-12-21T09:00",
+    "end": "2026-12-21T12:00"
   },
-    {
-    "course": "CIVE 318",
+  {
+    "course": "CIVE 311",
     "section": "001",
-    "title": "Structural Engineering 2",
+    "title": "Geotechnical Mechanics",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-24T09:00",
-    "end": "2026-04-24T12:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
+    "start": "2026-12-14T09:00",
+    "end": "2026-12-14T12:00"
   },
-    {
-    "course": "CIVE 319",
+  {
+    "course": "CIVE 317",
     "section": "001",
-    "title": "Transportation Engineering",
+    "title": "Structural Engineering 1",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-29T14:00",
-    "end": "2026-04-29T17:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
+    "start": "2026-12-08T14:00",
+    "end": "2026-12-08T17:00"
   },
-    {
-    "course": "CIVE 327",
+  {
+    "course": "CIVE 320",
     "section": "001",
-    "title": "Fluid Mechanics & Hydraulics",
+    "title": "Numerical Methods",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-21T14:00",
-    "end": "2026-04-21T17:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
+    "start": "2026-12-09T09:00",
+    "end": "2026-12-09T12:00"
   },
-    {
-    "course": "CIVE 416",
+  {
+    "course": "CIVE 323",
     "section": "001",
-    "title": "Geotechnical Engineering",
+    "title": "Hydrology and Water Resources",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-29T18:30",
-    "end": "2026-04-29T21:30",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
+    "start": "2026-12-07T14:00",
+    "end": "2026-12-07T17:00"
   },
-    {
-    "course": "CIVE 460",
+  {
+    "course": "CIVE 421",
     "section": "001",
-    "title": "Matrix Structural Analysis",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-30T14:00",
-    "end": "2026-04-30T17:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
-  },
-    {
-    "course": "CIVE 463",
-    "section": "001",
-    "title": "Design of Concrete Structures",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-22T14:00",
-    "end": "2026-04-22T17:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
-  },
-    {
-    "course": "CIVE 512",
-    "section": "001",
-    "title": "Advanced Civil Engrg Materials",
+    "title": "Municipal Systems",
     "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-04-28T09:00",
-    "end": "2026-04-28T12:00",
-    "building": "ENGTR",
-    "room": "2100"
+    "start": "2026-12-17T14:00",
+    "end": "2026-12-17T17:00"
   },
-    {
-    "course": "CIVE 542",
+  {
+    "course": "CIVE 428",
     "section": "001",
-    "title": "Transport Network Analysis",
+    "title": "Water Resrces & Hydraulic Eng.",
     "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-04-21T09:00",
-    "end": "2026-04-21T12:00",
-    "building": "ENGTR",
-    "room": "2100"
+    "start": "2026-12-18T14:00",
+    "end": "2026-12-18T17:00"
   },
-    {
-    "course": "CIVE 543",
+  {
+    "course": "CIVE 430",
     "section": "001",
-    "title": "SystDyncs for Civ&EnvrnmntlEng",
+    "title": "Water Treatment&Pollut Control",
     "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-04-28T09:00",
-    "end": "2026-04-28T12:00",
-    "building": "ENGTR",
-    "room": "0060"
+    "start": "2026-12-21T09:00",
+    "end": "2026-12-21T12:00"
   },
-    {
-    "course": "CIVE 555",
+  {
+    "course": "CIVE 440",
     "section": "001",
-    "title": "Environmental Data Analysis",
+    "title": "Traffic Engineering&Simulation",
     "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-04-23T14:00",
-    "end": "2026-04-23T17:00",
-    "building": "ENGTR",
-    "room": "2110"
+    "start": "2026-12-16T14:00",
+    "end": "2026-12-16T17:00"
   },
-    {
-    "course": "CLAS 199",
+  {
+    "course": "CIVE 446",
     "section": "001",
-    "title": "FYS: Classical Studies",
-    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-04-23T09:00",
-    "end": "2026-04-23T12:00",
-    "building": "LEA",
-    "room": "617"
-  },
-    {
-    "course": "CLAS 203",
-    "section": "001",
-    "title": "Greek Mythology",
+    "title": "Construction Engineering",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-21T14:00",
-    "end": "2026-04-21T17:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
+    "start": "2026-12-11T09:00",
+    "end": "2026-12-11T12:00"
   },
-    {
-    "course": "CLAS 212",
+  {
+    "course": "CIVE 462",
     "section": "001",
-    "title": "Introductory Latin 2",
-    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-04-29T09:00",
-    "end": "2026-04-29T12:00",
-    "building": "LEA",
-    "room": "14"
+    "title": "Design of Steel Structures",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-15T14:00",
+    "end": "2026-12-15T17:00"
   },
-    {
-    "course": "CLAS 212",
+  {
+    "course": "CIVE 507",
+    "section": "001",
+    "title": "Wind Engineering",
+    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
+    "start": "2026-12-16T14:00",
+    "end": "2026-12-16T17:00"
+  },
+  {
+    "course": "CIVE 528",
+    "section": "001",
+    "title": "Design of Wood Structures",
+    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
+    "start": "2026-12-21T09:00",
+    "end": "2026-12-21T12:00"
+  },
+  {
+    "course": "CIVE 557",
+    "section": "001",
+    "title": "Microbio for Environmental Eng",
+    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
+    "start": "2026-12-10T09:00",
+    "end": "2026-12-10T12:00"
+  },
+  {
+    "course": "CLAS 201",
+    "section": "001",
+    "title": "Greece and Rome",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-15T09:00",
+    "end": "2026-12-15T12:00"
+  },
+  {
+    "course": "CLAS 210",
+    "section": "001",
+    "title": "Introductory Latin 1",
+    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
+    "start": "2026-12-21T18:30",
+    "end": "2026-12-21T21:30"
+  },
+  {
+    "course": "CLAS 210",
     "section": "002",
-    "title": "Introductory Latin 2",
+    "title": "Introductory Latin 1",
     "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-04-29T09:00",
-    "end": "2026-04-29T12:00",
-    "building": "ARTS",
-    "room": "W-120"
+    "start": "2026-12-21T18:30",
+    "end": "2026-12-21T21:30"
   },
-    {
-    "course": "CLAS 222",
+  {
+    "course": "CLAS 220",
     "section": "001",
-    "title": "Introductory Ancient Greek 2",
+    "title": "Introductory Ancient Greek 1",
     "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-04-22T14:00",
-    "end": "2026-04-22T17:00",
-    "building": "LEA",
-    "room": "14"
+    "start": "2026-12-08T14:00",
+    "end": "2026-12-08T17:00"
   },
-    {
-    "course": "CLAS 230D2",
+  {
+    "course": "CLAS 301",
     "section": "001",
-    "title": "Introductory Modern Greek",
-    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-04-20T09:00",
-    "end": "2026-04-20T12:00",
-    "building": "ARTS",
-    "room": "W-120"
+    "title": "Ancient Greek Lit & Society",
+    "type": "ONLINE - TAKE-HOME - 48 HOURS",
+    "start": "2026-12-09T09:00",
+    "end": "2026-12-11T09:00"
   },
-    {
-    "course": "CLAS 240",
+  {
+    "course": "CLAS 308",
     "section": "001",
-    "title": "Intro to Classical Archaeology",
+    "title": "Gender in the Ancient World",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-27T14:00",
-    "end": "2026-04-27T17:00",
-    "building": "McGill Sports Complex",
-    "room": "STUDIO 1"
+    "start": "2026-12-14T18:30",
+    "end": "2026-12-14T21:30"
   },
-    {
-    "course": "CLAS 302",
+  {
+    "course": "CLAS 310",
     "section": "001",
-    "title": "Roman Literature and Society",
+    "title": "Intermediate Latin 1",
+    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
+    "start": "2026-12-11T14:00",
+    "end": "2026-12-11T17:00"
+  },
+  {
+    "course": "CLAS 320",
+    "section": "001",
+    "title": "Intermediate Ancient Greek 1",
+    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
+    "start": "2026-12-17T09:00",
+    "end": "2026-12-17T12:00"
+  },
+  {
+    "course": "CLAS 331",
+    "section": "001",
+    "title": "Intermediate Modern Greek 1",
+    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
+    "start": "2026-12-22T09:00",
+    "end": "2026-12-22T12:00"
+  },
+  {
+    "course": "CLAS 350",
+    "section": "001",
+    "title": "Special Topics in Classics",
+    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
+    "start": "2026-12-09T14:00",
+    "end": "2026-12-09T17:00"
+  },
+  {
+    "course": "CLAS 402",
+    "section": "001",
+    "title": "Hellenistic Lit. and Society",
+    "type": "ONLINE - TAKE-HOME - 48 HOURS",
+    "start": "2026-12-16T14:00",
+    "end": "2026-12-18T14:00"
+  },
+  {
+    "course": "CMIS 422",
+    "section": "754",
+    "title": "Information System Security",
+    "type": "ONLINE - TIMED EXAM - 3 HOURS",
+    "start": "2026-12-15T18:30",
+    "end": "2026-12-15T21:30"
+  },
+  {
+    "course": "CMIS 422",
+    "section": "774",
+    "title": "Information System Security",
+    "type": "ONLINE - TIMED EXAM - 3 HOURS",
+    "start": "2026-12-15T18:30",
+    "end": "2026-12-15T21:30"
+  },
+  {
+    "course": "CMR2 643",
+    "section": "791",
+    "title": "Marketing of Services",
+    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
+    "start": "2026-12-07T18:30",
+    "end": "2026-12-07T21:30"
+  },
+  {
+    "course": "CMR2 648",
+    "section": "751",
+    "title": "Marketing Research & Reporting",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-23T14:00",
-    "end": "2026-04-23T17:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
+    "start": "2026-12-21T18:30",
+    "end": "2026-12-21T21:30"
   },
-    {
-    "course": "CLAS 312",
-    "section": "001",
-    "title": "Intermediate Latin 2",
+  {
+    "course": "CMRK 225",
+    "section": "751",
+    "title": "Marketing Stats and Research",
     "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-04-24T14:00",
-    "end": "2026-04-24T17:00",
-    "building": "RPHYS",
-    "room": "118"
+    "start": "2026-12-07T18:30",
+    "end": "2026-12-07T21:30"
   },
-    {
-    "course": "CLAS 322",
-    "section": "001",
-    "title": "Intermediate Ancient Greek 2",
-    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-04-20T09:00",
-    "end": "2026-04-20T12:00",
-    "building": "LEA",
-    "room": "617"
-  },
-    {
-    "course": "CLAS 332",
-    "section": "001",
-    "title": "Intermediate Modern Greek 2",
-    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-04-29T09:00",
-    "end": "2026-04-29T12:00",
-    "building": "LEA",
-    "room": "617"
-  },
-    {
-    "course": "CLAS 412",
-    "section": "001",
-    "title": "Advanced Latin: Themes",
-    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-04-24T14:00",
-    "end": "2026-04-24T17:00",
-    "building": "LEA",
-    "room": "917"
-  },
-    {
-    "course": "CLAS 612",
-    "section": "001",
-    "title": "Topics in Latin Literature",
-    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-04-24T14:00",
-    "end": "2026-04-24T17:00",
-    "building": "LEA",
-    "room": "917"
-  },
-    {
-    "course": "COMP 189",
-    "section": "001",
-    "title": "Computers and Society",
+  {
+    "course": "CMSC 000",
+    "section": "781",
+    "title": "Foundations of Mathematics",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-29T18:30",
-    "end": "2026-04-29T21:30",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
+    "start": "2026-12-16T18:30",
+    "end": "2026-12-16T21:30"
   },
-    {
-    "course": "COMP 204",
-    "section": "001",
-    "title": "Comp. Programming for Life Sci",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-27T18:30",
-    "end": "2026-04-27T21:30",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
+  {
+    "course": "CMSC 101",
+    "section": "771",
+    "title": "Math Tools for Mgmt Professls",
+    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
+    "start": "2026-12-16T18:30",
+    "end": "2026-12-16T21:30"
   },
-    {
+  {
     "course": "COMP 206",
     "section": "001",
     "title": "Intro to Software Systems",
-    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-04-29T14:00",
-    "end": "2026-04-29T17:00",
-    "building": "MCMED, LEA",
-    "room": "522, 132"
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-08T09:00",
+    "end": "2026-12-08T12:00"
   },
-    {
+  {
     "course": "COMP 208",
     "section": "001",
     "title": "Computer Programming for PS&E",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-28T09:00",
-    "end": "2026-04-28T12:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
+    "start": "2026-12-07T14:00",
+    "end": "2026-12-07T17:00"
   },
-    {
+  {
     "course": "COMP 208",
     "section": "002",
     "title": "Computer Programming for PS&E",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-28T09:00",
-    "end": "2026-04-28T12:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
+    "start": "2026-12-07T14:00",
+    "end": "2026-12-07T17:00"
   },
-    {
-    "course": "COMP 251",
+  {
+    "course": "COMP 250",
     "section": "001",
-    "title": "Algorithms and Data Structures",
+    "title": "Intro to Computer Science",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-24T14:00",
-    "end": "2026-04-24T17:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
+    "start": "2026-12-15T09:00",
+    "end": "2026-12-15T12:00"
   },
-    {
-    "course": "COMP 252",
-    "section": "001",
-    "title": "Honours Algorithms&Data Struct",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-24T14:00",
-    "end": "2026-04-24T17:00",
-    "building": "McGill Sports Complex",
-    "room": "STUDIO 2"
-  },
-    {
+  {
     "course": "COMP 273",
     "section": "001",
     "title": "Intro to Computer Systems",
-    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-04-29T09:00",
-    "end": "2026-04-29T12:00",
-    "building": "MCMED",
-    "room": "334, 335"
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-16T18:30",
+    "end": "2026-12-16T21:30"
   },
-    {
+  {
     "course": "COMP 302",
     "section": "001",
     "title": "Programming Lang & Paradigms",
-    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-04-27T09:00",
-    "end": "2026-04-27T12:00",
-    "building": "LEA",
-    "room": "132, 232"
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-15T18:30",
+    "end": "2026-12-15T21:30"
   },
-    {
+  {
     "course": "COMP 303",
     "section": "001",
     "title": "Software Design",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-22T18:30",
-    "end": "2026-04-22T21:30",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
+    "start": "2026-12-10T18:30",
+    "end": "2026-12-10T21:30"
   },
-    {
+  {
+    "course": "COMP 307",
+    "section": "001",
+    "title": "Principles of Web Development",
+    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
+    "start": "2026-12-15T14:00",
+    "end": "2026-12-15T17:00"
+  },
+  {
     "course": "COMP 310",
     "section": "001",
     "title": "Operating Systems",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-21T09:00",
-    "end": "2026-04-21T12:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
+    "start": "2026-12-08T09:00",
+    "end": "2026-12-08T12:00"
   },
-    {
+  {
     "course": "COMP 330",
     "section": "001",
     "title": "Theory of Computation",
-    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-04-16T14:00",
-    "end": "2026-04-16T17:00",
-    "building": "MCMED",
-    "room": "334, 335"
-  },
-    {
-    "course": "COMP 345",
-    "section": "001",
-    "title": "From Natural Lang to Data Sci",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-23T09:00",
-    "end": "2026-04-23T12:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
+    "start": "2026-12-15T18:30",
+    "end": "2026-12-15T21:30"
   },
-    {
+  {
+    "course": "COMP 350",
+    "section": "001",
+    "title": "Numerical Computing",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-07T09:00",
+    "end": "2026-12-07T12:00"
+  },
+  {
     "course": "COMP 360",
     "section": "001",
     "title": "Algorithm Design",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-17T14:00",
-    "end": "2026-04-17T17:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
+    "start": "2026-12-08T18:30",
+    "end": "2026-12-08T21:30"
   },
-    {
-    "course": "COMP 409",
+  {
+    "course": "COMP 361D1",
     "section": "001",
-    "title": "Concurrent Programming",
+    "title": "Software Engineering Project",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-28T14:00",
-    "end": "2026-04-28T17:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
+    "start": "2026-12-22T09:00",
+    "end": "2026-12-22T12:00"
   },
-    {
-    "course": "COMP 417",
+  {
+    "course": "COMP 362",
     "section": "001",
-    "title": "Intro Robots&Intelligent Sys",
+    "title": "Honours Algorithm Design",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-20T09:00",
-    "end": "2026-04-20T12:00",
-    "building": "McGill Sports Complex",
-    "room": "STUDIO 1"
+    "start": "2026-12-10T09:00",
+    "end": "2026-12-10T12:00"
   },
-    {
-    "course": "COMP 421",
+  {
+    "course": "COMP 370",
     "section": "001",
-    "title": "Database Systems",
+    "title": "Introduction to Data Science",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-30T14:00",
-    "end": "2026-04-30T17:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
+    "start": "2026-12-14T14:00",
+    "end": "2026-12-14T17:00"
   },
-    {
-    "course": "COMP 535",
+  {
+    "course": "COMP 424",
     "section": "001",
-    "title": "Computer Networks",
+    "title": "Artificial Intelligence",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-23T14:00",
-    "end": "2026-04-23T17:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
+    "start": "2026-12-21T09:00",
+    "end": "2026-12-21T12:00"
   },
-    {
-    "course": "COMP 540",
+  {
+    "course": "COMP 445",
     "section": "001",
-    "title": "Matrix Computations",
+    "title": "Computational Linguistics",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-23T09:00",
-    "end": "2026-04-23T12:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
+    "start": "2026-12-17T18:30",
+    "end": "2026-12-17T21:30"
   },
-    {
-    "course": "COMP 546",
+  {
+    "course": "COMP 462",
     "section": "001",
-    "title": "Computational Perception",
+    "title": "Computational Biology Methods",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-29T14:00",
-    "end": "2026-04-29T17:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
+    "start": "2026-12-21T14:00",
+    "end": "2026-12-21T17:00"
   },
-    {
+  {
+    "course": "COMP 521",
+    "section": "001",
+    "title": "Modern Computer Games",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-07T14:00",
+    "end": "2026-12-07T17:00"
+  },
+  {
+    "course": "COMP 521",
+    "section": "002",
+    "title": "Modern Computer Games",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-07T14:00",
+    "end": "2026-12-07T17:00"
+  },
+  {
+    "course": "COMP 551",
+    "section": "001",
+    "title": "Applied Machine Learning",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-11T09:00",
+    "end": "2026-12-11T12:00"
+  },
+  {
+    "course": "COMP 551",
+    "section": "002",
+    "title": "Applied Machine Learning",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-11T09:00",
+    "end": "2026-12-11T12:00"
+  },
+  {
+    "course": "COMP 557",
+    "section": "001",
+    "title": "Fundamentals of Comp. Graphics",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-14T18:30",
+    "end": "2026-12-14T21:30"
+  },
+  {
+    "course": "COMP 557",
+    "section": "002",
+    "title": "Fundamentals of Comp. Graphics",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-14T18:30",
+    "end": "2026-12-14T21:30"
+  },
+  {
     "course": "COMP 558",
     "section": "001",
     "title": "Fund. of Computer Vision",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-22T14:00",
-    "end": "2026-04-22T17:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
-  },
-    {
-    "course": "COMP 559",
-    "section": "001",
-    "title": "Fund. Computer Animation",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-24T09:00",
-    "end": "2026-04-24T12:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
+    "start": "2026-12-09T09:00",
+    "end": "2026-12-09T12:00"
   },
   {
-    "course": "COMS 350",
-    "section": "001",
-    "title": "Sound Culture",
-    "type": "ONLINE - ORAL EXAM",
-    "start": "2026-04-24T09:00",
-    "end": "2026-04-24T12:00"
-  },
-    {
-    "course": "EAST 220D2",
-    "section": "001",
-    "title": "First Level Korean",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-17T14:00",
-    "end": "2026-04-17T17:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
-  },
-    {
-    "course": "EAST 220D2",
+    "course": "COMP 558",
     "section": "002",
-    "title": "First Level Korean",
+    "title": "Fund. of Computer Vision",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-17T14:00",
-    "end": "2026-04-17T17:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
+    "start": "2026-12-09T09:00",
+    "end": "2026-12-09T12:00"
   },
-    {
-    "course": "EAST 230D2",
+  {
+    "course": "COMP 561",
     "section": "001",
-    "title": "First Level Chinese",
+    "title": "Comp. Biol. Methods & Research",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-28T14:00",
-    "end": "2026-04-28T17:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
+    "start": "2026-12-21T14:00",
+    "end": "2026-12-21T17:00"
   },
-    {
-    "course": "EAST 230D2",
+  {
+    "course": "COMP 561",
     "section": "002",
-    "title": "First Level Chinese",
+    "title": "Comp. Biol. Methods & Research",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-28T14:00",
-    "end": "2026-04-28T17:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
+    "start": "2026-12-21T14:00",
+    "end": "2026-12-21T17:00"
   },
-    {
-    "course": "EAST 240D2",
+  {
+    "course": "COMP 570",
     "section": "001",
-    "title": "First Level Japanese",
+    "title": "Fundamentals of Data Science",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-23T18:30",
-    "end": "2026-04-23T21:30",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
+    "start": "2026-12-14T14:00",
+    "end": "2026-12-14T17:00"
   },
-    {
-    "course": "EAST 240D2",
-    "section": "002",
-    "title": "First Level Japanese",
+  {
+    "course": "CORG 450",
+    "section": "761",
+    "title": "Hlth,Safety & Wellness: Orgzns",
+    "type": "ONLINE - TIMED EXAM - 3 HOURS",
+    "start": "2026-12-07T18:30",
+    "end": "2026-12-07T21:30"
+  },
+  {
+    "course": "CORG 653",
+    "section": "781",
+    "title": "Employee and Labour Relations",
+    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
+    "start": "2026-12-07T18:30",
+    "end": "2026-12-07T21:30"
+  },
+  {
+    "course": "CPL2 652",
+    "section": "761",
+    "title": "Strategic Management",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-23T18:30",
-    "end": "2026-04-23T21:30",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
+    "start": "2026-12-17T18:30",
+    "end": "2026-12-17T21:30"
   },
-    {
-    "course": "EAST 240D2",
-    "section": "003",
-    "title": "First Level Japanese",
+  {
+    "course": "CTPT 200",
+    "section": "751",
+    "title": "Intro. to Supply Chain Mgmt",
+    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
+    "start": "2026-12-21T18:30",
+    "end": "2026-12-21T21:30"
+  },
+  {
+    "course": "CTPT 202",
+    "section": "771",
+    "title": "Prod & Inv Planning&Control 1",
+    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
+    "start": "2026-12-17T18:30",
+    "end": "2026-12-17T21:30"
+  },
+  {
+    "course": "CTPT 430",
+    "section": "771",
+    "title": "Fund. of Integrated Bus. Syst.",
+    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
+    "start": "2026-12-21T18:30",
+    "end": "2026-12-21T21:30"
+  },
+  {
+    "course": "EAST 310",
+    "section": "001",
+    "title": "Borderlands of Modern China",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-23T18:30",
-    "end": "2026-04-23T21:30",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
+    "start": "2026-12-10T09:00",
+    "end": "2026-12-10T12:00"
   },
-    {
-    "course": "EAST 242",
-    "section": "001",
-    "title": "Japanese Writing Beginners 2",
-    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-04-22T09:00",
-    "end": "2026-04-22T12:00",
-    "building": "EDUC",
-    "room": "434"
-  },
-    {
-    "course": "EAST 320D2",
-    "section": "001",
-    "title": "Second Level Korean",
-    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-04-23T09:00",
-    "end": "2026-04-23T12:00",
-    "building": "FERR",
-    "room": "105"
-  },
-    {
-    "course": "EAST 340D2",
-    "section": "001",
-    "title": "Second Level Japanese",
-    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-04-28T09:00",
-    "end": "2026-04-28T12:00",
-    "building": "ENGMD",
-    "room": "276"
-  },
-    {
-    "course": "EAST 340D2",
-    "section": "002",
-    "title": "Second Level Japanese",
-    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-04-28T09:00",
-    "end": "2026-04-28T12:00",
-    "building": "ENGMD",
-    "room": "276"
-  },
-    {
-    "course": "EAST 342",
-    "section": "001",
-    "title": "Japanese Writing Intermed. 2",
-    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-04-24T14:00",
-    "end": "2026-04-24T17:00",
-    "building": "LEA",
-    "room": "116"
-  },
-    {
-    "course": "EAST 430D2",
-    "section": "001",
-    "title": "Third Level Chinese",
-    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-04-27T14:00",
-    "end": "2026-04-27T17:00",
-    "building": "EDUC",
-    "room": "433"
-  },
-    {
-    "course": "EAST 440D2",
-    "section": "001",
-    "title": "Third Level Japanese",
-    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-04-23T14:00",
-    "end": "2026-04-23T17:00",
-    "building": "EDUC",
-    "room": "629"
-  },
-    {
+  {
     "course": "ECON 208",
     "section": "001",
     "title": "Microeconomic Analysis&Applic",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-17T14:00",
-    "end": "2026-04-17T17:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
+    "start": "2026-12-21T14:00",
+    "end": "2026-12-21T17:00"
   },
-    {
+  {
+    "course": "ECON 208",
+    "section": "002",
+    "title": "Microeconomic Analysis&Applic",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-21T14:00",
+    "end": "2026-12-21T17:00"
+  },
+  {
+    "course": "ECON 208",
+    "section": "003",
+    "title": "Microeconomic Analysis&Applic",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-21T14:00",
+    "end": "2026-12-21T17:00"
+  },
+  {
+    "course": "ECON 208",
+    "section": "004",
+    "title": "Microeconomic Analysis&Applic",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-21T14:00",
+    "end": "2026-12-21T17:00"
+  },
+  {
     "course": "ECON 209",
     "section": "001",
     "title": "Macroeconomic Analysis&Applic",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-27T18:30",
-    "end": "2026-04-27T21:30",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
+    "start": "2026-12-16T14:00",
+    "end": "2026-12-16T17:00"
   },
-    {
-    "course": "ECON 209",
-    "section": "002",
-    "title": "Macroeconomic Analysis&Applic",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-27T18:30",
-    "end": "2026-04-27T21:30",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
-  },
-    {
-    "course": "ECON 219",
-    "section": "001",
-    "title": "Current Econ Problems:Topics",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-23T14:00",
-    "end": "2026-04-23T17:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
-  },
-  // ECON 230D2 - CORRECTED (both sections are Apr 16, not Apr 22)
-    {
-    "course": "ECON 230D2",
-    "section": "001",
-    "title": "Microeconomic Theory",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-16T14:00",
-    "end": "2026-04-16T17:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
-  },
-    {
-    "course": "ECON 230D2",
-    "section": "002",
-    "title": "Microeconomic Theory",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-16T14:00",
-    "end": "2026-04-16T17:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
-  },
-
-  // NEW - previously missing D2 courses
-    {
-    "course": "ECON 227D2",
+  {
+    "course": "ECON 227D1",
     "section": "001",
     "title": "Economic Statistics",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-22T09:00",
-    "end": "2026-04-22T12:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
+    "start": "2026-12-09T14:00",
+    "end": "2026-12-09T17:00"
   },
-    {
-    "course": "ECON 227D2",
+  {
+    "course": "ECON 227D1",
     "section": "002",
     "title": "Economic Statistics",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-22T09:00",
-    "end": "2026-04-22T12:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
+    "start": "2026-12-09T14:00",
+    "end": "2026-12-09T17:00"
   },
-    {
-    "course": "ECON 250D2",
+  {
+    "course": "ECON 230D1",
+    "section": "001",
+    "title": "Microeconomic Theory",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-17T18:30",
+    "end": "2026-12-17T21:30"
+  },
+  {
+    "course": "ECON 230D1",
+    "section": "002",
+    "title": "Microeconomic Theory",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-17T18:30",
+    "end": "2026-12-17T21:30"
+  },
+  {
+    "course": "ECON 250D1",
     "section": "001",
     "title": "Intro to Econ Theory: Honours",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-29T18:30",
-    "end": "2026-04-29T21:30",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
+    "start": "2026-12-17T14:00",
+    "end": "2026-12-17T17:00"
   },
-    {
-    "course": "ECON 257D2",
-    "section": "001",
-    "title": "Economic Statistics-Honours",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-22T09:00",
-    "end": "2026-04-22T12:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
-  },
-    {
-    "course": "ECON 304",
-    "section": "001",
-    "title": "Financial Instruments & Inst.",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-20T09:00",
-    "end": "2026-04-20T12:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
-  },
-    {
-    "course": "ECON 305",
-    "section": "001",
-    "title": "Industrial Organization",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-29T14:00",
-    "end": "2026-04-29T17:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
-  },
-    {
+  {
     "course": "ECON 306",
     "section": "001",
     "title": "Labour Markets and Wages",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-21T14:00",
-    "end": "2026-04-21T17:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
+    "start": "2026-12-07T14:00",
+    "end": "2026-12-07T17:00"
   },
-    {
-    "course": "ECON 310",
+  {
+    "course": "ECON 308",
     "section": "001",
-    "title": "Intro to Behavioural Economics",
+    "title": "Govt Policy Towards Business",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-22T18:30",
-    "end": "2026-04-22T21:30",
-    "building": "McGill Sports Complex",
-    "room": "STUDIO 2"
+    "start": "2026-12-07T09:00",
+    "end": "2026-12-07T12:00"
   },
-    {
+  {
     "course": "ECON 313",
     "section": "001",
     "title": "Economic Development 1",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-17T09:00",
-    "end": "2026-04-17T12:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
+    "start": "2026-12-10T09:00",
+    "end": "2026-12-10T12:00"
   },
-    {
-    "course": "ECON 319",
+  {
+    "course": "ECON 316",
     "section": "001",
-    "title": "Economic Crises",
+    "title": "The Underground Economy",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-24T14:00",
-    "end": "2026-04-24T17:00",
-    "building": "McGill Sports Complex",
-    "room": "BLEACHERS"
+    "start": "2026-12-21T14:00",
+    "end": "2026-12-21T17:00"
   },
-    {
-    "course": "ECON 333",
+  {
+    "course": "ECON 332",
     "section": "001",
-    "title": "Macroeconomic Theory -Majors 2",
+    "title": "Macroeconomic Theory- Majors 1",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-27T18:30",
-    "end": "2026-04-27T21:30",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
+    "start": "2026-12-08T14:00",
+    "end": "2026-12-08T17:00"
   },
-    {
-    "course": "ECON 338",
+  {
+    "course": "ECON 337",
     "section": "001",
-    "title": "Intro Econometrics 2",
+    "title": "Intro Econometrics 1",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-20T14:00",
-    "end": "2026-04-20T17:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
+    "start": "2026-12-14T14:00",
+    "end": "2026-12-14T17:00"
   },
-    {
-    "course": "ECON 350",
+  {
+    "course": "ECON 348",
     "section": "001",
-    "title": "Gender and Economics",
+    "title": "Urban Economics",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-20T18:30",
-    "end": "2026-04-20T21:30",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
+    "start": "2026-12-07T18:30",
+    "end": "2026-12-07T21:30"
   },
-    {
-    "course": "ECON 354",
+  {
+    "course": "ECON 406",
     "section": "001",
-    "title": "Macroeconomics - Honours 2",
+    "title": "Topics in Economic Policy",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-27T18:30",
-    "end": "2026-04-27T21:30",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
+    "start": "2026-12-17T18:30",
+    "end": "2026-12-17T21:30"
   },
-    {
-    "course": "ECON 409",
+  {
+    "course": "ECON 408",
     "section": "001",
-    "title": "Public Sector Economics 2",
+    "title": "Public Sector Economics 1",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-30T14:00",
-    "end": "2026-04-30T17:00",
-    "building": "McGill Sports Complex",
-    "room": "STUDIO 2"
+    "start": "2026-12-21T14:00",
+    "end": "2026-12-21T17:00"
   },
-    {
+  {
+    "course": "ECON 420",
+    "section": "001",
+    "title": "Topics in Economic Theory",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-08T09:00",
+    "end": "2026-12-08T12:00"
+  },
+  {
+    "course": "ECON 423",
+    "section": "001",
+    "title": "International Trade",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-14T18:30",
+    "end": "2026-12-14T21:30"
+  },
+  {
     "course": "ECON 424",
     "section": "001",
     "title": "International Payments",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-23T09:00",
-    "end": "2026-04-23T12:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
+    "start": "2026-12-16T18:30",
+    "end": "2026-12-16T21:30"
   },
-    {
-    "course": "ECON 447",
-    "section": "001",
-    "title": "Economics of Info&Uncertainty",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-17T09:00",
-    "end": "2026-04-17T12:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
-  },
-    {
+  {
     "course": "ECON 450",
     "section": "001",
     "title": "Adv Economic Theory 1-Honours",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-27T14:00",
-    "end": "2026-04-27T17:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
+    "start": "2026-12-15T14:00",
+    "end": "2026-12-15T17:00"
   },
-    {
-    "course": "ECON 459",
+  {
+    "course": "ECON 468",
     "section": "001",
-    "title": "Topics:Monetary Econ - Honours",
-    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-04-16T09:00",
-    "end": "2026-04-16T12:00",
-    "building": "LEA",
-    "room": "15"
+    "title": "Econometrics 1 - Honours",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-14T18:30",
+    "end": "2026-12-14T21:30"
   },
-    {
-    "course": "ECON 469",
+  {
+    "course": "ECON 546",
     "section": "001",
-    "title": "Econometrics 2 - Honours",
-    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-04-28T14:00",
-    "end": "2026-04-28T17:00",
-    "building": "LEA",
-    "room": "210"
+    "title": "Game Theory",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-07T09:00",
+    "end": "2026-12-07T12:00"
   },
-    {
+  {
     "course": "ECSE 200",
     "section": "001",
     "title": "Electric Circuits 1",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-24T09:00",
-    "end": "2026-04-24T12:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
+    "start": "2026-12-22T09:00",
+    "end": "2026-12-22T12:00"
   },
-    {
+  {
+    "course": "ECSE 200",
+    "section": "002",
+    "title": "Electric Circuits 1",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-22T09:00",
+    "end": "2026-12-22T12:00"
+  },
+  {
     "course": "ECSE 205",
     "section": "001",
     "title": "Prob and Stats for Engineers",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-20T18:30",
-    "end": "2026-04-20T21:30",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
+    "start": "2026-12-09T09:00",
+    "end": "2026-12-09T12:00"
   },
-    {
+  {
     "course": "ECSE 206",
     "section": "001",
     "title": "Intro to Signals and Systems",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-22T14:00",
-    "end": "2026-04-22T17:00",
-    "building": "McGill Sports Complex",
-    "room": "BLEACHERS"
+    "start": "2026-12-07T09:00",
+    "end": "2026-12-07T12:00"
   },
-    {
+  {
+    "course": "ECSE 209",
+    "section": "001",
+    "title": "Electrotechnology",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-15T09:00",
+    "end": "2026-12-15T12:00"
+  },
+  {
     "course": "ECSE 210",
     "section": "001",
     "title": "Electric Circuits 2",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-30T09:00",
-    "end": "2026-04-30T12:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
+    "start": "2026-12-17T09:00",
+    "end": "2026-12-17T12:00"
   },
-    {
+  {
     "course": "ECSE 222",
     "section": "001",
     "title": "Digital Logic",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-17T14:00",
-    "end": "2026-04-17T17:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
+    "start": "2026-12-14T14:00",
+    "end": "2026-12-14T17:00"
   },
-    {
+  {
     "course": "ECSE 223",
     "section": "001",
     "title": "Model-Based Programming",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-20T09:00",
-    "end": "2026-04-20T12:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
+    "start": "2026-12-11T14:00",
+    "end": "2026-12-11T17:00"
   },
-    {
+  {
     "course": "ECSE 250",
     "section": "001",
     "title": "Fundls of Software Development",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-20T09:00",
-    "end": "2026-04-20T12:00",
-    "building": "McGill Sports Complex",
-    "room": "BLEACHERS"
+    "start": "2026-12-07T09:00",
+    "end": "2026-12-07T12:00"
   },
-    {
+  {
     "course": "ECSE 251",
     "section": "001",
     "title": "Electric and Magnetic Fields",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-23T14:00",
-    "end": "2026-04-23T17:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
+    "start": "2026-12-22T09:00",
+    "end": "2026-12-22T12:00"
   },
-    {
+  {
+    "course": "ECSE 307",
+    "section": "001",
+    "title": "Linear Systems and Control",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-10T14:00",
+    "end": "2026-12-10T17:00"
+  },
+  {
     "course": "ECSE 308",
     "section": "001",
     "title": "Intro to Commun Sys & Networks",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-20T14:00",
-    "end": "2026-04-20T17:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
+    "start": "2026-12-16T18:30",
+    "end": "2026-12-16T21:30"
   },
-    {
+  {
     "course": "ECSE 310",
     "section": "001",
     "title": "Thermodynamics of Computing",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-23T14:00",
-    "end": "2026-04-23T17:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
+    "start": "2026-12-16T09:00",
+    "end": "2026-12-16T12:00"
   },
-    {
+  {
     "course": "ECSE 316",
     "section": "001",
     "title": "Signals and Networks",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-22T09:00",
-    "end": "2026-04-22T12:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
+    "start": "2026-12-21T09:00",
+    "end": "2026-12-21T12:00"
   },
-    {
+  {
     "course": "ECSE 321",
     "section": "001",
     "title": "Intro. to Software Engineering",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-21T14:00",
-    "end": "2026-04-21T17:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
+    "start": "2026-12-17T09:00",
+    "end": "2026-12-17T12:00"
   },
-    {
+  {
     "course": "ECSE 324",
     "section": "001",
     "title": "Computer Organization",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-24T09:00",
-    "end": "2026-04-24T12:00",
-    "building": "McGill Sports Complex",
-    "room": "STUDIO 1"
+    "start": "2026-12-14T14:00",
+    "end": "2026-12-14T17:00"
   },
-    {
-    "course": "ECSE 325",
+  {
+    "course": "ECSE 326",
     "section": "001",
-    "title": "Digital Systems",
+    "title": "Software Requirements Engineer",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-29T14:00",
-    "end": "2026-04-29T17:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
+    "start": "2026-12-10T09:00",
+    "end": "2026-12-10T12:00"
   },
-    {
+  {
     "course": "ECSE 331",
     "section": "001",
     "title": "Electronics",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-27T14:00",
-    "end": "2026-04-27T17:00",
-    "building": "McGill Sports Complex",
-    "room": "BLEACHERS"
+    "start": "2026-12-14T09:00",
+    "end": "2026-12-14T12:00"
   },
-    {
+  {
+    "course": "ECSE 335",
+    "section": "001",
+    "title": "Microelectronics",
+    "type": "ONLINE - TIMED EXAM - 3 HOURS",
+    "start": "2026-12-09T14:00",
+    "end": "2026-12-09T17:00"
+  },
+  {
     "course": "ECSE 343",
     "section": "001",
     "title": "Numerical Methods in Eng",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-28T14:00",
-    "end": "2026-04-28T17:00",
-    "building": "McGill Sports Complex",
-    "room": "BLEACHERS"
+    "start": "2026-12-10T14:00",
+    "end": "2026-12-10T17:00"
   },
-    {
+  {
     "course": "ECSE 353",
     "section": "001",
     "title": "Electromagnetic Fields&Waves",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-22T14:00",
-    "end": "2026-04-22T17:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
+    "start": "2026-12-21T09:00",
+    "end": "2026-12-21T12:00"
   },
-    {
+  {
     "course": "ECSE 354",
     "section": "001",
     "title": "Electromag Wave Propagation",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-16T14:00",
-    "end": "2026-04-16T17:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
+    "start": "2026-12-17T14:00",
+    "end": "2026-12-17T17:00"
   },
-    {
+  {
     "course": "ECSE 362",
     "section": "001",
     "title": "Fundamentals of Power Eng",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-30T14:00",
-    "end": "2026-04-30T17:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
+    "start": "2026-12-15T14:00",
+    "end": "2026-12-15T17:00"
   },
-    {
-    "course": "ECSE 403",
+  {
+    "course": "ECSE 408",
     "section": "001",
-    "title": "Control",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-23T18:30",
-    "end": "2026-04-23T21:30",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
-  },
-    {
-    "course": "ECSE 416",
-    "section": "001",
-    "title": "Telecommunication Networks",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-20T09:00",
-    "end": "2026-04-20T12:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
-  },
-    {
-    "course": "ECSE 423",
-    "section": "001",
-    "title": "Fundamentals of Photonics",
+    "title": "Communication Systems",
     "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-04-22T14:00",
-    "end": "2026-04-22T17:00",
-    "building": "ENGTR",
-    "room": "0070"
+    "start": "2026-12-07T09:00",
+    "end": "2026-12-07T12:00"
   },
-    {
-    "course": "ECSE 425",
+  {
+    "course": "ECSE 412",
     "section": "001",
-    "title": "Computer Architecture",
+    "title": "Discrete TimeSignal Processing",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-24T09:00",
-    "end": "2026-04-24T12:00",
-    "building": "McGill Sports Complex",
-    "room": "BLEACHERS"
+    "start": "2026-12-08T09:00",
+    "end": "2026-12-08T12:00"
   },
-    {
+  {
     "course": "ECSE 427",
     "section": "001",
     "title": "Operating Systems",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-21T09:00",
-    "end": "2026-04-21T12:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
+    "start": "2026-12-08T09:00",
+    "end": "2026-12-08T12:00"
   },
-    {
-    "course": "ECSE 439",
+  {
+    "course": "ECSE 430",
     "section": "001",
-    "title": "Software Language Engineering",
+    "title": "Photonic Devices and Systems",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-22T18:30",
-    "end": "2026-04-22T21:30",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
+    "start": "2026-12-17T14:00",
+    "end": "2026-12-17T17:00"
   },
-    {
-    "course": "ECSE 461",
+  {
+    "course": "ECSE 470",
     "section": "001",
-    "title": "Electric Machinery",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-24T09:00",
-    "end": "2026-04-24T12:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
-  },
-    {
-    "course": "ECSE 506",
-    "section": "001",
-    "title": "Stochastic Ctrl &Decision Thry",
+    "title": "Electromech & Static Conv Sys",
     "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-04-22T09:00",
-    "end": "2026-04-22T12:00",
-    "building": "ENGTR",
-    "room": "0070"
+    "start": "2026-12-17T09:00",
+    "end": "2026-12-17T12:00"
   },
-    {
-    "course": "ECSE 506",
-    "section": "002",
-    "title": "Stochastic Ctrl &Decision Thry",
-    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-04-22T09:00",
-    "end": "2026-04-22T12:00",
-    "building": "ENGTR",
-    "room": "0070"
-  },
-    {
-    "course": "ECSE 506",
-    "section": "003",
-    "title": "Stochastic Ctrl &Decision Thry",
-    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-04-22T09:00",
-    "end": "2026-04-22T12:00",
-    "building": "ENGTR",
-    "room": "0070"
-  },
-    {
-    "course": "ECSE 522",
-    "section": "001",
-    "title": "Nonlinear Phen.: Power Sys Dyn",
-    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-04-21T09:00",
-    "end": "2026-04-21T12:00",
-    "building": "ENGTR",
-    "room": "2120"
-  },
-    {
-    "course": "ECSE 522",
-    "section": "002",
-    "title": "Nonlinear Phen.: Power Sys Dyn",
-    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-04-21T09:00",
-    "end": "2026-04-21T12:00",
-    "building": "ENGTR",
-    "room": "2120"
-  },
-    {
-    "course": "ECSE 522",
-    "section": "003",
-    "title": "Nonlinear Phen.: Power Sys Dyn",
-    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-04-21T09:00",
-    "end": "2026-04-21T12:00",
-    "building": "ENGTR",
-    "room": "2120"
-  },
-    {
-    "course": "ECSE 527",
-    "section": "001",
-    "title": "Optical Engineering",
-    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-04-22T14:00",
-    "end": "2026-04-22T17:00",
-    "building": "ENGTR",
-    "room": "1090"
-  },
-    {
-    "course": "ECSE 527",
-    "section": "002",
-    "title": "Optical Engineering",
-    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-04-22T14:00",
-    "end": "2026-04-22T17:00",
-    "building": "ENGTR",
-    "room": "1090"
-  },
-    {
-    "course": "ECSE 527",
-    "section": "003",
-    "title": "Optical Engineering",
-    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-04-22T14:00",
-    "end": "2026-04-22T17:00",
-    "building": "ENGTR",
-    "room": "1090"
-  },
-    {
-    "course": "ECSE 539",
-    "section": "001",
-    "title": "Advanced Software Language Eng",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-22T18:30",
-    "end": "2026-04-22T21:30",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
-  },
-    {
-    "course": "ECSE 539",
-    "section": "002",
-    "title": "Advanced Software Language Eng",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-22T18:30",
-    "end": "2026-04-22T21:30",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
-  },
-    {
-    "course": "ECSE 539",
-    "section": "004",
-    "title": "Advanced Software Language Eng",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-22T18:30",
-    "end": "2026-04-22T21:30",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
-  },
-    {
-    "course": "ECSE 552",
-    "section": "001",
-    "title": "Deep Learning",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-27T18:30",
-    "end": "2026-04-27T21:30",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
-  },
-    {
-    "course": "ECSE 552",
-    "section": "002",
-    "title": "Deep Learning",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-27T18:30",
-    "end": "2026-04-27T21:30",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
-  },
-    {
-    "course": "ECSE 552",
+  {
+    "course": "ECSE 470",
     "section": "005",
-    "title": "Deep Learning",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-27T18:30",
-    "end": "2026-04-27T21:30",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
-  },
-    {
-    "course": "ECSE 596",
-    "section": "001",
-    "title": "Optical Waveguides",
+    "title": "Electromech & Static Conv Sys",
     "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-04-17T14:00",
-    "end": "2026-04-17T17:00",
-    "building": "ENGTR",
-    "room": "2100"
+    "start": "2026-12-17T09:00",
+    "end": "2026-12-17T12:00"
   },
   {
-    "course": "ECSE 610",
+    "course": "ECSE 501",
     "section": "001",
-    "title": "Wireless Communications",
+    "title": "Linear Systems",
     "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-04-20T09:00",
-    "end": "2026-04-20T12:00"
+    "start": "2026-12-22T09:00",
+    "end": "2026-12-22T12:00"
   },
-    {
-    "course": "EDKP 206",
-    "section": "001",
-    "title": "Biomechanics of Human Movement",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-30T14:00",
-    "end": "2026-04-30T17:00",
-    "building": "McGill Sports Complex",
-    "room": "BLEACHERS"
-  },
-    {
-    "course": "EDKP 208",
-    "section": "001",
-    "title": "Biomechanics & Motor Learning",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-22T09:00",
-    "end": "2026-04-22T12:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
-  },
-    {
-    "course": "EDKP 342",
-    "section": "001",
-    "title": "Phys. Ed Methods",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-16T09:00",
-    "end": "2026-04-16T12:00",
-    "building": "McGill Sports Complex",
-    "room": "STUDIO 2"
-  },
-    {
-    "course": "EDKP 391",
-    "section": "001",
-    "title": "Physiology in Sport & Exercise",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-20T14:00",
-    "end": "2026-04-20T17:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
-  },
-    {
-    "course": "EDKP 394",
-    "section": "001",
-    "title": "Historical Perspectives",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-22T14:00",
-    "end": "2026-04-22T17:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
-  },
-    {
-    "course": "EDKP 394",
+  {
+    "course": "ECSE 501",
     "section": "002",
-    "title": "Historical Perspectives",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-22T14:00",
-    "end": "2026-04-22T17:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
-  },
-    {
-    "course": "EDKP 445",
-    "section": "001",
-    "title": "Exercise Metabolism",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-22T14:00",
-    "end": "2026-04-22T17:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
+    "title": "Linear Systems",
+    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
+    "start": "2026-12-22T09:00",
+    "end": "2026-12-22T12:00"
   },
   {
-    "course": "EDPE 575",
+    "course": "ECSE 509",
     "section": "001",
-    "title": "Statistics for Practitioners",
-    "type": "ONLINE - TIMED EXAM - 24 HOURS",
-    "start": "2026-04-27T09:00",
-    "end": "2026-04-28T09:00"
-  },
-    {
-    "course": "ENGL 203",
-    "section": "001",
-    "title": "Dept. Survey of English Lit. 2",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-29T18:30",
-    "end": "2026-04-29T21:30",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
-  },
-    {
-    "course": "ENGL 204",
-    "section": "001",
-    "title": "English Literature & the Bible",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-16T09:00",
-    "end": "2026-04-16T12:00",
-    "building": "McGill Sports Complex",
-    "room": "BLEACHERS"
-  },
-    {
-    "course": "ENGL 225",
-    "section": "001",
-    "title": "American Literature 1",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-27T18:30",
-    "end": "2026-04-27T21:30",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
-  },
-    {
-    "course": "ENGL 279",
-    "section": "001",
-    "title": "Introduction to Film History",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-17T09:00",
-    "end": "2026-04-17T12:00",
-    "building": "McGill Sports Complex",
-    "room": "BLEACHERS"
+    "title": "Probability & Random Signals 2",
+    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
+    "start": "2026-12-18T14:00",
+    "end": "2026-12-18T17:00"
   },
   {
-    "course": "ENGL 280",
-    "section": "001",
-    "title": "Intro to Film as Mass Medium",
-    "type": "ONLINE - TIMED EXAM - 3 HOURS",
-    "start": "2026-04-24T14:00",
-    "end": "2026-04-24T17:00"
+    "course": "ECSE 509",
+    "section": "002",
+    "title": "Probability & Random Signals 2",
+    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
+    "start": "2026-12-18T14:00",
+    "end": "2026-12-18T17:00"
   },
-    {
-    "course": "ENGL 308",
+  {
+    "course": "ECSE 512",
     "section": "001",
-    "title": "English Renaissance Drama 1",
+    "title": "Digital Signal Processing 1",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-17T09:00",
-    "end": "2026-04-17T12:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
+    "start": "2026-12-08T09:00",
+    "end": "2026-12-08T12:00"
   },
-    {
-    "course": "ENGL 314",
-    "section": "001",
-    "title": "20th Century Drama",
+  {
+    "course": "ECSE 512",
+    "section": "002",
+    "title": "Digital Signal Processing 1",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-20T09:00",
-    "end": "2026-04-20T12:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
+    "start": "2026-12-08T09:00",
+    "end": "2026-12-08T12:00"
   },
-    {
-    "course": "ENGL 328",
-    "section": "001",
-    "title": "Dvlpmnt of Canadian Poetry 1",
+  {
+    "course": "ECSE 512",
+    "section": "003",
+    "title": "Digital Signal Processing 1",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-22T18:30",
-    "end": "2026-04-22T21:30",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
+    "start": "2026-12-08T09:00",
+    "end": "2026-12-08T12:00"
   },
-    {
-    "course": "ENGL 336",
+  {
+    "course": "ECSE 521",
     "section": "001",
-    "title": "The 20th Century Novel 2",
+    "title": "Digital Communications 1",
+    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
+    "start": "2026-12-21T09:00",
+    "end": "2026-12-21T12:00"
+  },
+  {
+    "course": "ECSE 521",
+    "section": "002",
+    "title": "Digital Communications 1",
+    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
+    "start": "2026-12-21T09:00",
+    "end": "2026-12-21T12:00"
+  },
+  {
+    "course": "ECSE 521",
+    "section": "003",
+    "title": "Digital Communications 1",
+    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
+    "start": "2026-12-21T09:00",
+    "end": "2026-12-21T12:00"
+  },
+  {
+    "course": "ECSE 532",
+    "section": "001",
+    "title": "Computer Graphics",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-21T14:00",
-    "end": "2026-04-21T17:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
+    "start": "2026-12-14T18:30",
+    "end": "2026-12-14T21:30"
   },
-    {
-    "course": "ENVB 305",
+  {
+    "course": "ECSE 532",
+    "section": "002",
+    "title": "Computer Graphics",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-14T18:30",
+    "end": "2026-12-14T21:30"
+  },
+  {
+    "course": "ECSE 540",
     "section": "001",
-    "title": "Population & Community Ecology",
+    "title": "Photonic Devices and App",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-17T14:00",
+    "end": "2026-12-17T17:00"
+  },
+  {
+    "course": "ECSE 540",
+    "section": "002",
+    "title": "Photonic Devices and App",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-17T14:00",
+    "end": "2026-12-17T17:00"
+  },
+  {
+    "course": "ECSE 540",
+    "section": "003",
+    "title": "Photonic Devices and App",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-17T14:00",
+    "end": "2026-12-17T17:00"
+  },
+  {
+    "course": "EDER 319",
+    "section": "001",
+    "title": "Teaching the Holocaust",
+    "type": "ONLINE - TIMED EXAM - 72 HOURS",
+    "start": "2026-12-15T14:00",
+    "end": "2026-12-18T14:00"
+  },
+  {
+    "course": "EDKP 261",
+    "section": "001",
+    "title": "Motor Development",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-08T09:00",
+    "end": "2026-12-08T12:00"
+  },
+  {
+    "course": "EDKP 261",
+    "section": "002",
+    "title": "Motor Development",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-08T09:00",
+    "end": "2026-12-08T12:00"
+  },
+  {
+    "course": "EDKP 261",
+    "section": "003",
+    "title": "Motor Development",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-08T09:00",
+    "end": "2026-12-08T12:00"
+  },
+  {
+    "course": "EDKP 261",
+    "section": "007",
+    "title": "Motor Development",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-08T09:00",
+    "end": "2026-12-08T12:00"
+  },
+  {
+    "course": "EDKP 261",
+    "section": "008",
+    "title": "Motor Development",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-08T09:00",
+    "end": "2026-12-08T12:00"
+  },
+  {
+    "course": "EDKP 330",
+    "section": "001",
+    "title": "Physical Act & Public Health",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-22T09:00",
+    "end": "2026-12-22T12:00"
+  },
+  {
+    "course": "EDKP 330",
+    "section": "002",
+    "title": "Physical Act & Public Health",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-22T09:00",
+    "end": "2026-12-22T12:00"
+  },
+  {
+    "course": "EDKP 396",
+    "section": "001",
+    "title": "Adapted Physical Activity",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-09T14:00",
+    "end": "2026-12-09T17:00"
+  },
+  {
+    "course": "EDKP 396",
+    "section": "002",
+    "title": "Adapted Physical Activity",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-09T14:00",
+    "end": "2026-12-09T17:00"
+  },
+  {
+    "course": "EDKP 443",
+    "section": "002",
+    "title": "Research Methods",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-21T09:00",
+    "end": "2026-12-21T12:00"
+  },
+  {
+    "course": "EDKP 485",
+    "section": "001",
+    "title": "Cardiopulmonary Ex Pathophys",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-09T14:00",
+    "end": "2026-12-09T17:00"
+  },
+  {
+    "course": "EDKP 492",
+    "section": "001",
+    "title": "Talent Identification: Sports",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-08T14:00",
+    "end": "2026-12-08T17:00"
+  },
+  {
+    "course": "EDKP 492",
+    "section": "002",
+    "title": "Talent Identification: Sports",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-08T14:00",
+    "end": "2026-12-08T17:00"
+  },
+  {
+    "course": "EDKP 498",
+    "section": "001",
+    "title": "Sport Psychology",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-11T09:00",
+    "end": "2026-12-11T12:00"
+  },
+  {
+    "course": "EDKP 498",
+    "section": "002",
+    "title": "Sport Psychology",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-11T09:00",
+    "end": "2026-12-11T12:00"
+  },
+  {
+    "course": "EDPE 304",
+    "section": "001",
+    "title": "Measurement and Evaluation",
+    "type": "ONLINE - TIMED EXAM - 72 HOURS",
+    "start": "2026-12-10T09:00",
+    "end": "2026-12-13T09:00"
+  },
+  {
+    "course": "EDPE 304",
+    "section": "002",
+    "title": "Measurement and Evaluation",
+    "type": "ONLINE - TIMED EXAM - 72 HOURS",
+    "start": "2026-12-10T09:00",
+    "end": "2026-12-13T09:00"
+  },
+  {
+    "course": "EDPE 304",
+    "section": "720",
+    "title": "Measurement and Evaluation",
+    "type": "ONLINE - TIMED EXAM - 72 HOURS",
+    "start": "2026-12-10T09:00",
+    "end": "2026-12-13T09:00"
+  },
+  {
+    "course": "ENGL 202",
+    "section": "001",
+    "title": "Dept. Survey of English Lit. 1",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-18T14:00",
+    "end": "2026-12-18T17:00"
+  },
+  {
+    "course": "ENGL 215",
+    "section": "001",
+    "title": "Intro to Shakespeare",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-17T14:00",
+    "end": "2026-12-17T17:00"
+  },
+  {
+    "course": "ENGL 226",
+    "section": "001",
+    "title": "American Literature 2",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-22T09:00",
+    "end": "2026-12-22T12:00"
+  },
+  {
+    "course": "ENGL 229",
+    "section": "001",
+    "title": "Canadian Literature 2",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-17T18:30",
+    "end": "2026-12-17T21:30"
+  },
+  {
+    "course": "ENGL 275",
+    "section": "001",
+    "title": "Intro to Cultural Studies",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-14T14:00",
+    "end": "2026-12-14T17:00"
+  },
+  {
+    "course": "ENGL 277",
+    "section": "001",
+    "title": "Introduction to Film Studies",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-11T14:00",
+    "end": "2026-12-11T17:00"
+  },
+  {
+    "course": "ENGL 301",
+    "section": "001",
+    "title": "Earlier 18th Century Novel",
+    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
+    "start": "2026-12-14T14:00",
+    "end": "2026-12-14T17:00"
+  },
+  {
+    "course": "ENGL 311",
+    "section": "001",
+    "title": "Poetics",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-18T14:00",
+    "end": "2026-12-18T17:00"
+  },
+  {
+    "course": "ENGL 311",
+    "section": "002",
+    "title": "Poetics",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-18T14:00",
+    "end": "2026-12-18T17:00"
+  },
+  {
+    "course": "ENGL 311",
+    "section": "003",
+    "title": "Poetics",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-18T14:00",
+    "end": "2026-12-18T17:00"
+  },
+  {
+    "course": "ENGL 313",
+    "section": "001",
+    "title": "Canadian Drama and Theatre",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-16T09:00",
+    "end": "2026-12-16T12:00"
+  },
+  {
+    "course": "ENGL 317",
+    "section": "001",
+    "title": "Literary and Cultural Theory",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-09T14:00",
+    "end": "2026-12-09T17:00"
+  },
+  {
+    "course": "ENGL 357",
+    "section": "001",
+    "title": "Chaucer",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-11T14:00",
+    "end": "2026-12-11T17:00"
+  },
+  {
+    "course": "ENGL 363",
+    "section": "001",
+    "title": "Studies in the Hist of Film 3",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-11T09:00",
+    "end": "2026-12-11T12:00"
+  },
+  {
+    "course": "ENGL 394",
+    "section": "001",
+    "title": "Popular Literary Forms",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-09T09:00",
+    "end": "2026-12-09T12:00"
+  },
+  {
+    "course": "ENTO 330",
+    "section": "001",
+    "title": "Insect Biology",
     "type": "IN-PERSON - FORMAL EXAM - MAC CAMPUS",
-    "start": "2026-04-17T09:00",
-    "end": "2026-04-17T12:00",
-    "building": "CENTEN",
-    "room": "Ballroom"
+    "start": "2026-12-14T14:00",
+    "end": "2026-12-14T17:00"
   },
-    {
-    "course": "ENVB 437",
+  {
+    "course": "ENTO 330",
+    "section": "001L",
+    "title": "Insect Biology",
+    "type": "IN-PERSON - LAB EXAM - MAC CAMPUS",
+    "start": "2026-12-17T14:00",
+    "end": "2026-12-17T17:00"
+  },
+  {
+    "course": "ENVB 410",
     "section": "001",
-    "title": "Assessing Environmental Impact",
-    "type": "IN-PERSON - FORMAL EXAM - MAC CAMPUS",
-    "start": "2026-04-21T09:00",
-    "end": "2026-04-21T12:00",
-    "building": "CENTEN",
-    "room": "Ballroom"
+    "title": "Ecosystem Ecology",
+    "type": "MAC ONLINE - TAKE-HOME - 72 HOURS",
+    "start": "2026-12-14T14:00",
+    "end": "2026-12-17T14:00"
   },
-    {
+  {
     "course": "ENVR 200",
-    "section": "051",
+    "section": "001",
     "title": "The Global Environment",
-    "type": "IN-PERSON - FORMAL EXAM - MAC CAMPUS",
-    "start": "2026-04-17T09:00",
-    "end": "2026-04-17T12:00",
-    "building": "CENTEN",
-    "room": "Ballroom"
-  },
-    {
-    "course": "ENVR 202",
-    "section": "001",
-    "title": "The Evolving Earth",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-23T14:00",
-    "end": "2026-04-23T17:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
+    "start": "2026-12-07T14:00",
+    "end": "2026-12-07T17:00"
   },
-    {
-    "course": "ENVR 202",
+  {
+    "course": "ENVR 201",
+    "section": "001",
+    "title": "Society,Environ&Sustainability",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-11T09:00",
+    "end": "2026-12-11T12:00"
+  },
+  {
+    "course": "ENVR 201",
     "section": "051",
-    "title": "The Evolving Earth",
-    "type": "IN-PERSON - FORMAL EXAM - MAC CAMPUS",
-    "start": "2026-04-21T09:00",
-    "end": "2026-04-21T12:00",
-    "building": "CENTEN",
-    "room": "Ballroom"
+    "title": "Society,Environ&Sustainability",
+    "type": "ONLINE - TAKE-HOME - 72 HOURS",
+    "start": "2026-12-15T09:00",
+    "end": "2026-12-18T09:00"
   },
-    {
-    "course": "ENVR 203",
+  {
+    "course": "EPSC 185",
     "section": "001",
-    "title": "Knowledge, Ethics&Environment",
+    "title": "Natural Disasters",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-20T09:00",
-    "end": "2026-04-20T12:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
+    "start": "2026-12-15T09:00",
+    "end": "2026-12-15T12:00"
   },
-    {
-    "course": "EPSC 181",
+  {
+    "course": "EPSC 210",
     "section": "001",
-    "title": "Environmental Geology",
+    "title": "Introductory Mineralogy",
+    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
+    "start": "2026-12-22T09:00",
+    "end": "2026-12-22T12:00"
+  },
+  {
+    "course": "EPSC 220",
+    "section": "001",
+    "title": "Principles of Geochemistry",
+    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
+    "start": "2026-12-08T14:00",
+    "end": "2026-12-08T17:00"
+  },
+  {
+    "course": "EPSC 221",
+    "section": "001",
+    "title": "General Geology",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-16T14:00",
-    "end": "2026-04-16T17:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
+    "start": "2026-12-15T09:00",
+    "end": "2026-12-15T12:00"
   },
-    {
-    "course": "EPSC 186",
+  {
+    "course": "EPSC 233",
     "section": "001",
-    "title": "Astrobiology",
+    "title": "Earth and Life Through Time",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-21T14:00",
-    "end": "2026-04-21T17:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
+    "start": "2026-12-21T18:30",
+    "end": "2026-12-21T21:30"
   },
-    {
-    "course": "EPSC 201",
+  {
+    "course": "EPSC 320",
     "section": "001",
-    "title": "Understanding Planet Earth",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-28T14:00",
-    "end": "2026-04-28T17:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
-  },
-    {
-    "course": "EPSC 212",
-    "section": "001",
-    "title": "Introductory Petrology",
+    "title": "Elementary Earth Physics",
     "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-04-24T14:00",
-    "end": "2026-04-24T17:00",
-    "building": "ADAMS",
-    "room": "211"
+    "start": "2026-12-09T14:00",
+    "end": "2026-12-09T17:00"
   },
-    {
-    "course": "EPSC 225",
+  {
+    "course": "EPSC 445",
     "section": "001",
-    "title": "Properties of Minerals",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-22T14:00",
-    "end": "2026-04-22T17:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
-  },
-    {
-    "course": "EPSC 303",
-    "section": "001",
-    "title": "Structural Geology",
+    "title": "Metamorphic Petrology",
     "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-04-16T09:00",
-    "end": "2026-04-16T12:00",
-    "building": "ADAMS",
-    "room": "315"
+    "start": "2026-12-18T14:00",
+    "end": "2026-12-18T17:00"
   },
-    {
-    "course": "EPSC 334",
+  {
+    "course": "EPSC 570",
     "section": "001",
-    "title": "Invertebrate Paleontology",
+    "title": "Cosmochemistry",
     "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-04-29T09:00",
-    "end": "2026-04-29T12:00",
-    "building": "ADAMS",
-    "room": "315"
+    "start": "2026-12-16T09:00",
+    "end": "2026-12-16T12:00"
   },
-    {
-    "course": "EPSC 425",
-    "section": "001",
-    "title": "Sediments to Sequences",
-    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-04-22T14:00",
-    "end": "2026-04-22T17:00",
-    "building": "ADAMS",
-    "room": "315"
-  },
-    {
-    "course": "EPSC 549",
-    "section": "001",
-    "title": "Hydrogeology",
-    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-04-30T09:00",
-    "end": "2026-04-30T12:00",
-    "building": "ADAMS",
-    "room": "211, 315"
-  },
-    {
+  {
     "course": "ESYS 104",
     "section": "001",
     "title": "The Earth System",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-30T14:00",
-    "end": "2026-04-30T17:00",
-    "building": "McGill Sports Complex",
-    "room": "STUDIO 1"
+    "start": "2026-12-09T14:00",
+    "end": "2026-12-09T17:00"
   },
-    {
-    "course": "ESYS 200",
+  {
+    "course": "EXMD 502",
     "section": "001",
-    "title": "Earth-System Interactions",
-    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-04-16T14:00",
-    "end": "2026-04-16T17:00",
-    "building": "ADAMS",
-    "room": "348"
-  },
-    {
-    "course": "EXMD 401",
-    "section": "001",
-    "title": "Physiol&Biochem Endocrin Sys",
-    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-04-28T09:00",
-    "end": "2026-04-28T12:00",
-    "building": "LEA",
-    "room": "109"
-  },
-    {
-    "course": "EXMD 503",
-    "section": "001",
-    "title": "Advanced Endocrinology 02",
+    "title": "Advanced Endocrinology 1",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-29T09:00",
-    "end": "2026-04-29T12:00",
-    "building": "BIRKS",
-    "room": "203"
+    "start": "2026-12-14T09:00",
+    "end": "2026-12-14T12:00"
   },
-    {
-    "course": "EXMD 508",
+  {
+    "course": "EXMD 504",
     "section": "001",
-    "title": "Adv Topics in Respiration",
-    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-04-23T09:00",
-    "end": "2026-04-23T12:00",
-    "building": "ARTS",
-    "room": "W-20"
+    "title": "Biology of Cancer",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-08T09:00",
+    "end": "2026-12-08T12:00"
   },
-    {
+  {
+    "course": "EXMD 506",
+    "section": "001",
+    "title": "Adv Appl Cardiovascular Physio",
+    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
+    "start": "2026-12-09T09:00",
+    "end": "2026-12-09T12:00"
+  },
+  {
+    "course": "EXMD 507",
+    "section": "001",
+    "title": "Adv Respiratory Physiology",
+    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
+    "start": "2026-12-17T09:00",
+    "end": "2026-12-17T12:00"
+  },
+  {
+    "course": "FACC 220",
+    "section": "001",
+    "title": "Law for Architects & Engineers",
+    "type": "ONLINE - TIMED EXAM - 3 HOURS",
+    "start": "2026-12-17T14:00",
+    "end": "2026-12-17T17:00"
+  },
+  {
     "course": "FACC 300",
     "section": "001",
     "title": "Engineering Economy",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-17T09:00",
-    "end": "2026-04-17T12:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
+    "start": "2026-12-18T14:00",
+    "end": "2026-12-18T17:00"
   },
-    {
+  {
     "course": "FACC 300",
     "section": "002",
     "title": "Engineering Economy",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-17T09:00",
-    "end": "2026-04-17T12:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
+    "start": "2026-12-18T14:00",
+    "end": "2026-12-18T17:00"
   },
-    {
+  {
     "course": "FACC 300",
     "section": "005",
     "title": "Engineering Economy",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-17T09:00",
-    "end": "2026-04-17T12:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
-  },
-    {
-    "course": "FACC 300",
-    "section": "006",
-    "title": "Engineering Economy",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-17T09:00",
-    "end": "2026-04-17T12:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
-  },
-    {
-    "course": "FACC 300",
-    "section": "007",
-    "title": "Engineering Economy",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-17T09:00",
-    "end": "2026-04-17T12:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
+    "start": "2026-12-18T14:00",
+    "end": "2026-12-18T17:00"
   },
   {
     "course": "FACC 400",
     "section": "001",
     "title": "Eng Professional Practice",
     "type": "ONLINE - TIMED EXAM - 3 HOURS",
-    "start": "2026-04-16T09:00",
-    "end": "2026-04-16T12:00"
+    "start": "2026-12-22T09:00",
+    "end": "2026-12-22T12:00"
   },
   {
     "course": "FACC 400",
     "section": "002",
     "title": "Eng Professional Practice",
     "type": "ONLINE - TIMED EXAM - 3 HOURS",
-    "start": "2026-04-16T09:00",
-    "end": "2026-04-16T12:00"
+    "start": "2026-12-22T09:00",
+    "end": "2026-12-22T12:00"
   },
   {
     "course": "FACC 400",
     "section": "005",
     "title": "Eng Professional Practice",
     "type": "ONLINE - TIMED EXAM - 3 HOURS",
-    "start": "2026-04-16T09:00",
-    "end": "2026-04-16T12:00"
+    "start": "2026-12-22T09:00",
+    "end": "2026-12-22T12:00"
   },
   {
     "course": "FACC 400",
     "section": "006",
     "title": "Eng Professional Practice",
     "type": "ONLINE - TIMED EXAM - 3 HOURS",
-    "start": "2026-04-16T09:00",
-    "end": "2026-04-16T12:00"
+    "start": "2026-12-22T09:00",
+    "end": "2026-12-22T12:00"
   },
-    {
-    "course": "FDSC 233",
+  {
+    "course": "FDSC 213",
     "section": "001",
-    "title": "Physical Chemistry",
+    "title": "Analytical Chemistry 1",
     "type": "IN-PERSON - FORMAL EXAM - MAC CAMPUS",
-    "start": "2026-04-20T09:00",
-    "end": "2026-04-20T12:00",
-    "building": "CENTEN",
-    "room": "Ballroom"
+    "start": "2026-12-21T09:00",
+    "end": "2026-12-21T12:00"
   },
-    {
-    "course": "FDSC 251",
+  {
+    "course": "FDSC 300",
     "section": "001",
-    "title": "Food Chemistry 1",
+    "title": "Principles of Food Analysis 1",
     "type": "IN-PERSON - FORMAL EXAM - MAC CAMPUS",
-    "start": "2026-04-23T09:00",
-    "end": "2026-04-23T12:00",
-    "building": "CENTEN",
-    "room": "Ballroom"
+    "start": "2026-12-09T09:00",
+    "end": "2026-12-09T12:00"
   },
-    {
-    "course": "FDSC 315",
+  {
+    "course": "FDSC 405",
     "section": "001",
-    "title": "Separation Tech in Food Anal 1",
+    "title": "Food Product Development",
     "type": "IN-PERSON - FORMAL EXAM - MAC CAMPUS",
-    "start": "2026-04-23T14:00",
-    "end": "2026-04-23T17:00",
-    "building": "CENTEN",
-    "room": "Ballroom"
+    "start": "2026-12-16T14:00",
+    "end": "2026-12-16T17:00"
   },
-    {
-    "course": "FDSC 334",
+  {
+    "course": "FDSC 442",
     "section": "001",
-    "title": "Anal of Food Toxins&Toxicants",
+    "title": "Food Microbiology",
     "type": "IN-PERSON - FORMAL EXAM - MAC CAMPUS",
-    "start": "2026-04-24T14:00",
-    "end": "2026-04-24T17:00",
-    "building": "CENTEN",
-    "room": "Ballroom"
+    "start": "2026-12-22T09:00",
+    "end": "2026-12-22T12:00"
   },
-    {
-    "course": "FDSC 516",
+  {
+    "course": "FDSC 537",
     "section": "001",
-    "title": "Flavour Chemistry",
+    "title": "Nutraceutical Chemistry",
     "type": "IN-PERSON - FORMAL EXAM - MAC CAMPUS",
-    "start": "2026-04-17T14:00",
-    "end": "2026-04-17T17:00",
-    "building": "CENTEN",
-    "room": "Ballroom"
+    "start": "2026-12-17T14:00",
+    "end": "2026-12-17T17:00"
   },
-    {
-    "course": "FDSC 525",
+  {
+    "course": "FDSC 540",
     "section": "001",
-    "title": "Food Quality Assurance",
+    "title": "Sensory Evaluation of Foods",
     "type": "IN-PERSON - FORMAL EXAM - MAC CAMPUS",
-    "start": "2026-04-28T14:00",
-    "end": "2026-04-28T17:00",
-    "building": "CENTEN",
-    "room": "Ballroom"
+    "start": "2026-12-15T14:00",
+    "end": "2026-12-15T17:00"
   },
-    {
-    "course": "FDSC 536",
+  {
+    "course": "FDSC 626",
     "section": "001",
-    "title": "Food Traceability",
+    "title": "Food Safety Risk Assessment",
     "type": "IN-PERSON - FORMAL EXAM - MAC CAMPUS",
-    "start": "2026-04-20T09:00",
-    "end": "2026-04-20T12:00",
-    "building": "CENTEN",
-    "room": "Ballroom"
+    "start": "2026-12-22T09:00",
+    "end": "2026-12-22T12:00"
   },
-    {
-    "course": "FDSC 634",
+  {
+    "course": "FDSC 651",
     "section": "001",
-    "title": "Food Toxins & Toxicants",
+    "title": "Principles of Food Analysis 2",
     "type": "IN-PERSON - FORMAL EXAM - MAC CAMPUS",
-    "start": "2026-04-24T14:00",
-    "end": "2026-04-24T17:00",
-    "building": "CENTEN",
-    "room": "Ballroom"
+    "start": "2026-12-09T09:00",
+    "end": "2026-12-09T12:00"
   },
-    {
-    "course": "FDSC 652",
-    "section": "001",
-    "title": "Separation Tech in Food Anal 2",
-    "type": "IN-PERSON - FORMAL EXAM - MAC CAMPUS",
-    "start": "2026-04-23T14:00",
-    "end": "2026-04-23T17:00",
-    "building": "CENTEN",
-    "room": "Ballroom"
-  },
-    {
+  {
     "course": "FINE 342",
     "section": "001",
     "title": "Corporate Finance",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-17T14:00",
-    "end": "2026-04-17T17:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
+    "start": "2026-12-16T14:00",
+    "end": "2026-12-16T17:00"
   },
-    {
+  {
     "course": "FINE 342",
     "section": "002",
     "title": "Corporate Finance",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-17T14:00",
-    "end": "2026-04-17T17:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
+    "start": "2026-12-16T14:00",
+    "end": "2026-12-16T17:00"
   },
-    {
+  {
     "course": "FINE 342",
     "section": "003",
     "title": "Corporate Finance",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-17T14:00",
-    "end": "2026-04-17T17:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
+    "start": "2026-12-16T14:00",
+    "end": "2026-12-16T17:00"
   },
-    {
+  {
     "course": "FINE 342",
     "section": "004",
     "title": "Corporate Finance",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-17T14:00",
-    "end": "2026-04-17T17:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
+    "start": "2026-12-16T14:00",
+    "end": "2026-12-16T17:00"
   },
-    {
+  {
     "course": "FINE 441",
     "section": "001",
     "title": "Investment Management",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-23T09:00",
-    "end": "2026-04-23T12:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
+    "start": "2026-12-07T14:00",
+    "end": "2026-12-07T17:00"
   },
-    {
+  {
     "course": "FINE 441",
     "section": "002",
     "title": "Investment Management",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-23T09:00",
-    "end": "2026-04-23T12:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
+    "start": "2026-12-07T14:00",
+    "end": "2026-12-07T17:00"
   },
-    {
+  {
     "course": "FINE 441",
     "section": "003",
     "title": "Investment Management",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-23T09:00",
-    "end": "2026-04-23T12:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
+    "start": "2026-12-07T14:00",
+    "end": "2026-12-07T17:00"
   },
-    {
+  {
     "course": "FINE 441",
     "section": "004",
     "title": "Investment Management",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-23T09:00",
-    "end": "2026-04-23T12:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
+    "start": "2026-12-07T14:00",
+    "end": "2026-12-07T17:00"
   },
-    {
+  {
     "course": "FINE 442",
     "section": "001",
     "title": "Capital Markets & Institutions",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-20T18:30",
-    "end": "2026-04-20T21:30",
-    "building": "McGill Sports Complex",
-    "room": "STUDIO 2"
+    "start": "2026-12-10T14:00",
+    "end": "2026-12-10T17:00"
   },
-    {
+  {
     "course": "FINE 442",
     "section": "002",
     "title": "Capital Markets & Institutions",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-20T18:30",
-    "end": "2026-04-20T21:30",
-    "building": "McGill Sports Complex",
-    "room": "STUDIO 2"
+    "start": "2026-12-10T14:00",
+    "end": "2026-12-10T17:00"
   },
-    {
+  {
+    "course": "FINE 442",
+    "section": "003",
+    "title": "Capital Markets & Institutions",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-10T14:00",
+    "end": "2026-12-10T17:00"
+  },
+  {
     "course": "FINE 443",
     "section": "001",
     "title": "Applied Corporate Finance",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-17T09:00",
-    "end": "2026-04-17T12:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
+    "start": "2026-12-11T14:00",
+    "end": "2026-12-11T17:00"
   },
-    {
+  {
     "course": "FINE 443",
     "section": "002",
     "title": "Applied Corporate Finance",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-17T09:00",
-    "end": "2026-04-17T12:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
+    "start": "2026-12-11T14:00",
+    "end": "2026-12-11T17:00"
   },
-    {
+  {
     "course": "FINE 443",
     "section": "003",
     "title": "Applied Corporate Finance",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-17T09:00",
-    "end": "2026-04-17T12:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
+    "start": "2026-12-11T14:00",
+    "end": "2026-12-11T17:00"
   },
-    {
-    "course": "FINE 443",
-    "section": "004",
-    "title": "Applied Corporate Finance",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-17T09:00",
-    "end": "2026-04-17T12:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
-  },
-    {
-    "course": "FINE 446",
-    "section": "051",
-    "title": "Behavioural Finance",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-17T14:00",
-    "end": "2026-04-17T17:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
-  },
-    {
-    "course": "FINE 447",
+  {
+    "course": "FINE 445",
     "section": "001",
-    "title": "Venture Capital & Ent Finance",
+    "title": "Real Estate Finance",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-22T09:00",
-    "end": "2026-04-22T12:00",
-    "building": "McGill Sports Complex",
-    "room": "STUDIO 1"
+    "start": "2026-12-21T09:00",
+    "end": "2026-12-21T12:00"
   },
-    {
-    "course": "FINE 447",
-    "section": "002",
-    "title": "Venture Capital & Ent Finance",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-22T09:00",
-    "end": "2026-04-22T12:00",
-    "building": "McGill Sports Complex",
-    "room": "STUDIO 1"
-  },
-    {
+  {
     "course": "FINE 448",
     "section": "001",
     "title": "Financial Derivatives",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-20T14:00",
-    "end": "2026-04-20T17:00",
-    "building": "McGill Sports Complex",
-    "room": "STUDIO 1"
+    "start": "2026-12-08T14:00",
+    "end": "2026-12-08T17:00"
   },
-    {
+  {
     "course": "FINE 448",
     "section": "002",
     "title": "Financial Derivatives",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-20T14:00",
-    "end": "2026-04-20T17:00",
-    "building": "McGill Sports Complex",
-    "room": "STUDIO 1"
+    "start": "2026-12-08T14:00",
+    "end": "2026-12-08T17:00"
   },
-    {
+  {
     "course": "FINE 448",
     "section": "003",
     "title": "Financial Derivatives",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-20T14:00",
-    "end": "2026-04-20T17:00",
-    "building": "McGill Sports Complex",
-    "room": "STUDIO 1"
+    "start": "2026-12-08T14:00",
+    "end": "2026-12-08T17:00"
   },
-    {
-    "course": "FINE 449",
-    "section": "001",
-    "title": "Risk Management in Finance",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-16T09:00",
-    "end": "2026-04-16T12:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
-  },
-    {
-    "course": "FINE 451",
-    "section": "001",
-    "title": "Fixed Income Analysis",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-22T14:00",
-    "end": "2026-04-22T17:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
-  },
-    {
-    "course": "FINE 451",
-    "section": "002",
-    "title": "Fixed Income Analysis",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-22T14:00",
-    "end": "2026-04-22T17:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
-  },
-    {
-    "course": "FINE 465",
-    "section": "001",
-    "title": "Sustainable Finance",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-27T14:00",
-    "end": "2026-04-27T17:00",
-    "building": "McGill Sports Complex",
-    "room": "STUDIO 2"
-  },
-    {
-    "course": "FINE 465",
-    "section": "002",
-    "title": "Sustainable Finance",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-27T14:00",
-    "end": "2026-04-27T17:00",
-    "building": "McGill Sports Complex",
-    "room": "STUDIO 2"
-  },
-    {
-    "course": "FINE 477",
-    "section": "001",
-    "title": "Fintech for Business & Finance",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-28T14:00",
-    "end": "2026-04-28T17:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
-  },
-    {
-    "course": "FINE 477",
-    "section": "002",
-    "title": "Fintech for Business & Finance",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-28T14:00",
-    "end": "2026-04-28T17:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
-  },
-    {
+  {
     "course": "FINE 482",
     "section": "001",
     "title": "International Finance 1",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-30T09:00",
-    "end": "2026-04-30T12:00",
-    "building": "ARMST",
-    "room": "260"
+    "start": "2026-12-16T09:00",
+    "end": "2026-12-16T12:00"
   },
-    {
+  {
     "course": "FINE 482",
     "section": "002",
     "title": "International Finance 1",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-30T09:00",
-    "end": "2026-04-30T12:00",
-    "building": "ARMST",
-    "room": "265"
+    "start": "2026-12-16T09:00",
+    "end": "2026-12-16T12:00"
   },
-    {
+  {
     "course": "FINE 482",
     "section": "003",
     "title": "International Finance 1",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-30T09:00",
-    "end": "2026-04-30T12:00",
-    "building": "ARMST",
-    "room": "260"
+    "start": "2026-12-16T09:00",
+    "end": "2026-12-16T12:00"
   },
-    {
-    "course": "FREN 245",
+  {
+    "course": "FINE 490",
     "section": "001",
-    "title": "Grammaire normative",
+    "title": "Mergers & Corp Reorganizations",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-23T18:30",
-    "end": "2026-04-23T21:30",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
+    "start": "2026-12-16T14:00",
+    "end": "2026-12-16T17:00"
   },
-    {
-    "course": "FREN 252",
-    "section": "001",
-    "title": "Litt rature qu b coise",
+  {
+    "course": "FINE 490",
+    "section": "002",
+    "title": "Mergers & Corp Reorganizations",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-27T18:30",
-    "end": "2026-04-27T21:30",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
+    "start": "2026-12-16T14:00",
+    "end": "2026-12-16T17:00"
   },
-    {
-    "course": "FREN 320",
+  {
+    "course": "FMT4 002",
     "section": "001",
-    "title": "Traduire, crire, exp rimenter",
+    "title": "Soil Tillage",
+    "type": "IN-PERSON - FORMAL EXAM - MAC CAMPUS",
+    "start": "2026-12-17T14:00",
+    "end": "2026-12-17T17:00"
+  },
+  {
+    "course": "FMT4 004",
+    "section": "001",
+    "title": "Animal Physiology and Anatomy",
+    "type": "IN-PERSON - FORMAL EXAM - MAC CAMPUS",
+    "start": "2026-12-16T14:00",
+    "end": "2026-12-16T17:00"
+  },
+  {
+    "course": "FMT4 005",
+    "section": "001",
+    "title": "Introduction to Plant Science",
+    "type": "IN-PERSON - FORMAL EXAM - MAC CAMPUS",
+    "start": "2026-12-18T14:00",
+    "end": "2026-12-18T17:00"
+  },
+  {
+    "course": "FMT4 006",
+    "section": "001",
+    "title": "Pesticides and the Environment",
+    "type": "IN-PERSON - FORMAL EXAM - MAC CAMPUS",
+    "start": "2026-12-11T14:00",
+    "end": "2026-12-11T17:00"
+  },
+  {
+    "course": "FMT4 014",
+    "section": "001",
+    "title": "Marketing Strategies",
+    "type": "IN-PERSON - FORMAL EXAM - MAC CAMPUS",
+    "start": "2026-12-15T14:00",
+    "end": "2026-12-15T17:00"
+  },
+  {
+    "course": "FMT4 019",
+    "section": "001",
+    "title": "Nutrient Management Plan",
+    "type": "IN-PERSON - FORMAL EXAM - MAC CAMPUS",
+    "start": "2026-12-11T14:00",
+    "end": "2026-12-11T17:00"
+  },
+  {
+    "course": "FMT4 020",
+    "section": "001",
+    "title": "Conservation of Soil and Water",
+    "type": "IN-PERSON - FORMAL EXAM - MAC CAMPUS",
+    "start": "2026-12-15T14:00",
+    "end": "2026-12-15T17:00"
+  },
+  {
+    "course": "FMT4 022",
+    "section": "001",
+    "title": "Equipment Management",
+    "type": "IN-PERSON - FORMAL EXAM - MAC CAMPUS",
+    "start": "2026-12-17T14:00",
+    "end": "2026-12-17T17:00"
+  },
+  {
+    "course": "FMT4 026",
+    "section": "001",
+    "title": "Human Resources",
+    "type": "IN-PERSON - FORMAL EXAM - MAC CAMPUS",
+    "start": "2026-12-10T09:00",
+    "end": "2026-12-10T12:00"
+  },
+  {
+    "course": "FMT4 035",
+    "section": "001",
+    "title": "Field Crop Management 1",
+    "type": "IN-PERSON - FORMAL EXAM - MAC CAMPUS",
+    "start": "2026-12-18T14:00",
+    "end": "2026-12-18T17:00"
+  },
+  {
+    "course": "FREN 239",
+    "section": "001",
+    "title": "Stylistique compar e",
     "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-04-22T14:00",
-    "end": "2026-04-22T17:00",
-    "building": "BIRKS",
-    "room": "203"
+    "start": "2026-12-18T14:00",
+    "end": "2026-12-18T17:00"
   },
-    {
-    "course": "FREN 336",
+  {
+    "course": "FREN 250",
     "section": "001",
-    "title": "Hist. de la langue fran aise",
-    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-04-27T09:00",
-    "end": "2026-04-27T12:00",
-    "building": "BIRKS",
-    "room": "203"
-  },
-    {
-    "course": "FREN 355",
-    "section": "001",
-    "title": "Litt rature du 20e si cle 1",
-    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-04-23T14:00",
-    "end": "2026-04-23T17:00",
-    "building": "ARTS",
-    "room": "W-20"
-  },
-    {
-    "course": "FREN 444",
-    "section": "001",
-    "title": "Questions de litt. moderne",
+    "title": "Litt fran aise avant 1800",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-20T18:30",
-    "end": "2026-04-20T21:30",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
+    "start": "2026-12-18T09:00",
+    "end": "2026-12-18T12:00"
   },
-    {
+  {
+    "course": "FREN 453",
+    "section": "001",
+    "title": "Litt rature du 20e si cle",
+    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
+    "start": "2026-12-22T09:00",
+    "end": "2026-12-22T12:00"
+  },
+  {
+    "course": "FREN 498",
+    "section": "001",
+    "title": "Questions de litt rature 3",
+    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
+    "start": "2026-12-18T09:00",
+    "end": "2026-12-18T12:00"
+  },
+  {
+    "course": "GEOG 201",
+    "section": "001",
+    "title": "Intro Geo-Information Science",
+    "type": "ONLINE - TAKE-HOME - 72 HOURS",
+    "start": "2026-12-14T09:00",
+    "end": "2026-12-17T09:00"
+  },
+  {
     "course": "GEOG 205",
     "section": "001",
     "title": "Global Chg:Past, Pres & Future",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-22T09:00",
-    "end": "2026-04-22T12:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
+    "start": "2026-12-07T18:30",
+    "end": "2026-12-07T21:30"
   },
-    {
-    "course": "GEOG 217",
+  {
+    "course": "GEOG 216",
     "section": "001",
-    "title": "Cities in the Modern World",
+    "title": "Geography of the World Economy",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-30T09:00",
-    "end": "2026-04-30T12:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
+    "start": "2026-12-14T18:30",
+    "end": "2026-12-14T21:30"
   },
-    {
-    "course": "GEOG 272",
+  {
+    "course": "GEOG 221",
     "section": "001",
-    "title": "Earth's Changing Surface",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-29T14:00",
-    "end": "2026-04-29T17:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
+    "title": "Environment and Health",
+    "type": "IN-PERSON - FORMAL EXAM - MAC CAMPUS",
+    "start": "2026-12-16T14:00",
+    "end": "2026-12-16T17:00"
   },
-    {
-    "course": "GEOG 303",
-    "section": "001",
-    "title": "Health Geography",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-16T09:00",
-    "end": "2026-04-16T12:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
-  },
-    {
-    "course": "GEOG 311",
-    "section": "001",
-    "title": "Economic Geography",
-    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-04-22T18:30",
-    "end": "2026-04-22T21:30",
-    "building": "BURN",
-    "room": "306"
-  },
-    {
+  {
     "course": "GEOG 316",
     "section": "001",
     "title": "Political Geography",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-20T14:00",
-    "end": "2026-04-20T17:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
+    "start": "2026-12-10T18:30",
+    "end": "2026-12-10T21:30"
   },
-    {
-    "course": "GEOG 321",
+  {
+    "course": "GEOG 322",
     "section": "001",
-    "title": "Climatic Environments",
+    "title": "Environmental Hydrology",
     "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-04-24T14:00",
-    "end": "2026-04-24T17:00",
-    "building": "BURN",
-    "room": "306"
+    "start": "2026-12-08T14:00",
+    "end": "2026-12-08T17:00"
   },
-    {
-    "course": "GSFS 200",
+  {
+    "course": "GEOG 408",
     "section": "001",
-    "title": "Feminist and Social Justice St",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-17T09:00",
-    "end": "2026-04-17T12:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
+    "title": "Geography of Development",
+    "type": "TAKE-HOME - EXAM",
+    "start": "2026-12-21T09:00",
+    "end": "2026-12-21T12:00"
   },
-    {
-    "course": "HGEN 400",
+  {
+    "course": "GEOG 417",
     "section": "001",
-    "title": "Genetics in Medicine",
+    "title": "Urban Geography",
+    "type": "ONLINE - TAKE-HOME - 2 WEEKS",
+    "start": "2026-11-15T09:00",
+    "end": "2026-11-29T09:00"
+  },
+  {
+    "course": "GERM 259",
+    "section": "001",
+    "title": "Intro to German Literature 1",
     "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-04-21T14:00",
-    "end": "2026-04-21T17:00",
-    "building": "ENGMC",
-    "room": "12"
+    "start": "2026-12-11T09:00",
+    "end": "2026-12-11T12:00"
   },
-    {
-    "course": "HIST 201",
+  {
+    "course": "GPHL 301",
     "section": "001",
-    "title": "Modern African History",
+    "title": "Intro to Research Methods",
+    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
+    "start": "2026-12-18T14:00",
+    "end": "2026-12-18T17:00"
+  },
+  {
+    "course": "GPHL 500",
+    "section": "001",
+    "title": "Critical Perspect: Global Hlth",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-22T18:30",
-    "end": "2026-04-22T21:30",
-    "building": "McGill Sports Complex",
-    "room": "BLEACHERS"
+    "start": "2026-12-15T09:00",
+    "end": "2026-12-15T12:00"
+  },
+  {
+    "course": "GSFS 250",
+    "section": "001",
+    "title": "Sexual and Gender Diversity St",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-08T09:00",
+    "end": "2026-12-08T12:00"
+  },
+  {
+    "course": "HGEN 575",
+    "section": "001",
+    "title": "Human Biochemical Genetics",
+    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
+    "start": "2026-12-07T09:00",
+    "end": "2026-12-07T12:00"
+  },
+  {
+    "course": "HISP 247",
+    "section": "001",
+    "title": "Intro to Hisp Popular Cultures",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-17T09:00",
+    "end": "2026-12-17T12:00"
+  },
+  {
+    "course": "HIST 205",
+    "section": "001",
+    "title": "Ancient Mediterranean History",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-22T09:00",
+    "end": "2026-12-22T12:00"
   },
   {
     "course": "HIST 211",
     "section": "001",
     "title": "American History to 1865",
-    "type": "ONLINE - TAKE-HOME - 72 HOURS",
-    "start": "2026-04-20T09:00",
-    "end": "2026-04-23T09:00"
-  },
-    {
-    "course": "HIST 215",
-    "section": "001",
-    "title": "Modern Europe",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-16T14:00",
-    "end": "2026-04-16T17:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
-  },
-    {
-    "course": "HIST 216",
-    "section": "001",
-    "title": "Intro to Russian History",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-24T14:00",
-    "end": "2026-04-24T17:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
-  },
-    {
-    "course": "HIST 218",
-    "section": "001",
-    "title": "Modern East Asian History",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-21T14:00",
-    "end": "2026-04-21T17:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
-  },
-    {
-    "course": "HIST 222",
-    "section": "001",
-    "title": "History of Pandemics",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-24T14:00",
-    "end": "2026-04-24T17:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
+    "start": "2026-12-07T18:30",
+    "end": "2026-12-07T21:30"
   },
   {
-    "course": "HIST 223",
+    "course": "HIST 214",
     "section": "001",
-    "title": "Indigenous Peoples and Empires",
-    "type": "ONLINE - TAKE-HOME - 72 HOURS",
-    "start": "2026-04-20T09:00",
-    "end": "2026-04-23T09:00"
+    "title": "Early Modern Europe",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-15T14:00",
+    "end": "2026-12-15T17:00"
   },
-    {
+  {
     "course": "HIST 240",
     "section": "001",
     "title": "Mod Hist of Islamic Movements",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-17T09:00",
-    "end": "2026-04-17T12:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
-  },
-    {
-    "course": "HIST 299",
-    "section": "001",
-    "title": "The Historian's Craft",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-23T09:00",
-    "end": "2026-04-23T12:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
+    "start": "2026-12-15T18:30",
+    "end": "2026-12-15T21:30"
   },
   {
-    "course": "HIST 344",
+    "course": "HIST 300",
     "section": "001",
-    "title": "The Chinese Family in History",
-    "type": "ONLINE - TIMED EXAM - 3 HOURS",
-    "start": "2026-04-20T09:00",
-    "end": "2026-04-20T12:00"
-  },
-    {
-    "course": "HIST 363",
-    "section": "001",
-    "title": "Canada 1870-1914",
+    "title": "History of Law and Society",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-16T09:00",
-    "end": "2026-04-16T12:00",
-    "building": "McGill Sports Complex",
-    "room": "BLEACHERS"
+    "start": "2026-12-18T14:00",
+    "end": "2026-12-18T17:00"
   },
-    {
-    "course": "HIST 369",
+  {
+    "course": "HIST 303",
     "section": "001",
-    "title": "Greek History: Early Greece",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-27T18:30",
-    "end": "2026-04-27T21:30",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
-  },
-    {
-    "course": "HIST 375",
-    "section": "001",
-    "title": "Rome: Republic to Empire",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-30T14:00",
-    "end": "2026-04-30T17:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
-  },
-    {
-    "course": "HIST 383",
-    "section": "001",
-    "title": "Eighteenth-Century Britain",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-17T14:00",
-    "end": "2026-04-17T17:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
-  },
-    {
-    "course": "HIST 399",
-    "section": "001",
-    "title": "History and Historiography",
+    "title": "History of Quebec",
     "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-04-28T14:00",
-    "end": "2026-04-28T17:00",
-    "building": "LEA",
-    "room": "14"
+    "start": "2026-12-08T09:00",
+    "end": "2026-12-08T12:00"
   },
-    {
-    "course": "IGFS 611",
+  {
+    "course": "HIST 304",
     "section": "001",
-    "title": "Adv. Issues on Dev. Food&Agric",
-    "type": "IN-PERSON - FORMAL EXAM - MAC CAMPUS",
-    "start": "2026-04-27T09:00",
-    "end": "2026-04-27T12:00",
-    "building": "CENTEN",
-    "room": "Ballroom"
+    "title": "IR History 2: Cold War",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-08T18:30",
+    "end": "2026-12-08T21:30"
   },
-    {
-    "course": "INSY 341",
+  {
+    "course": "HIST 314",
     "section": "001",
-    "title": "Developing Business Apps",
+    "title": "Themes: British Isles History",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-10T18:30",
+    "end": "2026-12-10T21:30"
+  },
+  {
+    "course": "HIST 327",
+    "section": "001",
+    "title": "Age of the American Revolution",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-16T14:00",
+    "end": "2026-12-16T17:00"
+  },
+  {
+    "course": "HIST 333",
+    "section": "001",
+    "title": "Indigenous Peoples & French",
     "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-04-27T09:00",
-    "end": "2026-04-27T12:00",
-    "building": "BRONF",
-    "room": "205"
+    "start": "2026-12-21T14:00",
+    "end": "2026-12-21T17:00"
   },
-    {
-    "course": "INSY 437",
+  {
+    "course": "HIST 338",
     "section": "001",
-    "title": "Managing Data & Databases",
-    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-04-29T09:00",
-    "end": "2026-04-29T12:00",
-    "building": "ARMST",
-    "room": "375"
+    "title": "Twentieth-Century China",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-17T09:00",
+    "end": "2026-12-17T12:00"
   },
-    {
+  {
+    "course": "HIST 347",
+    "section": "001",
+    "title": "History and Sexuality 2",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-17T14:00",
+    "end": "2026-12-17T17:00"
+  },
+  {
+    "course": "HIST 376",
+    "section": "001",
+    "title": "Fall of the Roman Empire",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-18T09:00",
+    "end": "2026-12-18T12:00"
+  },
+  {
+    "course": "HIST 389",
+    "section": "001",
+    "title": "Topics: African Country Survey",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-09T09:00",
+    "end": "2026-12-09T12:00"
+  },
+  {
+    "course": "HIST 430",
+    "section": "001",
+    "title": "Topics in Modern Medicine",
+    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
+    "start": "2026-12-17T14:00",
+    "end": "2026-12-17T17:00"
+  },
+  {
+    "course": "INDG 300",
+    "section": "001",
+    "title": "Topics in Indigenous Studies 2",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-15T09:00",
+    "end": "2026-12-15T12:00"
+  },
+  {
+    "course": "INSY 333",
+    "section": "001",
+    "title": "Systems Analysis & Modelling",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-09T09:00",
+    "end": "2026-12-09T12:00"
+  },
+  {
+    "course": "INSY 336",
+    "section": "001",
+    "title": "DataHandl&Coding for Analytics",
+    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
+    "start": "2026-12-22T09:00",
+    "end": "2026-12-22T12:00"
+  },
+  {
+    "course": "INSY 336",
+    "section": "002",
+    "title": "DataHandl&Coding for Analytics",
+    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
+    "start": "2026-12-22T09:00",
+    "end": "2026-12-22T12:00"
+  },
+  {
+    "course": "INSY 435",
+    "section": "001",
+    "title": "Topics in IS 2",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-15T09:00",
+    "end": "2026-12-15T12:00"
+  },
+  {
+    "course": "INSY 440",
+    "section": "001",
+    "title": "E-Business",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-17T14:00",
+    "end": "2026-12-17T17:00"
+  },
+  {
     "course": "INSY 446",
     "section": "001",
     "title": "DataMiningforBusinessAnalytics",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-24T09:00",
-    "end": "2026-04-24T12:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
+    "type": "TAKE-HOME - EXAM - 48 HOURS",
+    "start": "2026-12-14T09:00",
+    "end": "2026-12-16T09:00"
   },
-    {
-    "course": "INSY 450",
-    "section": "001",
-    "title": "IS Project Management",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-17T14:00",
-    "end": "2026-04-17T17:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
-  },
-    {
+  {
     "course": "INTD 356",
     "section": "001",
     "title": "Quantitative Methods for Dev",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-27T14:00",
-    "end": "2026-04-27T17:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
+    "start": "2026-12-16T18:30",
+    "end": "2026-12-16T21:30"
   },
-    {
-    "course": "INTD 360",
+  {
+    "course": "INTD 364",
     "section": "001",
-    "title": "Envrnmntl Challenges in Dev",
+    "title": "Climate Chng, Culture & Power",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-22T14:00",
-    "end": "2026-04-22T17:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
+    "start": "2026-12-11T14:00",
+    "end": "2026-12-11T17:00"
   },
-    {
-    "course": "INTD 398AB",
+  {
+    "course": "INTD 397",
+    "section": "002",
+    "title": "Topics in Int'l Development",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-17T09:00",
+    "end": "2026-12-17T12:00"
+  },
+  {
+    "course": "INTD 398",
     "section": "001",
     "title": "Topics: Conflict & Development",
-    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-04-29T14:00",
-    "end": "2026-04-29T17:00",
-    "building": "ENGTR",
-    "room": "1080"
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-16T14:00",
+    "end": "2026-12-16T17:00"
   },
-    {
-    "course": "ISLA 221D2",
+  {
+    "course": "INTD 497",
+    "section": "001",
+    "title": "Adv. Topics: Int'l Development",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-09T14:00",
+    "end": "2026-12-09T17:00"
+  },
+  {
+    "course": "ISLA 210",
+    "section": "001",
+    "title": "Muslim Societies",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-10T14:00",
+    "end": "2026-12-10T17:00"
+  },
+  {
+    "course": "ISLA 221D1",
     "section": "001",
     "title": "Introductory Arabic",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-21T14:00",
-    "end": "2026-04-21T17:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
+    "start": "2026-12-15T18:30",
+    "end": "2026-12-15T21:30"
   },
-    {
-    "course": "ISLA 221D2",
+  {
+    "course": "ISLA 221D1",
     "section": "002",
     "title": "Introductory Arabic",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-21T14:00",
-    "end": "2026-04-21T17:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
+    "start": "2026-12-15T18:30",
+    "end": "2026-12-15T21:30"
   },
-    {
-    "course": "ISLA 232D2",
+  {
+    "course": "ISLA 232D1",
     "section": "001",
     "title": "Introductory Turkish",
-    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-04-24T14:00",
-    "end": "2026-04-24T17:00",
-    "building": "LEA",
-    "room": "210"
+    "type": "IN-PERSON - ORAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-17T14:00",
+    "end": "2026-12-17T17:00"
   },
-    {
-    "course": "ISLA 311",
+  {
+    "course": "ISLA 315",
     "section": "001",
-    "title": "Hist of the City-Islamic World",
+    "title": "Ottoman State&Society to 1839",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-24T14:00",
-    "end": "2026-04-24T17:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
+    "start": "2026-12-18T14:00",
+    "end": "2026-12-18T17:00"
   },
-    {
-    "course": "ISLA 322D2",
+  {
+    "course": "ISLA 322D1",
     "section": "001",
     "title": "Lower Intermediate Arabic",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-29T09:00",
-    "end": "2026-04-29T12:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
+    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
+    "start": "2026-12-07T14:00",
+    "end": "2026-12-07T17:00"
   },
-    {
-    "course": "ISLA 333D2",
+  {
+    "course": "ISLA 333D1",
     "section": "001",
     "title": "Lower Intermediate Turkish",
     "type": "IN-PERSON - ORAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-28T09:00",
-    "end": "2026-04-28T12:00",
-    "building": "MOR",
-    "room": "328"
+    "start": "2026-12-18T14:00",
+    "end": "2026-12-18T17:00"
   },
-    {
-    "course": "ISLA 423D2",
+  {
+    "course": "ISLA 388",
+    "section": "001",
+    "title": "Persian Literature",
+    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
+    "start": "2026-12-22T09:00",
+    "end": "2026-12-22T12:00"
+  },
+  {
+    "course": "ISLA 423D1",
     "section": "001",
     "title": "Higher Intermediate Arabic",
     "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-04-23T09:00",
-    "end": "2026-04-23T12:00",
-    "building": "LEA",
-    "room": "210"
+    "start": "2026-12-14T09:00",
+    "end": "2026-12-14T12:00"
   },
-    {
-    "course": "ISLA 423D2",
-    "section": "002",
-    "title": "Higher Intermediate Arabic",
-    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-04-23T09:00",
-    "end": "2026-04-23T12:00",
-    "building": "LEA",
-    "room": "210"
-  },
-    {
-    "course": "ISLA 434D2",
+  {
+    "course": "ISLA 434D1",
     "section": "001",
     "title": "Higher Intermediate Turkish",
     "type": "IN-PERSON - ORAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-30T14:00",
-    "end": "2026-04-30T17:00",
-    "building": "MOR",
-    "room": "328"
+    "start": "2026-12-15T09:00",
+    "end": "2026-12-15T12:00"
   },
-    {
-    "course": "ISLA 622D2",
+  {
+    "course": "ISLA 524",
     "section": "001",
-    "title": "Arabic for Reading 2",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-29T09:00",
-    "end": "2026-04-29T12:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
+    "title": "Advanced Arabic 1",
+    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
+    "start": "2026-12-22T09:00",
+    "end": "2026-12-22T12:00"
   },
-    {
-    "course": "JWST 252",
+  {
+    "course": "ISLA 621D1",
     "section": "001",
-    "title": "Interdisciplinary Lectures",
+    "title": "Arabic for Reading 1",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-29T18:30",
-    "end": "2026-04-29T21:30",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
+    "start": "2026-12-15T18:30",
+    "end": "2026-12-15T21:30"
   },
-    {
+  {
+    "course": "JWST 240",
+    "section": "001",
+    "title": "The Holocaust",
+    "type": "TAKE-HOME - EXAM",
+    "start": "2026-12-11T14:00",
+    "end": "2026-12-11T17:00"
+  },
+  {
+    "course": "JWST 245",
+    "section": "001",
+    "title": "Jewish Life - Islamic World",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-15T09:00",
+    "end": "2026-12-15T12:00"
+  },
+  {
+    "course": "JWST 254",
+    "section": "001",
+    "title": "The Jewish Holy Days",
+    "type": "ONLINE - TAKE-HOME - 72 HOURS",
+    "start": "2026-12-14T09:00",
+    "end": "2026-12-17T09:00"
+  },
+  {
     "course": "LING 201",
     "section": "001",
     "title": "Introduction to Linguistics",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-16T14:00",
-    "end": "2026-04-16T17:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
+    "start": "2026-12-09T14:00",
+    "end": "2026-12-09T17:00"
   },
-    {
+  {
+    "course": "LING 210",
+    "section": "001",
+    "title": "Introduction to Speech Science",
+    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
+    "start": "2026-12-15T09:00",
+    "end": "2026-12-15T12:00"
+  },
+  {
     "course": "LING 260",
     "section": "001",
     "title": "Meaning in Language",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-21T14:00",
-    "end": "2026-04-21T17:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
+    "start": "2026-12-08T18:30",
+    "end": "2026-12-08T21:30"
   },
-    {
-    "course": "LING 320",
-    "section": "001",
-    "title": "Sociolinguistics 1",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-27T09:00",
-    "end": "2026-04-27T12:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
-  },
-    {
+  {
     "course": "LING 330",
     "section": "001",
     "title": "Phonetics",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-23T14:00",
-    "end": "2026-04-23T17:00",
-    "building": "McGill Sports Complex",
-    "room": "STUDIO 2"
+    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
+    "start": "2026-12-07T09:00",
+    "end": "2026-12-07T12:00"
   },
-    {
+  {
     "course": "LING 331",
     "section": "001",
     "title": "Phonology 1",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-16T09:00",
+    "end": "2026-12-16T12:00"
+  },
+  {
+    "course": "LING 360",
+    "section": "001",
+    "title": "Introduction to Semantics",
     "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-04-17T09:00",
-    "end": "2026-04-17T12:00",
-    "building": "ENGMC",
-    "room": "304"
+    "start": "2026-12-21T14:00",
+    "end": "2026-12-21T17:00"
   },
-    {
-    "course": "LING 345",
+  {
+    "course": "LING 365",
     "section": "001",
-    "title": "From Natural Lang to Data Sci",
+    "title": "Pragmatics 1",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-23T09:00",
-    "end": "2026-04-23T12:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
+    "start": "2026-12-17T14:00",
+    "end": "2026-12-17T17:00"
   },
-    {
-    "course": "LING 355",
-    "section": "001",
-    "title": "Language Acquisition 1",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-28T09:00",
-    "end": "2026-04-28T12:00",
-    "building": "McGill Sports Complex",
-    "room": "408"
-  },
-    {
+  {
     "course": "LING 371",
     "section": "001",
     "title": "Syntax 1",
+    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
+    "start": "2026-12-07T18:30",
+    "end": "2026-12-07T21:30"
+  },
+  {
+    "course": "LING 419",
+    "section": "001",
+    "title": "Ling Theory & its Foundations",
+    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
+    "start": "2026-12-18T14:00",
+    "end": "2026-12-18T17:00"
+  },
+  {
+    "course": "LING 445",
+    "section": "001",
+    "title": "Computational Linguistics",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-16T09:00",
-    "end": "2026-04-16T12:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
+    "start": "2026-12-17T18:30",
+    "end": "2026-12-17T21:30"
   },
-    {
-    "course": "LING 461",
+  {
+    "course": "LING 645",
     "section": "001",
-    "title": "Formal Methods in Linguistics",
-    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-04-24T09:00",
-    "end": "2026-04-24T12:00",
-    "building": "EDUC",
-    "room": "629"
-  },
-    {
-    "course": "LING 661",
-    "section": "001",
-    "title": "Advanced Formal Methods",
-    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-04-24T09:00",
-    "end": "2026-04-24T12:00",
-    "building": "EDUC",
-    "room": "629"
-  },
-    {
-    "course": "LLCU 230",
-    "section": "001",
-    "title": "Environmental Imaginations",
-    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-04-20T09:00",
-    "end": "2026-04-20T12:00",
-    "building": "EDUC",
-    "room": "629"
-  },
-    {
-    "course": "LLCU 300",
-    "section": "001",
-    "title": "Cinema and the Visual",
+    "title": "Computational Research on Lang",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-23T09:00",
-    "end": "2026-04-23T12:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
+    "start": "2026-12-17T18:30",
+    "end": "2026-12-17T21:30"
   },
-    {
+  {
+    "course": "LLCU 301",
+    "section": "001",
+    "title": "Topics in Culture and Thought",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-10T14:00",
+    "end": "2026-12-10T17:00"
+  },
+  {
+    "course": "LSCI 204",
+    "section": "001",
+    "title": "Genetics",
+    "type": "IN-PERSON - FORMAL EXAM - MAC CAMPUS",
+    "start": "2026-12-08T09:00",
+    "end": "2026-12-08T12:00"
+  },
+  {
+    "course": "LSCI 207",
+    "section": "001",
+    "title": "One Health Fundamentals",
+    "type": "IN-PERSON - FORMAL EXAM - MAC CAMPUS",
+    "start": "2026-12-07T09:00",
+    "end": "2026-12-07T12:00"
+  },
+  {
     "course": "LSCI 211",
     "section": "001",
     "title": "Biochemistry 1",
     "type": "IN-PERSON - FORMAL EXAM - MAC CAMPUS",
-    "start": "2026-04-16T09:00",
-    "end": "2026-04-16T12:00",
-    "building": "CENTEN",
-    "room": "Ballroom"
+    "start": "2026-12-18T09:00",
+    "end": "2026-12-18T12:00"
   },
-    {
-    "course": "LSCI 230",
+  {
+    "course": "MATH 122",
     "section": "001",
-    "title": "Introductory Microbiology",
-    "type": "IN-PERSON - FORMAL EXAM - MAC CAMPUS",
-    "start": "2026-04-28T09:00",
-    "end": "2026-04-28T12:00",
-    "building": "CENTEN",
-    "room": "Ballroom"
-  },
-    {
-    "course": "MATH 111",
-    "section": "001",
-    "title": "Math for Education Students",
+    "title": "Calculus for Management",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-22T18:30",
-    "end": "2026-04-22T21:30",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
+    "start": "2026-12-08T18:30",
+    "end": "2026-12-08T21:30"
   },
-    {
+  {
     "course": "MATH 123",
     "section": "001",
     "title": "Linear Algebra and Probability",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-16T09:00",
-    "end": "2026-04-16T12:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
+    "start": "2026-12-09T18:30",
+    "end": "2026-12-09T21:30"
   },
-    {
+  {
     "course": "MATH 133",
     "section": "001",
     "title": "Linear Algebra and Geometry",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-20T09:00",
-    "end": "2026-04-20T12:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
+    "start": "2026-12-10T18:30",
+    "end": "2026-12-10T21:30"
   },
-    {
+  {
+    "course": "MATH 133",
+    "section": "002",
+    "title": "Linear Algebra and Geometry",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-10T18:30",
+    "end": "2026-12-10T21:30"
+  },
+  {
+    "course": "MATH 133",
+    "section": "003",
+    "title": "Linear Algebra and Geometry",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-10T18:30",
+    "end": "2026-12-10T21:30"
+  },
+  {
+    "course": "MATH 133",
+    "section": "004",
+    "title": "Linear Algebra and Geometry",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-10T18:30",
+    "end": "2026-12-10T21:30"
+  },
+  {
     "course": "MATH 140",
     "section": "001",
     "title": "Calculus 1",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-16T09:00",
-    "end": "2026-04-16T12:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
+    "start": "2026-12-09T18:30",
+    "end": "2026-12-09T21:30"
   },
-    {
+  {
+    "course": "MATH 140",
+    "section": "002",
+    "title": "Calculus 1",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-09T18:30",
+    "end": "2026-12-09T21:30"
+  },
+  {
+    "course": "MATH 140",
+    "section": "003",
+    "title": "Calculus 1",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-09T18:30",
+    "end": "2026-12-09T21:30"
+  },
+  {
     "course": "MATH 141",
     "section": "001",
     "title": "Calculus 2",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-21T09:00",
-    "end": "2026-04-21T12:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
+    "start": "2026-12-10T14:00",
+    "end": "2026-12-10T17:00"
   },
-    {
+  {
     "course": "MATH 141",
     "section": "002",
     "title": "Calculus 2",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-21T09:00",
-    "end": "2026-04-21T12:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
+    "start": "2026-12-10T14:00",
+    "end": "2026-12-10T17:00"
   },
-    {
-    "course": "MATH 141",
-    "section": "003",
-    "title": "Calculus 2",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-21T09:00",
-    "end": "2026-04-21T12:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
+  {
+    "course": "MATH 180",
+    "section": "001",
+    "title": "The Art of Mathematics",
+    "type": "ONLINE - TIMED EXAM - 3 HOURS",
+    "start": "2026-12-22T09:00",
+    "end": "2026-12-22T12:00"
   },
-    {
+  {
     "course": "MATH 203",
     "section": "001",
     "title": "Principles of Statistics 1",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-22T14:00",
-    "end": "2026-04-22T17:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
+    "start": "2026-12-16T09:00",
+    "end": "2026-12-16T12:00"
   },
-    {
-    "course": "MATH 204",
-    "section": "001",
-    "title": "Principles of Statistics 2",
+  {
+    "course": "MATH 203",
+    "section": "002",
+    "title": "Principles of Statistics 1",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-22T09:00",
-    "end": "2026-04-22T12:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
+    "start": "2026-12-16T09:00",
+    "end": "2026-12-16T12:00"
   },
-    {
-    "course": "MATH 209",
+  {
+    "course": "MATH 208",
     "section": "001",
-    "title": "FundlsofStatclModlng&Infrnce",
-    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-04-24T14:00",
-    "end": "2026-04-24T17:00",
-    "building": "BURN",
-    "room": "920"
+    "title": "Intro to Statistical Computing",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-21T18:30",
+    "end": "2026-12-21T21:30"
   },
-    {
+  {
     "course": "MATH 222",
     "section": "001",
     "title": "Calculus 3",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-30T09:00",
-    "end": "2026-04-30T12:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
+    "start": "2026-12-09T18:30",
+    "end": "2026-12-09T21:30"
   },
-    {
+  {
+    "course": "MATH 222",
+    "section": "002",
+    "title": "Calculus 3",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-09T18:30",
+    "end": "2026-12-09T21:30"
+  },
+  {
     "course": "MATH 223",
     "section": "001",
     "title": "Linear Algebra",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-16T09:00",
-    "end": "2026-04-16T12:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
+    "start": "2026-12-09T09:00",
+    "end": "2026-12-09T12:00"
   },
-    {
-    "course": "MATH 236",
-    "section": "001",
-    "title": "Algebra 2",
+  {
+    "course": "MATH 223",
+    "section": "002",
+    "title": "Linear Algebra",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-20T09:00",
-    "end": "2026-04-20T12:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
+    "start": "2026-12-09T09:00",
+    "end": "2026-12-09T12:00"
   },
-    {
+  {
+    "course": "MATH 235",
+    "section": "001",
+    "title": "Algebra 1",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-17T18:30",
+    "end": "2026-12-17T21:30"
+  },
+  {
     "course": "MATH 240",
     "section": "001",
     "title": "Discrete Structures",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-28T14:00",
-    "end": "2026-04-28T17:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
+    "start": "2026-12-14T09:00",
+    "end": "2026-12-14T12:00"
   },
-    {
+  {
     "course": "MATH 240",
     "section": "002",
     "title": "Discrete Structures",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-28T14:00",
-    "end": "2026-04-28T17:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
+    "start": "2026-12-14T09:00",
+    "end": "2026-12-14T12:00"
   },
-    {
-    "course": "MATH 243",
+  {
+    "course": "MATH 242",
     "section": "001",
-    "title": "Analysis 2",
+    "title": "Analysis 1",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-29T18:30",
-    "end": "2026-04-29T21:30",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
+    "start": "2026-12-07T18:30",
+    "end": "2026-12-07T21:30"
   },
-    {
-    "course": "MATH 247",
+  {
+    "course": "MATH 245",
     "section": "001",
-    "title": "Honours Applied Linear Algebra",
+    "title": "Honours Algebra 1",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-20T09:00",
-    "end": "2026-04-20T12:00",
-    "building": "McGill Sports Complex",
-    "room": "STUDIO 2"
+    "start": "2026-12-08T18:30",
+    "end": "2026-12-08T21:30"
   },
-    {
-    "course": "MATH 249",
+  {
+    "course": "MATH 248",
     "section": "001",
-    "title": "Honours Complex Variables",
+    "title": "Honours Vector Calculus",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-17T14:00",
-    "end": "2026-04-17T17:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
+    "start": "2026-12-10T09:00",
+    "end": "2026-12-10T12:00"
   },
-    {
-    "course": "MATH 251",
+  {
+    "course": "MATH 254",
     "section": "001",
-    "title": "Honours Algebra 2",
+    "title": "Honours Analysis 1",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-23T14:00",
-    "end": "2026-04-23T17:00",
-    "building": "McGill Sports Complex",
-    "room": "STUDIO 1"
+    "start": "2026-12-17T18:30",
+    "end": "2026-12-17T21:30"
   },
-    {
-    "course": "MATH 255",
-    "section": "001",
-    "title": "Honours Analysis 2",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-16T09:00",
-    "end": "2026-04-16T12:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
-  },
-    {
+  {
     "course": "MATH 262",
     "section": "001",
     "title": "Intermediate Calculus",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-16T09:00",
-    "end": "2026-04-16T12:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
+    "start": "2026-12-09T09:00",
+    "end": "2026-12-09T12:00"
   },
-    {
+  {
+    "course": "MATH 262",
+    "section": "002",
+    "title": "Intermediate Calculus",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-09T09:00",
+    "end": "2026-12-09T12:00"
+  },
+  {
+    "course": "MATH 262",
+    "section": "003",
+    "title": "Intermediate Calculus",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-09T09:00",
+    "end": "2026-12-09T12:00"
+  },
+  {
     "course": "MATH 263",
     "section": "001",
     "title": "ODEs for Engineers",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-30T14:00",
-    "end": "2026-04-30T17:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
+    "start": "2026-12-16T09:00",
+    "end": "2026-12-16T12:00"
   },
-    {
+  {
     "course": "MATH 263",
     "section": "002",
     "title": "ODEs for Engineers",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-30T14:00",
-    "end": "2026-04-30T17:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
+    "start": "2026-12-16T09:00",
+    "end": "2026-12-16T12:00"
   },
-    {
+  {
     "course": "MATH 264",
     "section": "001",
     "title": "Adv Calculus for Engineers",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-20T14:00",
-    "end": "2026-04-20T17:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
+    "start": "2026-12-11T14:00",
+    "end": "2026-12-11T17:00"
   },
-    {
-    "course": "MATH 308",
+  {
+    "course": "MATH 271",
     "section": "001",
-    "title": "Fundls of Statistical Learning",
+    "title": "Linear Algebra and PDE's",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-23T18:30",
-    "end": "2026-04-23T21:30",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
+    "start": "2026-12-08T09:00",
+    "end": "2026-12-08T12:00"
   },
-    {
+  {
     "course": "MATH 314",
     "section": "001",
     "title": "Advanced Calculus",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-17T09:00",
-    "end": "2026-04-17T12:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
+    "start": "2026-12-15T09:00",
+    "end": "2026-12-15T12:00"
   },
-    {
+  {
     "course": "MATH 315",
     "section": "001",
     "title": "Ordinary Differential Eqns",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-24T09:00",
-    "end": "2026-04-24T12:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
+    "start": "2026-12-17T09:00",
+    "end": "2026-12-17T12:00"
   },
-    {
-    "course": "MATH 319",
+  {
+    "course": "MATH 316",
     "section": "001",
-    "title": "Partial Differential Equations",
+    "title": "Complex Variables",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-23T14:00",
-    "end": "2026-04-23T17:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
+    "start": "2026-12-08T09:00",
+    "end": "2026-12-08T12:00"
   },
-    {
+  {
+    "course": "MATH 317",
+    "section": "001",
+    "title": "Numerical Analysis",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-10T18:30",
+    "end": "2026-12-10T21:30"
+  },
+  {
+    "course": "MATH 318",
+    "section": "001",
+    "title": "Mathematical Logic",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-09T09:00",
+    "end": "2026-12-09T12:00"
+  },
+  {
     "course": "MATH 323",
     "section": "001",
     "title": "Probability",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-27T14:00",
-    "end": "2026-04-27T17:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
+    "start": "2026-12-18T09:00",
+    "end": "2026-12-18T12:00"
   },
-    {
+  {
     "course": "MATH 323",
     "section": "002",
     "title": "Probability",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-27T14:00",
-    "end": "2026-04-27T17:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
+    "start": "2026-12-18T09:00",
+    "end": "2026-12-18T12:00"
   },
-    {
+  {
     "course": "MATH 324",
     "section": "001",
     "title": "Statistics",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-20T18:30",
-    "end": "2026-04-20T21:30",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
-  },
-    {
-    "course": "MATH 325",
-    "section": "001",
-    "title": "Honours ODE's",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-30T09:00",
-    "end": "2026-04-30T12:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
-  },
-    {
-    "course": "MATH 329",
-    "section": "001",
-    "title": "Theory of Interest",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-21T14:00",
-    "end": "2026-04-21T17:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
-  },
-    {
-    "course": "MATH 335",
-    "section": "001",
-    "title": "Groups, Tilings and Algorithms",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-23T18:30",
-    "end": "2026-04-23T21:30",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
-  },
-    {
-    "course": "MATH 340",
-    "section": "001",
-    "title": "Discrete Mathematics",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-28T09:00",
-    "end": "2026-04-28T12:00",
-    "building": "McGill Sports Complex",
-    "room": "BLEACHERS"
-  },
-    {
-    "course": "MATH 357",
-    "section": "001",
-    "title": "Honours Statistics",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-27T14:00",
-    "end": "2026-04-27T17:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
-  },
-    {
-    "course": "MATH 358",
-    "section": "001",
-    "title": "Honours Advanced Calculus",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-22T18:30",
-    "end": "2026-04-22T21:30",
-    "building": "McGill Sports Complex",
-    "room": "305"
-  },
-    {
-    "course": "MATH 365",
-    "section": "001",
-    "title": "Hons Groups,Tilings&Algorithms",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-23T18:30",
-    "end": "2026-04-23T21:30",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
-  },
-    {
-    "course": "MATH 387",
-    "section": "001",
-    "title": "Honours Numerical Analysis",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-29T09:00",
-    "end": "2026-04-29T12:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
-  },
-    {
-    "course": "MATH 437",
-    "section": "001",
-    "title": "Mathematical Meth in Biology",
-    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-04-24T14:00",
-    "end": "2026-04-24T17:00",
-    "building": "BURN",
-    "room": "1205"
-  },
-    {
-    "course": "MATH 447",
-    "section": "001",
-    "title": "Intro. to Stochastic Processes",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-30T09:00",
-    "end": "2026-04-30T12:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
-  },
-    {
-    "course": "MATH 451",
-    "section": "001",
-    "title": "Intro. to General Topology",
-    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-04-20T14:00",
-    "end": "2026-04-20T17:00",
-    "building": "MAASS",
-    "room": "217"
-  },
-    {
-    "course": "MATH 455",
-    "section": "001",
-    "title": "Honours Analysis 4",
-    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-04-28T09:00",
-    "end": "2026-04-28T12:00",
-    "building": "MAASS",
-    "room": "217"
-  },
-    {
-    "course": "MATH 457",
-    "section": "001",
-    "title": "Honours Algebra 4",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-20T18:30",
-    "end": "2026-04-20T21:30",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
-  },
-    {
-    "course": "MATH 458",
-    "section": "001",
-    "title": "Honours Differential Geometry",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-29T14:00",
-    "end": "2026-04-29T17:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
-  },
-    {
-    "course": "MATH 510",
-    "section": "001",
-    "title": "Quantitative Risk Management",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-27T14:00",
-    "end": "2026-04-27T17:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
+    "start": "2026-12-10T14:00",
+    "end": "2026-12-10T17:00"
   },
   {
-    "course": "MATH 511",
+    "course": "MATH 326",
     "section": "001",
-    "title": "Analysis of Categorical Data",
-    "type": "ONLINE - TIMED EXAM - 3 HOURS",
-    "start": "2026-04-17T14:00",
-    "end": "2026-04-17T17:00"
-  },
-  {
-    "course": "MATH 523",
-    "section": "001",
-    "title": "Generalized Linear Models",
-    "type": "ONLINE - TAKE-HOME - 72 HOURS",
-    "start": "2026-04-21T09:00",
-    "end": "2026-04-24T09:00"
-  },
-    {
-    "course": "MATH 525",
-    "section": "001",
-    "title": "Sampling Theory & Applications",
+    "title": "Nonlinear Dynamics and Chaos",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-16T09:00",
-    "end": "2026-04-16T12:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
+    "start": "2026-12-16T14:00",
+    "end": "2026-12-16T17:00"
   },
   {
-    "course": "MATH 526",
+    "course": "MATH 338",
     "section": "001",
-    "title": "Lifetime Data Analysis",
-    "type": "ONLINE - TAKE-HOME - 72 HOURS",
-    "start": "2026-04-20T09:00",
-    "end": "2026-04-23T09:00"
-  },
-    {
-    "course": "MATH 537",
-    "section": "001",
-    "title": "Honours Math Models in Biology",
-    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-04-24T14:00",
-    "end": "2026-04-24T17:00",
-    "building": "BURN",
-    "room": "1205"
-  },
-    {
-    "course": "MATH 565",
-    "section": "001",
-    "title": "Functional Analysis",
-    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-04-28T14:00",
-    "end": "2026-04-28T17:00",
-    "building": "BURN",
-    "room": "920"
+    "title": "History & Philosophy of Math",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-09T14:00",
+    "end": "2026-12-09T17:00"
   },
   {
-    "course": "MATH 577",
+    "course": "MATH 348",
     "section": "001",
-    "title": "Geometry & Topology 2",
-    "type": "ONLINE - TAKE-HOME - 72 HOURS",
-    "start": "2026-04-20T09:00",
-    "end": "2026-04-23T09:00"
+    "title": "Euclidean Geometry",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-11T14:00",
+    "end": "2026-12-11T17:00"
   },
-    {
-    "course": "MATH 591",
+  {
+    "course": "MATH 350",
     "section": "001",
-    "title": "Model Theory",
+    "title": "Honours Discrete Mathematics",
     "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-04-27T09:00",
-    "end": "2026-04-27T12:00",
-    "building": "BURN",
-    "room": "1104"
+    "start": "2026-12-18T14:00",
+    "end": "2026-12-18T17:00"
   },
-    {
+  {
+    "course": "MATH 356",
+    "section": "001",
+    "title": "Honours Probability",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-11T14:00",
+    "end": "2026-12-11T17:00"
+  },
+  {
+    "course": "MATH 376",
+    "section": "001",
+    "title": "Honours Nonlinear Dynamics",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-16T14:00",
+    "end": "2026-12-16T17:00"
+  },
+  {
+    "course": "MATH 398",
+    "section": "001",
+    "title": "Honours Euclidean Geometry",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-11T14:00",
+    "end": "2026-12-11T17:00"
+  },
+  {
+    "course": "MATH 417",
+    "section": "001",
+    "title": "Linear Optimization",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-22T09:00",
+    "end": "2026-12-22T12:00"
+  },
+  {
+    "course": "MATH 423",
+    "section": "001",
+    "title": "Applied Regression",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-16T09:00",
+    "end": "2026-12-16T12:00"
+  },
+  {
+    "course": "MATH 454",
+    "section": "001",
+    "title": "Honours Analysis 3",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-17T14:00",
+    "end": "2026-12-17T17:00"
+  },
+  {
+    "course": "MATH 456",
+    "section": "001",
+    "title": "Honours Algebra 3",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-21T09:00",
+    "end": "2026-12-21T12:00"
+  },
+  {
+    "course": "MATH 475",
+    "section": "001",
+    "title": "Honours PDE's",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-10T14:00",
+    "end": "2026-12-10T17:00"
+  },
+  {
+    "course": "MATH 517",
+    "section": "001",
+    "title": "Honours Linear Optimization",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-22T09:00",
+    "end": "2026-12-22T12:00"
+  },
+  {
+    "course": "MATH 533",
+    "section": "001",
+    "title": "Regression and ANOVA",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-08T14:00",
+    "end": "2026-12-08T17:00"
+  },
+  {
+    "course": "MATH 556",
+    "section": "001",
+    "title": "Mathematical Statistics 1",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-18T14:00",
+    "end": "2026-12-18T17:00"
+  },
+  {
+    "course": "MATH 559",
+    "section": "001",
+    "title": "Bayesian Theory and Methods",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-15T09:00",
+    "end": "2026-12-15T12:00"
+  },
+  {
+    "course": "MATH 564",
+    "section": "001",
+    "title": "Real Analysis & Measure Theory",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-07T09:00",
+    "end": "2026-12-07T12:00"
+  },
+  {
+    "course": "MATH 570",
+    "section": "001",
+    "title": "Higher Algebra 1",
+    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
+    "start": "2026-12-21T09:00",
+    "end": "2026-12-21T12:00"
+  },
+  {
+    "course": "MATH 576",
+    "section": "001",
+    "title": "Geometry & Topology 1",
+    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
+    "start": "2026-12-22T09:00",
+    "end": "2026-12-22T12:00"
+  },
+  {
+    "course": "MATH 580",
+    "section": "001",
+    "title": "Advanced PDEs 1",
+    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
+    "start": "2026-12-10T14:00",
+    "end": "2026-12-10T17:00"
+  },
+  {
+    "course": "MATH 587",
+    "section": "001",
+    "title": "Advanced Probability Theory 1",
+    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
+    "start": "2026-12-14T09:00",
+    "end": "2026-12-14T12:00"
+  },
+  {
     "course": "MECH 215",
     "section": "001",
     "title": "Statics",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-24T09:00",
-    "end": "2026-04-24T12:00",
-    "building": "McGill Sports Complex",
-    "room": "STUDIO 2"
+    "start": "2026-12-22T09:00",
+    "end": "2026-12-22T12:00"
   },
-    {
+  {
+    "course": "MECH 216",
+    "section": "001",
+    "title": "Analytical Mechanics",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-21T09:00",
+    "end": "2026-12-21T12:00"
+  },
+  {
     "course": "MECH 220",
     "section": "001",
     "title": "Introduction to Dynamics",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-17T14:00",
-    "end": "2026-04-17T17:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
+    "start": "2026-12-21T09:00",
+    "end": "2026-12-21T12:00"
   },
-    {
-    "course": "MECH 220",
-    "section": "002",
-    "title": "Introduction to Dynamics",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-17T14:00",
-    "end": "2026-04-17T17:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
-  },
-    {
+  {
     "course": "MECH 240",
     "section": "001",
     "title": "Thermodynamics 1",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-22T14:00",
-    "end": "2026-04-22T17:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
+    "start": "2026-12-07T09:00",
+    "end": "2026-12-07T12:00"
   },
-    {
+  {
     "course": "MECH 241",
     "section": "001",
     "title": "Fundamentals of Thermodynamics",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-22T14:00",
-    "end": "2026-04-22T17:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
+    "start": "2026-12-07T09:00",
+    "end": "2026-12-07T12:00"
   },
   {
     "course": "MECH 261",
     "section": "001",
     "title": "Measurement Laboratory",
-    "type": "ONLINE - TIMED EXAM - 3 HOURS",
-    "start": "2026-04-28T09:00",
-    "end": "2026-04-28T12:00"
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-17T09:00",
+    "end": "2026-12-17T12:00"
   },
   {
-    "course": "MECH 262",
+    "course": "MECH 265",
     "section": "001",
-    "title": "Statistics and Measurement Lab",
-    "type": "ONLINE - TIMED EXAM - 3 HOURS",
-    "start": "2026-04-28T09:00",
-    "end": "2026-04-28T12:00"
+    "title": "Numerical Linear Algebra",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-09T14:00",
+    "end": "2026-12-09T17:00"
   },
-    {
+  {
+    "course": "MECH 289",
+    "section": "002",
+    "title": "Design Graphics",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-14T14:00",
+    "end": "2026-12-14T17:00"
+  },
+  {
     "course": "MECH 309",
     "section": "001",
     "title": "Numerical Methods in Mech Eng",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-30T14:00",
-    "end": "2026-04-30T17:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
+    "start": "2026-12-08T09:00",
+    "end": "2026-12-08T12:00"
   },
-    {
+  {
     "course": "MECH 314",
     "section": "001",
     "title": "Dynamics of Mechanisms",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-27T14:00",
-    "end": "2026-04-27T17:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
+    "start": "2026-12-15T14:00",
+    "end": "2026-12-15T17:00"
   },
-    {
+  {
     "course": "MECH 315",
     "section": "001",
     "title": "Intermediate Dynamics",
-    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-04-24T14:00",
-    "end": "2026-04-24T17:00",
-    "building": "McGill Sports Complex",
-    "room": "STUDIO 1"
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-07T09:00",
+    "end": "2026-12-07T12:00"
   },
-    {
+  {
     "course": "MECH 321",
     "section": "001",
     "title": "Mechanics of Deformable Solids",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-23T14:00",
-    "end": "2026-04-23T17:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
+    "start": "2026-12-17T09:00",
+    "end": "2026-12-17T12:00"
   },
-    {
+  {
     "course": "MECH 331",
     "section": "001",
     "title": "Fluid Mechanics 1",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-20T14:00",
-    "end": "2026-04-20T17:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
+    "start": "2026-12-14T14:00",
+    "end": "2026-12-14T17:00"
   },
-    {
+  {
     "course": "MECH 341",
     "section": "001",
     "title": "Thermodynamics 2",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-22T14:00",
-    "end": "2026-04-22T17:00",
-    "building": "McGill Sports Complex",
-    "room": "STUDIO 1"
+    "start": "2026-12-11T14:00",
+    "end": "2026-12-11T17:00"
   },
-    {
+  {
     "course": "MECH 346",
     "section": "001",
     "title": "Heat Transfer",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-21T14:00",
-    "end": "2026-04-21T17:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
+    "start": "2026-12-18T09:00",
+    "end": "2026-12-18T12:00"
   },
-    {
+  {
     "course": "MECH 360",
     "section": "001",
     "title": "Principles of Manufacturing",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-30T09:00",
-    "end": "2026-04-30T12:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
+    "start": "2026-12-10T14:00",
+    "end": "2026-12-10T17:00"
   },
-    {
+  {
     "course": "MECH 383",
     "section": "001",
     "title": "Appl Electronics&Instrumentn",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-22T18:30",
-    "end": "2026-04-22T21:30",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
+    "start": "2026-12-09T09:00",
+    "end": "2026-12-09T12:00"
   },
-    {
+  {
     "course": "MECH 412",
     "section": "001",
     "title": "System Dynamics and Control",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-30T09:00",
-    "end": "2026-04-30T12:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
+    "start": "2026-12-14T09:00",
+    "end": "2026-12-14T12:00"
   },
-    {
+  {
+    "course": "MECH 419",
+    "section": "001",
+    "title": "Advanced Mechanics of Systems",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-21T09:00",
+    "end": "2026-12-21T12:00"
+  },
+  {
     "course": "MECH 430",
     "section": "001",
     "title": "Fluid Mechanics 2",
+    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
+    "start": "2026-12-16T14:00",
+    "end": "2026-12-16T17:00"
+  },
+  {
+    "course": "MECH 530",
+    "section": "001",
+    "title": "Mech of Composite Materials",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-20T14:00",
-    "end": "2026-04-20T17:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
-  },
-    {
-    "course": "MECH 510",
-    "section": "001",
-    "title": "Engineering Acoustics",
-    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-04-27T09:00",
-    "end": "2026-04-27T12:00",
-    "building": "ENGTR",
-    "room": "2100"
-  },
-    {
-    "course": "MECH 510",
-    "section": "002",
-    "title": "Engineering Acoustics",
-    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-04-27T09:00",
-    "end": "2026-04-27T12:00",
-    "building": "ENGTR",
-    "room": "2100"
-  },
-    {
-    "course": "MECH 510",
-    "section": "003",
-    "title": "Engineering Acoustics",
-    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-04-27T09:00",
-    "end": "2026-04-27T12:00",
-    "building": "ENGTR",
-    "room": "2100"
-  },
-    {
-    "course": "MECH 532",
-    "section": "001",
-    "title": "Aircraft Perform,Stablty&Cntl",
-    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-04-23T09:00",
-    "end": "2026-04-23T12:00",
-    "building": "ENGTR",
-    "room": "1100"
-  },
-    {
-    "course": "MECH 532",
-    "section": "002",
-    "title": "Aircraft Perform,Stablty&Cntl",
-    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-04-23T09:00",
-    "end": "2026-04-23T12:00",
-    "building": "ENGTR",
-    "room": "1100"
-  },
-    {
-    "course": "MECH 532",
-    "section": "003",
-    "title": "Aircraft Perform,Stablty&Cntl",
-    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-04-23T09:00",
-    "end": "2026-04-23T12:00",
-    "building": "ENGTR",
-    "room": "1100"
+    "start": "2026-12-15T14:00",
+    "end": "2026-12-15T17:00"
   },
   {
-    "course": "MECH 563",
-    "section": "001",
-    "title": "Biofluids&Cardiovascular Mech",
-    "type": "ONLINE - TAKE-HOME - 1 WEEK",
-    "start": "2026-04-20T09:00",
-    "end": "2026-04-27T09:00"
-  },
-  {
-    "course": "MECH 563",
+    "course": "MECH 530",
     "section": "002",
-    "title": "Biofluids&Cardiovascular Mech",
-    "type": "ONLINE - TAKE-HOME - 1 WEEK",
-    "start": "2026-04-20T09:00",
-    "end": "2026-04-27T09:00"
+    "title": "Mech of Composite Materials",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-15T14:00",
+    "end": "2026-12-15T17:00"
   },
   {
-    "course": "MECH 563",
+    "course": "MECH 530",
     "section": "003",
-    "title": "Biofluids&Cardiovascular Mech",
-    "type": "ONLINE - TAKE-HOME - 1 WEEK",
-    "start": "2026-04-20T09:00",
-    "end": "2026-04-27T09:00"
+    "title": "Mech of Composite Materials",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-15T14:00",
+    "end": "2026-12-15T17:00"
   },
-    {
+  {
+    "course": "MECH 533",
+    "section": "002",
+    "title": "Subsonic Aerodynamics",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-08T09:00",
+    "end": "2026-12-08T12:00"
+  },
+  {
+    "course": "MECH 535",
+    "section": "001",
+    "title": "Turbomachinery and Propulsion",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-10T09:00",
+    "end": "2026-12-10T12:00"
+  },
+  {
+    "course": "MECH 535",
+    "section": "002",
+    "title": "Turbomachinery and Propulsion",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-10T09:00",
+    "end": "2026-12-10T12:00"
+  },
+  {
+    "course": "MECH 535",
+    "section": "003",
+    "title": "Turbomachinery and Propulsion",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-10T09:00",
+    "end": "2026-12-10T12:00"
+  },
+  {
+    "course": "MECH 536",
+    "section": "001",
+    "title": "Aerospace Structures",
+    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
+    "start": "2026-12-21T09:00",
+    "end": "2026-12-21T12:00"
+  },
+  {
+    "course": "MECH 536",
+    "section": "002",
+    "title": "Aerospace Structures",
+    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
+    "start": "2026-12-21T09:00",
+    "end": "2026-12-21T12:00"
+  },
+  {
+    "course": "MECH 536",
+    "section": "003",
+    "title": "Aerospace Structures",
+    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
+    "start": "2026-12-21T09:00",
+    "end": "2026-12-21T12:00"
+  },
+  {
+    "course": "MECH 542",
+    "section": "001",
+    "title": "Spacecraft Dynamics",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-18T14:00",
+    "end": "2026-12-18T17:00"
+  },
+  {
+    "course": "MECH 542",
+    "section": "002",
+    "title": "Spacecraft Dynamics",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-18T14:00",
+    "end": "2026-12-18T17:00"
+  },
+  {
+    "course": "MECH 542",
+    "section": "003",
+    "title": "Spacecraft Dynamics",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-18T14:00",
+    "end": "2026-12-18T17:00"
+  },
+  {
     "course": "MGCR 211",
     "section": "001",
     "title": "Intro to Financial Accounting",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-28T14:00",
-    "end": "2026-04-28T17:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
+    "start": "2026-12-14T09:00",
+    "end": "2026-12-14T12:00"
   },
-    {
+  {
     "course": "MGCR 211",
     "section": "002",
     "title": "Intro to Financial Accounting",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-28T14:00",
-    "end": "2026-04-28T17:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
+    "start": "2026-12-14T09:00",
+    "end": "2026-12-14T12:00"
   },
-    {
+  {
     "course": "MGCR 211",
     "section": "003",
     "title": "Intro to Financial Accounting",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-28T14:00",
-    "end": "2026-04-28T17:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
+    "start": "2026-12-14T09:00",
+    "end": "2026-12-14T12:00"
   },
-    {
+  {
+    "course": "MGCR 211",
+    "section": "004",
+    "title": "Intro to Financial Accounting",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-14T09:00",
+    "end": "2026-12-14T12:00"
+  },
+  {
+    "course": "MGCR 211",
+    "section": "005",
+    "title": "Intro to Financial Accounting",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-14T09:00",
+    "end": "2026-12-14T12:00"
+  },
+  {
+    "course": "MGCR 211",
+    "section": "006",
+    "title": "Intro to Financial Accounting",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-14T09:00",
+    "end": "2026-12-14T12:00"
+  },
+  {
+    "course": "MGCR 211",
+    "section": "007",
+    "title": "Intro to Financial Accounting",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-14T09:00",
+    "end": "2026-12-14T12:00"
+  },
+  {
+    "course": "MGCR 211",
+    "section": "008",
+    "title": "Intro to Financial Accounting",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-14T09:00",
+    "end": "2026-12-14T12:00"
+  },
+  {
+    "course": "MGCR 211",
+    "section": "009",
+    "title": "Intro to Financial Accounting",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-14T09:00",
+    "end": "2026-12-14T12:00"
+  },
+  {
+    "course": "MGCR 222",
+    "section": "001",
+    "title": "Intro to Org Behaviour",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-14T09:00",
+    "end": "2026-12-14T12:00"
+  },
+  {
+    "course": "MGCR 222",
+    "section": "002",
+    "title": "Intro to Org Behaviour",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-14T09:00",
+    "end": "2026-12-14T12:00"
+  },
+  {
+    "course": "MGCR 222",
+    "section": "003",
+    "title": "Intro to Org Behaviour",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-14T09:00",
+    "end": "2026-12-14T12:00"
+  },
+  {
+    "course": "MGCR 222",
+    "section": "004",
+    "title": "Intro to Org Behaviour",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-14T09:00",
+    "end": "2026-12-14T12:00"
+  },
+  {
+    "course": "MGCR 222",
+    "section": "005",
+    "title": "Intro to Org Behaviour",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-14T09:00",
+    "end": "2026-12-14T12:00"
+  },
+  {
+    "course": "MGCR 222",
+    "section": "006",
+    "title": "Intro to Org Behaviour",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-14T09:00",
+    "end": "2026-12-14T12:00"
+  },
+  {
     "course": "MGCR 233",
     "section": "001",
     "title": "Data Programming for Business",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-22T18:30",
-    "end": "2026-04-22T21:30",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
+    "start": "2026-12-08T14:00",
+    "end": "2026-12-08T17:00"
   },
-    {
+  {
     "course": "MGCR 233",
     "section": "002",
     "title": "Data Programming for Business",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-22T18:30",
-    "end": "2026-04-22T21:30",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
+    "start": "2026-12-08T14:00",
+    "end": "2026-12-08T17:00"
   },
-    {
+  {
     "course": "MGCR 233",
     "section": "003",
     "title": "Data Programming for Business",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-22T18:30",
-    "end": "2026-04-22T21:30",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
+    "start": "2026-12-08T14:00",
+    "end": "2026-12-08T17:00"
   },
-    {
+  {
     "course": "MGCR 233",
     "section": "004",
     "title": "Data Programming for Business",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-22T18:30",
-    "end": "2026-04-22T21:30",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
+    "start": "2026-12-08T14:00",
+    "end": "2026-12-08T17:00"
   },
-    {
+  {
     "course": "MGCR 233",
     "section": "005",
     "title": "Data Programming for Business",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-22T18:30",
-    "end": "2026-04-22T21:30",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
+    "start": "2026-12-08T14:00",
+    "end": "2026-12-08T17:00"
   },
-    {
-    "course": "MGCR 233",
-    "section": "006",
-    "title": "Data Programming for Business",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-22T18:30",
-    "end": "2026-04-22T21:30",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
-  },
-    {
+  {
     "course": "MGCR 271",
     "section": "001",
     "title": "Business Statistics",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-17T09:00",
-    "end": "2026-04-17T12:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
+    "start": "2026-12-10T18:30",
+    "end": "2026-12-10T21:30"
   },
-    {
+  {
+    "course": "MGCR 271",
+    "section": "002",
+    "title": "Business Statistics",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-10T18:30",
+    "end": "2026-12-10T21:30"
+  },
+  {
     "course": "MGCR 271",
     "section": "003",
     "title": "Business Statistics",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-17T09:00",
-    "end": "2026-04-17T12:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
+    "start": "2026-12-10T18:30",
+    "end": "2026-12-10T21:30"
   },
-    {
+  {
     "course": "MGCR 271",
     "section": "004",
     "title": "Business Statistics",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-17T09:00",
-    "end": "2026-04-17T12:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
+    "start": "2026-12-10T18:30",
+    "end": "2026-12-10T21:30"
   },
-    {
+  {
+    "course": "MGCR 271",
+    "section": "005",
+    "title": "Business Statistics",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-10T18:30",
+    "end": "2026-12-10T21:30"
+  },
+  {
+    "course": "MGCR 271",
+    "section": "006",
+    "title": "Business Statistics",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-10T18:30",
+    "end": "2026-12-10T21:30"
+  },
+  {
     "course": "MGCR 293",
     "section": "001",
     "title": "Managerial Economics",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-30T14:00",
-    "end": "2026-04-30T17:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
-  },
-    {
-    "course": "MGCR 294",
-    "section": "001",
-    "title": "The Firm in the Macroeconomy",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-28T09:00",
-    "end": "2026-04-28T12:00",
-    "building": "McGill Sports Complex",
-    "room": "STUDIO 2"
-  },
-    {
-    "course": "MGCR 294",
-    "section": "002",
-    "title": "The Firm in the Macroeconomy",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-28T09:00",
-    "end": "2026-04-28T12:00",
-    "building": "McGill Sports Complex",
-    "room": "STUDIO 2"
-  },
-    {
-    "course": "MGCR 294",
-    "section": "003",
-    "title": "The Firm in the Macroeconomy",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-28T09:00",
-    "end": "2026-04-28T12:00",
-    "building": "McGill Sports Complex",
-    "room": "STUDIO 2"
-  },
-    {
-    "course": "MGCR 294",
-    "section": "004",
-    "title": "The Firm in the Macroeconomy",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-28T09:00",
-    "end": "2026-04-28T12:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
-  },
-    {
-    "course": "MGCR 294",
-    "section": "005",
-    "title": "The Firm in the Macroeconomy",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-28T09:00",
-    "end": "2026-04-28T12:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
-  },
-    {
-    "course": "MGCR 294",
-    "section": "006",
-    "title": "The Firm in the Macroeconomy",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-28T09:00",
-    "end": "2026-04-28T12:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
-  },
-    {
-    "course": "MGCR 331",
-    "section": "001",
-    "title": "Information Technology Mgmt",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-27T09:00",
-    "end": "2026-04-27T12:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
-  },
-    {
-    "course": "MGCR 331",
-    "section": "002",
-    "title": "Information Technology Mgmt",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-27T09:00",
-    "end": "2026-04-27T12:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
-  },
-    {
-    "course": "MGCR 331",
-    "section": "003",
-    "title": "Information Technology Mgmt",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-27T09:00",
-    "end": "2026-04-27T12:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
-  },
-    {
-    "course": "MGCR 331",
-    "section": "004",
-    "title": "Information Technology Mgmt",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-27T09:00",
-    "end": "2026-04-27T12:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
-  },
-    {
-    "course": "MGCR 331",
-    "section": "005",
-    "title": "Information Technology Mgmt",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-27T09:00",
-    "end": "2026-04-27T12:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
-  },
-    {
-    "course": "MGCR 341",
-    "section": "001",
-    "title": "Introduction to Finance",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-23T18:30",
-    "end": "2026-04-23T21:30",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
-  },
-    {
-    "course": "MGCR 341",
-    "section": "002",
-    "title": "Introduction to Finance",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-23T18:30",
-    "end": "2026-04-23T21:30",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
-  },
-    {
-    "course": "MGCR 341",
-    "section": "003",
-    "title": "Introduction to Finance",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-23T18:30",
-    "end": "2026-04-23T21:30",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
-  },
-    {
-    "course": "MGCR 352",
-    "section": "001",
-    "title": "Principles of Marketing",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-20T18:30",
-    "end": "2026-04-20T21:30",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
-  },
-    {
-    "course": "MGCR 352",
-    "section": "002",
-    "title": "Principles of Marketing",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-20T18:30",
-    "end": "2026-04-20T21:30",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
-  },
-    {
-    "course": "MGCR 352",
-    "section": "003",
-    "title": "Principles of Marketing",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-20T18:30",
-    "end": "2026-04-20T21:30",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
-  },
-    {
-    "course": "MGCR 352",
-    "section": "004",
-    "title": "Principles of Marketing",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-20T18:30",
-    "end": "2026-04-20T21:30",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
-  },
-    {
-    "course": "MGCR 352",
-    "section": "005",
-    "title": "Principles of Marketing",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-20T18:30",
-    "end": "2026-04-20T21:30",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
-  },
-    {
-    "course": "MGCR 352",
-    "section": "006",
-    "title": "Principles of Marketing",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-20T18:30",
-    "end": "2026-04-20T21:30",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
-  },
-    {
-    "course": "MGCR 372",
-    "section": "001",
-    "title": "Operations Management",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-16T14:00",
-    "end": "2026-04-16T17:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
-  },
-    {
-    "course": "MGCR 372",
-    "section": "002",
-    "title": "Operations Management",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-16T14:00",
-    "end": "2026-04-16T17:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
-  },
-    {
-    "course": "MGCR 372",
-    "section": "003",
-    "title": "Operations Management",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-16T14:00",
-    "end": "2026-04-16T17:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
-  },
-    {
-    "course": "MGCR 372",
-    "section": "004",
-    "title": "Operations Management",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-16T14:00",
-    "end": "2026-04-16T17:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
-  },
-    {
-    "course": "MGCR 372",
-    "section": "005",
-    "title": "Operations Management",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-16T14:00",
-    "end": "2026-04-16T17:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
-  },
-    {
-    "course": "MGCR 382",
-    "section": "001",
-    "title": "International Business",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-22T14:00",
-    "end": "2026-04-22T17:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
-  },
-    {
-    "course": "MGCR 382",
-    "section": "002",
-    "title": "International Business",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-22T14:00",
-    "end": "2026-04-22T17:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
-  },
-    {
-    "course": "MGCR 423",
-    "section": "001",
-    "title": "Strategic Management",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-29T14:00",
-    "end": "2026-04-29T17:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
-  },
-    {
-    "course": "MGCR 423",
-    "section": "002",
-    "title": "Strategic Management",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-29T14:00",
-    "end": "2026-04-29T17:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
-  },
-    {
-    "course": "MGCR 423",
-    "section": "003",
-    "title": "Strategic Management",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-29T14:00",
-    "end": "2026-04-29T17:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
-  },
-    {
-    "course": "MGCR 423",
-    "section": "004",
-    "title": "Strategic Management",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-29T14:00",
-    "end": "2026-04-29T17:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
-  },
-    {
-    "course": "MGCR 423",
-    "section": "005",
-    "title": "Strategic Management",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-29T14:00",
-    "end": "2026-04-29T17:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
-  },
-    {
-    "course": "MGCR 423",
-    "section": "006",
-    "title": "Strategic Management",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-29T14:00",
-    "end": "2026-04-29T17:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
-  },
-    {
-    "course": "MGPO 362",
-    "section": "001",
-    "title": "Fundls of Entrepreneurship",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-30T14:00",
-    "end": "2026-04-30T17:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
-  },
-    {
-    "course": "MGPO 362",
-    "section": "002",
-    "title": "Fundls of Entrepreneurship",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-30T14:00",
-    "end": "2026-04-30T17:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
-  },
-    {
-    "course": "MGSC 372",
-    "section": "001",
-    "title": "Advanced Business Statistics",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-24T09:00",
-    "end": "2026-04-24T12:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
-  },
-    {
-    "course": "MGSC 372",
-    "section": "002",
-    "title": "Advanced Business Statistics",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-24T09:00",
-    "end": "2026-04-24T12:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
-  },
-    {
-    "course": "MGSC 372",
-    "section": "003",
-    "title": "Advanced Business Statistics",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-24T09:00",
-    "end": "2026-04-24T12:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
-  },
-    {
-    "course": "MGSC 373",
-    "section": "001",
-    "title": "Operations Research 1",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-21T14:00",
-    "end": "2026-04-21T17:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
-  },
-    {
-    "course": "MGSC 416",
-    "section": "001",
-    "title": "Data-DrivenModelsforOpsAnalyt",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-22T18:30",
-    "end": "2026-04-22T21:30",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
-  },
-    {
-    "course": "MGSC 416",
-    "section": "002",
-    "title": "Data-DrivenModelsforOpsAnalyt",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-22T18:30",
-    "end": "2026-04-22T21:30",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
-  },
-    {
-    "course": "MICR 331",
-    "section": "001",
-    "title": "Microbial Ecology",
-    "type": "IN-PERSON - FORMAL EXAM - MAC CAMPUS",
-    "start": "2026-04-16T09:00",
-    "end": "2026-04-16T12:00",
-    "building": "CENTEN",
-    "room": "Ballroom"
-  },
-    {
-    "course": "MIME 209",
-    "section": "001",
-    "title": "Mathematical Applications",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-23T14:00",
-    "end": "2026-04-23T17:00",
-    "building": "McGill Sports Complex",
-    "room": "BLEACHERS"
-  },
-    {
-    "course": "MIME 212",
-    "section": "001",
-    "title": "Engineering Thermodynamics",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-22T09:00",
-    "end": "2026-04-22T12:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
-  },
-    {
-    "course": "MIME 311",
-    "section": "001",
-    "title": "Modelling&Automatic Control",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-22T09:00",
-    "end": "2026-04-22T12:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
-  },
-    {
-    "course": "MIME 322",
-    "section": "001",
-    "title": "Fragmentation and Comminution",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-17T14:00",
-    "end": "2026-04-17T17:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
+    "start": "2026-12-10T09:00",
+    "end": "2026-12-10T12:00"
   },
   {
-    "course": "MIME 325",
-    "section": "001",
-    "title": "Mineral Industry Economics",
-    "type": "ONLINE - TIMED EXAM - 3 HOURS",
-    "start": "2026-04-30T14:00",
-    "end": "2026-04-30T17:00"
+    "course": "MGCR 293",
+    "section": "002",
+    "title": "Managerial Economics",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-10T09:00",
+    "end": "2026-12-10T12:00"
   },
-    {
-    "course": "MIME 333",
+  {
+    "course": "MGCR 293",
+    "section": "003",
+    "title": "Managerial Economics",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-10T09:00",
+    "end": "2026-12-10T12:00"
+  },
+  {
+    "course": "MGCR 293",
+    "section": "004",
+    "title": "Managerial Economics",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-10T09:00",
+    "end": "2026-12-10T12:00"
+  },
+  {
+    "course": "MGCR 294",
     "section": "001",
-    "title": "Materials Handling",
+    "title": "The Firm in the Macroeconomy",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-14T14:00",
+    "end": "2026-12-14T17:00"
+  },
+  {
+    "course": "MGCR 294",
+    "section": "002",
+    "title": "The Firm in the Macroeconomy",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-14T14:00",
+    "end": "2026-12-14T17:00"
+  },
+  {
+    "course": "MGCR 331",
+    "section": "001",
+    "title": "Information Technology Mgmt",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-21T18:30",
+    "end": "2026-12-21T21:30"
+  },
+  {
+    "course": "MGCR 331",
+    "section": "002",
+    "title": "Information Technology Mgmt",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-21T18:30",
+    "end": "2026-12-21T21:30"
+  },
+  {
+    "course": "MGCR 331",
+    "section": "003",
+    "title": "Information Technology Mgmt",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-21T18:30",
+    "end": "2026-12-21T21:30"
+  },
+  {
+    "course": "MGCR 331",
+    "section": "004",
+    "title": "Information Technology Mgmt",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-21T18:30",
+    "end": "2026-12-21T21:30"
+  },
+  {
+    "course": "MGCR 331",
+    "section": "005",
+    "title": "Information Technology Mgmt",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-21T18:30",
+    "end": "2026-12-21T21:30"
+  },
+  {
+    "course": "MGCR 331",
+    "section": "006",
+    "title": "Information Technology Mgmt",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-21T18:30",
+    "end": "2026-12-21T21:30"
+  },
+  {
+    "course": "MGCR 341",
+    "section": "001",
+    "title": "Introduction to Finance",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-08T18:30",
+    "end": "2026-12-08T21:30"
+  },
+  {
+    "course": "MGCR 341",
+    "section": "002",
+    "title": "Introduction to Finance",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-08T18:30",
+    "end": "2026-12-08T21:30"
+  },
+  {
+    "course": "MGCR 352",
+    "section": "001",
+    "title": "Principles of Marketing",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-21T09:00",
+    "end": "2026-12-21T12:00"
+  },
+  {
+    "course": "MGCR 352",
+    "section": "002",
+    "title": "Principles of Marketing",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-21T09:00",
+    "end": "2026-12-21T12:00"
+  },
+  {
+    "course": "MGCR 352",
+    "section": "003",
+    "title": "Principles of Marketing",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-21T09:00",
+    "end": "2026-12-21T12:00"
+  },
+  {
+    "course": "MGCR 352",
+    "section": "004",
+    "title": "Principles of Marketing",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-21T09:00",
+    "end": "2026-12-21T12:00"
+  },
+  {
+    "course": "MGCR 352",
+    "section": "005",
+    "title": "Principles of Marketing",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-21T09:00",
+    "end": "2026-12-21T12:00"
+  },
+  {
+    "course": "MGCR 352",
+    "section": "006",
+    "title": "Principles of Marketing",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-21T09:00",
+    "end": "2026-12-21T12:00"
+  },
+  {
+    "course": "MGCR 352",
+    "section": "007",
+    "title": "Principles of Marketing",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-21T09:00",
+    "end": "2026-12-21T12:00"
+  },
+  {
+    "course": "MGCR 372",
+    "section": "001",
+    "title": "Operations Management",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-11T09:00",
+    "end": "2026-12-11T12:00"
+  },
+  {
+    "course": "MGCR 372",
+    "section": "002",
+    "title": "Operations Management",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-11T09:00",
+    "end": "2026-12-11T12:00"
+  },
+  {
+    "course": "MGCR 372",
+    "section": "003",
+    "title": "Operations Management",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-11T09:00",
+    "end": "2026-12-11T12:00"
+  },
+  {
+    "course": "MGCR 372",
+    "section": "004",
+    "title": "Operations Management",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-11T09:00",
+    "end": "2026-12-11T12:00"
+  },
+  {
+    "course": "MGCR 372",
+    "section": "005",
+    "title": "Operations Management",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-11T09:00",
+    "end": "2026-12-11T12:00"
+  },
+  {
+    "course": "MGCR 372",
+    "section": "006",
+    "title": "Operations Management",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-11T09:00",
+    "end": "2026-12-11T12:00"
+  },
+  {
+    "course": "MGCR 382",
+    "section": "001",
+    "title": "International Business",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-07T18:30",
+    "end": "2026-12-07T21:30"
+  },
+  {
+    "course": "MGCR 382",
+    "section": "002",
+    "title": "International Business",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-07T18:30",
+    "end": "2026-12-07T21:30"
+  },
+  {
+    "course": "MGCR 423",
+    "section": "001",
+    "title": "Strategic Management",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-07T09:00",
+    "end": "2026-12-07T12:00"
+  },
+  {
+    "course": "MGCR 423",
+    "section": "002",
+    "title": "Strategic Management",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-07T09:00",
+    "end": "2026-12-07T12:00"
+  },
+  {
+    "course": "MGCR 423",
+    "section": "003",
+    "title": "Strategic Management",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-07T09:00",
+    "end": "2026-12-07T12:00"
+  },
+  {
+    "course": "MGCR 423",
+    "section": "004",
+    "title": "Strategic Management",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-07T09:00",
+    "end": "2026-12-07T12:00"
+  },
+  {
+    "course": "MGCR 423",
+    "section": "005",
+    "title": "Strategic Management",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-07T09:00",
+    "end": "2026-12-07T12:00"
+  },
+  {
+    "course": "MGCR 423",
+    "section": "006",
+    "title": "Strategic Management",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-07T09:00",
+    "end": "2026-12-07T12:00"
+  },
+  {
+    "course": "MGSC 372",
+    "section": "001",
+    "title": "Advanced Business Statistics",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-09T14:00",
+    "end": "2026-12-09T17:00"
+  },
+  {
+    "course": "MGSC 372",
+    "section": "002",
+    "title": "Advanced Business Statistics",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-09T14:00",
+    "end": "2026-12-09T17:00"
+  },
+  {
+    "course": "MGSC 401",
+    "section": "001",
+    "title": "Stat Founds of Data Analytics",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-15T14:00",
+    "end": "2026-12-15T17:00"
+  },
+  {
+    "course": "MICR 338",
+    "section": "001",
+    "title": "Bacterial Molecular Genetics",
+    "type": "IN-PERSON - FORMAL EXAM - MAC CAMPUS",
+    "start": "2026-12-17T14:00",
+    "end": "2026-12-17T17:00"
+  },
+  {
+    "course": "MIME 250",
+    "section": "001",
+    "title": "Intro to Extractive Metallurgy",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-21T09:00",
+    "end": "2026-12-21T12:00"
+  },
+  {
+    "course": "MIME 256",
+    "section": "001",
+    "title": "Design Graphics",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-22T09:00",
+    "end": "2026-12-22T12:00"
+  },
+  {
+    "course": "MIME 260",
+    "section": "001",
+    "title": "Materials Science&Engineering",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-17T14:00",
+    "end": "2026-12-17T17:00"
+  },
+  {
+    "course": "MIME 261",
+    "section": "001",
+    "title": "Structure of Materials",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-17T14:00",
+    "end": "2026-12-17T17:00"
+  },
+  {
+    "course": "MIME 262",
+    "section": "001",
+    "title": "Prop.Materials in Elec. Eng.",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-18T09:00",
+    "end": "2026-12-18T12:00"
+  },
+  {
+    "course": "MIME 317",
+    "section": "001",
+    "title": "Analytical&Character'ion Techs",
     "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-04-27T09:00",
-    "end": "2026-04-27T12:00",
-    "building": "ENGTR",
-    "room": "0100"
+    "start": "2026-12-14T09:00",
+    "end": "2026-12-14T12:00"
   },
-    {
-    "course": "MIME 341",
+  {
+    "course": "MIME 329",
     "section": "001",
-    "title": "Intro to Mineral Processing",
+    "title": "Mining Geology",
+    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
+    "start": "2026-12-21T09:00",
+    "end": "2026-12-21T12:00"
+  },
+  {
+    "course": "MIME 330",
+    "section": "001",
+    "title": "Mining Geotechnics",
+    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
+    "start": "2026-12-11T14:00",
+    "end": "2026-12-11T17:00"
+  },
+  {
+    "course": "MIME 340",
+    "section": "001",
+    "title": "Applied Fluid Dynamics",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-23T09:00",
-    "end": "2026-04-23T12:00",
-    "building": "McGill Sports Complex",
-    "room": "STUDIO 1"
+    "start": "2026-12-10T09:00",
+    "end": "2026-12-10T12:00"
   },
-    {
-    "course": "MIME 455",
+  {
+    "course": "MIME 352",
     "section": "001",
-    "title": "Advanced Process Engineering",
+    "title": "Hydrochemical Processing",
+    "type": "ONLINE - TIMED EXAM - 24 HOURS",
+    "start": "2026-12-17T09:00",
+    "end": "2026-12-18T09:00"
+  },
+  {
+    "course": "MIME 356",
+    "section": "001",
+    "title": "Heat, Mass and Fluid Flow",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-29T09:00",
-    "end": "2026-04-29T12:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
+    "start": "2026-12-10T09:00",
+    "end": "2026-12-10T12:00"
   },
-    {
-    "course": "MIME 456",
+  {
+    "course": "MIME 360",
     "section": "001",
-    "title": "Steelmaking & Steel Processing",
+    "title": "Phase Transformations:Solids",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-29T14:00",
-    "end": "2026-04-29T17:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
+    "start": "2026-12-11T14:00",
+    "end": "2026-12-11T17:00"
   },
-    {
-    "course": "MIME 473",
+  {
+    "course": "MIME 362",
     "section": "001",
-    "title": "Intro to Comp Matls Design",
+    "title": "Mechanical Properties",
+    "type": "ONLINE - TAKE-HOME - 72 HOURS",
+    "start": "2026-12-07T09:00",
+    "end": "2026-12-10T09:00"
+  },
+  {
+    "course": "MIME 413",
+    "section": "001",
+    "title": "Strat Mine Plan W/Uncertainty",
+    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
+    "start": "2026-12-14T09:00",
+    "end": "2026-12-14T12:00"
+  },
+  {
+    "course": "MIME 421",
+    "section": "001",
+    "title": "Rock Mechanics",
+    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
+    "start": "2026-12-17T14:00",
+    "end": "2026-12-17T17:00"
+  },
+  {
+    "course": "MIME 425",
+    "section": "001",
+    "title": "Appl Stoch Orebody Modelling",
+    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
+    "start": "2026-12-18T14:00",
+    "end": "2026-12-18T17:00"
+  },
+  {
+    "course": "MIME 426",
+    "section": "001",
+    "title": "Mine Design & Prefeasib Study",
     "type": "IN-PERSON - ORAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-24T14:00",
-    "end": "2026-04-24T17:00",
-    "building": "WONG",
-    "room": "1020"
+    "start": "2026-12-16T14:00",
+    "end": "2026-12-16T17:00"
   },
   {
-    "course": "MIME 526",
+    "course": "MIME 465",
     "section": "001",
-    "title": "Mineral Economics",
+    "title": "Metal & Ceram Powd Proc",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-17T18:30",
+    "end": "2026-12-17T21:30"
+  },
+  {
+    "course": "MIME 465",
+    "section": "001L",
+    "title": "Metal & Ceram Powd Proc",
+    "type": "IN-PERSON - LAB EXAM - D.T. CAMPUS",
+    "start": "2026-12-21T09:00",
+    "end": "2026-12-21T12:00"
+  },
+  {
+    "course": "MIME 470",
+    "section": "001",
+    "title": "Engineering Biomaterials",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-10T14:00",
+    "end": "2026-12-10T17:00"
+  },
+  {
+    "course": "MIME 513",
+    "section": "001",
+    "title": "Mine Plan Optim Under Uncert",
+    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
+    "start": "2026-12-14T09:00",
+    "end": "2026-12-14T12:00"
+  },
+  {
+    "course": "MIME 521",
+    "section": "001",
+    "title": "Stability of Undergrd Openings",
+    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
+    "start": "2026-12-17T14:00",
+    "end": "2026-12-17T17:00"
+  },
+  {
+    "course": "MIME 525",
+    "section": "001",
+    "title": "Stochastic Orebody Modelling",
+    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
+    "start": "2026-12-18T14:00",
+    "end": "2026-12-18T17:00"
+  },
+  {
+    "course": "MIME 569",
+    "section": "001",
+    "title": "Electron Beam Analysis of Mtls",
+    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
+    "start": "2026-12-16T14:00",
+    "end": "2026-12-16T17:00"
+  },
+  {
+    "course": "MIME 569",
+    "section": "002",
+    "title": "Electron Beam Analysis of Mtls",
+    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
+    "start": "2026-12-16T14:00",
+    "end": "2026-12-16T17:00"
+  },
+  {
+    "course": "MIMM 211",
+    "section": "001",
+    "title": "Introductory Microbiology",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-07T09:00",
+    "end": "2026-12-07T12:00"
+  },
+  {
+    "course": "MIMM 323",
+    "section": "001",
+    "title": "Microbial Physiology",
     "type": "ONLINE - TIMED EXAM - 3 HOURS",
-    "start": "2026-04-30T14:00",
-    "end": "2026-04-30T17:00"
-  },
-    {
-    "course": "MIME 576",
-    "section": "001",
-    "title": "Adv Steelmaking & Processing",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-29T14:00",
-    "end": "2026-04-29T17:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
-  },
-    {
-    "course": "MIMM 214",
-    "section": "001",
-    "title": "Intro Immun: Elem of Immunity",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-20T14:00",
-    "end": "2026-04-20T17:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
-  },
-    {
-    "course": "MIMM 314",
-    "section": "001",
-    "title": "Intermediate Immunology",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-17T14:00",
-    "end": "2026-04-17T17:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
-  },
-    {
-    "course": "MIMM 387",
-    "section": "001",
-    "title": "The Business of Science",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-16T14:00",
-    "end": "2026-04-16T17:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
-  },
-    {
-    "course": "MIMM 413",
-    "section": "001",
-    "title": "Parasitology",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-30T14:00",
-    "end": "2026-04-30T17:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
-  },
-    {
-    "course": "MIMM 466",
-    "section": "001",
-    "title": "Viral Pathogenesis",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-23T14:00",
-    "end": "2026-04-23T17:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
-  },
-    {
-    "course": "MUCT 315",
-    "section": "001",
-    "title": "Choral Conducting 1",
-    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-04-21T09:00",
-    "end": "2026-04-21T12:00",
-    "building": "Strathcona Music Building",
-    "room": "C-412"
-  },
-    {
-    "course": "MUHL 211",
-    "section": "001",
-    "title": "The Art of Listening",
-    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-04-23T09:00",
-    "end": "2026-04-23T12:00",
-    "building": "LEA",
-    "room": "132"
-  },
-    {
-    "course": "MUHL 387",
-    "section": "001",
-    "title": "Opera from Mozart to Puccini",
-    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-04-21T09:00",
-    "end": "2026-04-21T12:00",
-    "building": "Strathcona Music Building",
-    "room": "C-201"
-  },
-    {
-    "course": "MUJZ 226",
-    "section": "001",
-    "title": "Jazz Vocal Improvisation 2",
-    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-04-17T09:00",
-    "end": "2026-04-17T12:00",
-    "building": "Strathcona Music Building",
-    "room": "C-309"
-  },
-    {
-    "course": "MUMT 250",
-    "section": "001",
-    "title": "Music Perception and Cognition",
-    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-04-23T14:00",
-    "end": "2026-04-23T17:00",
-    "building": "Strathcona Music Building",
-    "room": "C-201"
-  },
-    {
-    "course": "MUSP 124",
-    "section": "001",
-    "title": "Jazz Ear Training 2",
-    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-04-22T09:00",
-    "end": "2026-04-22T12:00",
-    "building": "Strathcona Music Building",
-    "room": "C-201"
-  },
-    {
-    "course": "MUSP 124",
-    "section": "002",
-    "title": "Jazz Ear Training 2",
-    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-04-22T09:00",
-    "end": "2026-04-22T12:00",
-    "building": "Strathcona Music Building",
-    "room": "C-204"
-  },
-    {
-    "course": "MUTH 151",
-    "section": "001",
-    "title": "Theory and Analysis 2",
-    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-04-20T14:00",
-    "end": "2026-04-20T17:00",
-    "building": "Strathcona Music Building",
-    "room": "C-201, C-204"
-  },
-    {
-    "course": "NEUR 310",
-    "section": "001",
-    "title": "Cellular Neurobiology",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-22T14:00",
-    "end": "2026-04-22T17:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
+    "start": "2026-12-21T14:00",
+    "end": "2026-12-21T17:00"
   },
   {
-    "course": "NRSC 515",
+    "course": "MIMM 324",
     "section": "001",
-    "title": "Water and Health.",
-    "type": "IN-PERSON - FORMAL EXAM - MAC CAMPUS",
-    "start": "2026-04-16T09:00",
-    "end": "2026-04-16T12:00"
+    "title": "Fundamental Virology",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-11T14:00",
+    "end": "2026-12-11T17:00"
   },
   {
-    "course": "NRSC 515",
-    "section": "002",
-    "title": "Water and Health.",
-    "type": "IN-PERSON - FORMAL EXAM - MAC CAMPUS",
-    "start": "2026-04-16T09:00",
-    "end": "2026-04-16T12:00"
-  },
-    {
-    "course": "NSCI 201",
+    "course": "MIMM 384",
     "section": "001",
-    "title": "Intro. to Neuroscience 2",
+    "title": "Molecular Microbiology Lab",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-30T14:00",
-    "end": "2026-04-30T17:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
+    "start": "2026-12-09T14:00",
+    "end": "2026-12-09T17:00"
   },
-    {
-    "course": "NUTR 217",
+  {
+    "course": "MIMM 414",
     "section": "001",
-    "title": "Application: Food Fundamentals",
-    "type": "IN-PERSON - FORMAL EXAM - MAC CAMPUS",
-    "start": "2026-04-22T14:00",
-    "end": "2026-04-22T17:00",
-    "building": "CENTEN",
-    "room": "Ballroom"
-  },
-    {
-    "course": "NUTR 337",
-    "section": "001",
-    "title": "Nutrition Through Life",
-    "type": "IN-PERSON - FORMAL EXAM - MAC CAMPUS",
-    "start": "2026-04-16T14:00",
-    "end": "2026-04-16T17:00",
-    "building": "CENTEN",
-    "room": "Ballroom"
-  },
-    {
-    "course": "NUTR 343",
-    "section": "001",
-    "title": "Financial Mgmt and Accounting",
-    "type": "IN-PERSON - FORMAL EXAM - MAC CAMPUS",
-    "start": "2026-04-24T14:00",
-    "end": "2026-04-24T17:00",
-    "building": "CENTEN",
-    "room": "Ballroom"
-  },
-    {
-    "course": "NUTR 344",
-    "section": "001",
-    "title": "Clinical Nutrition 1",
-    "type": "IN-PERSON - FORMAL EXAM - MAC CAMPUS",
-    "start": "2026-04-20T14:00",
-    "end": "2026-04-20T17:00",
-    "building": "CENTEN",
-    "room": "Ballroom"
-  },
-    {
-    "course": "PATH 300",
-    "section": "001",
-    "title": "Human Disease",
+    "title": "Advanced Immunology",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-27T14:00",
-    "end": "2026-04-27T17:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
+    "start": "2026-12-11T14:00",
+    "end": "2026-12-11T17:00"
   },
-    {
-    "course": "PHAR 201",
+  {
+    "course": "MIMM 465",
     "section": "001",
-    "title": "Introduction to Pharmacology 2",
+    "title": "Bacterial Pathogenesis",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-30T09:00",
-    "end": "2026-04-30T12:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
+    "start": "2026-12-16T14:00",
+    "end": "2026-12-16T17:00"
   },
-    {
-    "course": "PHAR 301",
+  {
+    "course": "MUHL 186",
     "section": "001",
-    "title": "Drugs and Disease",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-29T18:30",
-    "end": "2026-04-29T21:30",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
-  },
-    {
-    "course": "PHAR 303",
-    "section": "001",
-    "title": "Principles of Toxicology",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-17T09:00",
-    "end": "2026-04-17T12:00",
-    "building": "McGill Sports Complex",
-    "room": "STUDIO 1"
-  },
-    {
-    "course": "PHAR 565",
-    "section": "001",
-    "title": "Epigenetic Drugs and Targets",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-20T09:00",
-    "end": "2026-04-20T12:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
-  },
-    {
-    "course": "PHGY 210",
-    "section": "001",
-    "title": "Mammalian Physiology 2",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-24T14:00",
-    "end": "2026-04-24T17:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
-  },
-    {
-    "course": "PHGY 210",
-    "section": "002",
-    "title": "Mammalian Physiology 2",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-24T14:00",
-    "end": "2026-04-24T17:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
-  },
-    {
-    "course": "PHGY 213",
-    "section": "001",
-    "title": "Introductory Physiology Lab 2",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-21T14:00",
-    "end": "2026-04-21T17:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
-  },
-    {
-    "course": "PHGY 312",
-    "section": "001",
-    "title": "Resp.,Renal,&Cardio Physiology",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-20T09:00",
-    "end": "2026-04-20T12:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
-  },
-    {
-    "course": "PHGY 313",
-    "section": "001",
-    "title": "Blood,GI,Imm.Syst.Physiol",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-28T14:00",
-    "end": "2026-04-28T17:00",
-    "building": "McGill Sports Complex",
-    "room": "STUDIO 2"
-  },
-    {
-    "course": "PHGY 502",
-    "section": "001",
-    "title": "Exercise Physiology",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-29T18:30",
-    "end": "2026-04-29T21:30",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
-  },
-    {
-    "course": "PHGY 552",
-    "section": "001",
-    "title": "Cellular&Molecular Physiology",
+    "title": "Western Musical Traditions",
     "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-04-27T09:00",
-    "end": "2026-04-27T12:00",
-    "building": "MCMED",
-    "room": "1027"
+    "start": "2026-12-09T14:00",
+    "end": "2026-12-09T17:00"
   },
-    {
-    "course": "PHIL 201",
+  {
+    "course": "MUHL 390",
     "section": "001",
-    "title": "Intro to Philosophy 2",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-29T09:00",
-    "end": "2026-04-29T12:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
+    "title": "The German Lied",
+    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
+    "start": "2026-12-08T14:00",
+    "end": "2026-12-08T17:00"
   },
-    {
-    "course": "PHIL 240",
+  {
+    "course": "MUSP 123",
     "section": "001",
-    "title": "Political Philosophy 1",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-30T14:00",
-    "end": "2026-04-30T17:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
+    "title": "Jazz Ear Training 1",
+    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
+    "start": "2026-12-09T14:00",
+    "end": "2026-12-09T17:00"
   },
-    {
+  {
+    "course": "MUSP 123",
+    "section": "002",
+    "title": "Jazz Ear Training 1",
+    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
+    "start": "2026-12-11T14:00",
+    "end": "2026-12-11T17:00"
+  },
+  {
+    "course": "MUTH 101",
+    "section": "001",
+    "title": "Basic Materials:Western Music",
+    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
+    "start": "2026-12-15T09:00",
+    "end": "2026-12-15T12:00"
+  },
+  {
+    "course": "MUTH 250",
+    "section": "001",
+    "title": "Theory and Analysis 3",
+    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
+    "start": "2026-12-07T14:00",
+    "end": "2026-12-07T17:00"
+  },
+  {
+    "course": "NRSC 221",
+    "section": "001",
+    "title": "Environment and Health",
+    "type": "IN-PERSON - FORMAL EXAM - MAC CAMPUS",
+    "start": "2026-12-16T14:00",
+    "end": "2026-12-16T17:00"
+  },
+  {
+    "course": "NSCI 200",
+    "section": "001",
+    "title": "Intro. to Neuroscience 1",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-08T14:00",
+    "end": "2026-12-08T17:00"
+  },
+  {
+    "course": "NUR1 221",
+    "section": "001",
+    "title": "Intro toProf Prac&SBN&Hlthcare",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-07T18:30",
+    "end": "2026-12-07T21:30"
+  },
+  {
+    "course": "NUR1 312",
+    "section": "020",
+    "title": "Research in Nursing",
+    "type": "ONLINE - TIMED EXAM - 3 HOURS",
+    "start": "2026-12-07T09:00",
+    "end": "2026-12-07T12:00"
+  },
+  {
+    "course": "NUR1 323",
+    "section": "001",
+    "title": "Illness Management 1",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-07T09:00",
+    "end": "2026-12-07T12:00"
+  },
+  {
+    "course": "NUR1 424",
+    "section": "001",
+    "title": "Legal,Ethical&Prof Prac Issues",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-11T14:00",
+    "end": "2026-12-11T17:00"
+  },
+  {
+    "course": "NUR1 424",
+    "section": "020",
+    "title": "Legal,Ethical&Prof Prac Issues",
+    "type": "ONLINE - TAKE-HOME - 48 HOURS",
+    "start": "2026-12-21T09:00",
+    "end": "2026-12-23T09:00"
+  },
+  {
+    "course": "NUR2 623",
+    "section": "001",
+    "title": "Clin.Assess.&Therapeutics 1",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-07T09:00",
+    "end": "2026-12-07T12:00"
+  },
+  {
+    "course": "NUTR 207",
+    "section": "001",
+    "title": "Nutrition and Health",
+    "type": "IN-PERSON - FORMAL EXAM - MAC CAMPUS",
+    "start": "2026-12-22T09:00",
+    "end": "2026-12-22T12:00"
+  },
+  {
+    "course": "NUTR 214",
+    "section": "001",
+    "title": "Food Fundamentals",
+    "type": "IN-PERSON - FORMAL EXAM - MAC CAMPUS",
+    "start": "2026-12-11T09:00",
+    "end": "2026-12-11T12:00"
+  },
+  {
+    "course": "NUTR 307",
+    "section": "001",
+    "title": "Metabolism and Human Nutrition",
+    "type": "IN-PERSON - FORMAL EXAM - MAC CAMPUS",
+    "start": "2026-12-21T09:00",
+    "end": "2026-12-21T12:00"
+  },
+  {
+    "course": "NUTR 342",
+    "section": "001",
+    "title": "Applied Human Resources",
+    "type": "IN-PERSON - FORMAL EXAM - MAC CAMPUS",
+    "start": "2026-12-14T09:00",
+    "end": "2026-12-14T12:00"
+  },
+  {
+    "course": "NUTR 511",
+    "section": "001",
+    "title": "Nutrition and Behaviour",
+    "type": "IN-PERSON - FORMAL EXAM - MAC CAMPUS",
+    "start": "2026-12-21T14:00",
+    "end": "2026-12-21T17:00"
+  },
+  {
+    "course": "NUTR 512",
+    "section": "001",
+    "title": "Herbs, Foods&Phytochemicals",
+    "type": "IN-PERSON - FORMAL EXAM - MAC CAMPUS",
+    "start": "2026-12-07T09:00",
+    "end": "2026-12-07T12:00"
+  },
+  {
+    "course": "NUTR 545",
+    "section": "001",
+    "title": "Clinical Nutrition 2",
+    "type": "IN-PERSON - ORAL EXAM - MAC CAMPUS",
+    "start": "2026-12-18T14:00",
+    "end": "2026-12-20T14:00"
+  },
+  {
+    "course": "NUTR 546",
+    "section": "001",
+    "title": "Clinical Nutrition 3",
+    "type": "IN-PERSON - FORMAL EXAM - MAC CAMPUS",
+    "start": "2026-12-16T09:00",
+    "end": "2026-12-16T12:00"
+  },
+  {
+    "course": "NUTR 551",
+    "section": "001",
+    "title": "Analysis of Nutrition Data",
+    "type": "IN-PERSON - FORMAL EXAM - MAC CAMPUS",
+    "start": "2026-12-11T14:00",
+    "end": "2026-12-11T17:00"
+  },
+  {
+    "course": "PARA 438",
+    "section": "001",
+    "title": "Immunology",
+    "type": "IN-PERSON - FORMAL EXAM - MAC CAMPUS",
+    "start": "2026-12-15T14:00",
+    "end": "2026-12-15T17:00"
+  },
+  {
+    "course": "PHAR 200",
+    "section": "001",
+    "title": "Introduction to Pharmacology 1",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-09T09:00",
+    "end": "2026-12-09T12:00"
+  },
+  {
+    "course": "PHAR 300",
+    "section": "001",
+    "title": "Drug Action",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-07T18:30",
+    "end": "2026-12-07T21:30"
+  },
+  {
+    "course": "PHAR 505",
+    "section": "001",
+    "title": "Structural Pharmacology",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-08T14:00",
+    "end": "2026-12-08T17:00"
+  },
+  {
+    "course": "PHAR 562",
+    "section": "001",
+    "title": "Neuropharmacology",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-11T14:00",
+    "end": "2026-12-11T17:00"
+  },
+  {
+    "course": "PHAR 563",
+    "section": "001",
+    "title": "Endocrine Pharmacology",
+    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
+    "start": "2026-12-22T09:00",
+    "end": "2026-12-22T12:00"
+  },
+  {
+    "course": "PHGY 209",
+    "section": "001",
+    "title": "Mammalian Physiology 1",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-21T14:00",
+    "end": "2026-12-21T17:00"
+  },
+  {
+    "course": "PHGY 209",
+    "section": "002",
+    "title": "Mammalian Physiology 1",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-21T14:00",
+    "end": "2026-12-21T17:00"
+  },
+  {
+    "course": "PHGY 212",
+    "section": "001",
+    "title": "Introductory Physiology Lab 1",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-16T18:30",
+    "end": "2026-12-16T21:30"
+  },
+  {
+    "course": "PHGY 311",
+    "section": "001",
+    "title": "Channels, Synapses & Hormones",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-10T18:30",
+    "end": "2026-12-10T21:30"
+  },
+  {
+    "course": "PHGY 314",
+    "section": "001",
+    "title": "Integrative Neuroscience",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-16T18:30",
+    "end": "2026-12-16T21:30"
+  },
+  {
+    "course": "PHGY 488",
+    "section": "001",
+    "title": "Stem Cell Biology",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-07T14:00",
+    "end": "2026-12-07T17:00"
+  },
+  {
+    "course": "PHIL 202",
+    "section": "001",
+    "title": "The Good Life",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-11T09:00",
+    "end": "2026-12-11T12:00"
+  },
+  {
+    "course": "PHIL 210",
+    "section": "001",
+    "title": "Intro to Deductive Logic 1",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-17T09:00",
+    "end": "2026-12-17T12:00"
+  },
+  {
+    "course": "PHIL 221",
+    "section": "001",
+    "title": "Intro to Hist & Phil of Sci 2",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-18T14:00",
+    "end": "2026-12-18T17:00"
+  },
+  {
+    "course": "PHIL 230",
+    "section": "001",
+    "title": "Intro to Moral Philosophy 1",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-16T18:30",
+    "end": "2026-12-16T21:30"
+  },
+  {
+    "course": "PHIL 242",
+    "section": "001",
+    "title": "Intro to Feminist Theory",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-15T14:00",
+    "end": "2026-12-15T17:00"
+  },
+  {
     "course": "PHIL 306",
     "section": "001",
     "title": "Philosophy of Mind",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-23T18:30",
-    "end": "2026-04-23T21:30",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
-  },
-    {
-    "course": "PHIL 341",
-    "section": "001",
-    "title": "Philosophy of Science 1",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-27T14:00",
-    "end": "2026-04-27T17:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
-  },
-    {
-    "course": "PHIL 348",
-    "section": "001",
-    "title": "Philosophy of Law 1",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-23T09:00",
-    "end": "2026-04-23T12:00",
-    "building": "McGill Sports Complex",
-    "room": "BLEACHERS"
-  },
-    {
-    "course": "PHIL 354",
-    "section": "001",
-    "title": "Plato",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-29T14:00",
-    "end": "2026-04-29T17:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
+    "start": "2026-12-10T09:00",
+    "end": "2026-12-10T12:00"
   },
   {
-    "course": "PHIL 355",
+    "course": "PHIL 336",
     "section": "001",
-    "title": "Aristotle",
-    "type": "ONLINE - TAKE-HOME - 48 HOURS",
-    "start": "2026-04-20T09:00",
-    "end": "2026-04-22T09:00"
-  },
-    {
-    "course": "PHIL 367",
-    "section": "001",
-    "title": "19th Century Philosophy",
+    "title": "Aesthetics",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-22T18:30",
-    "end": "2026-04-22T21:30",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
+    "start": "2026-12-22T09:00",
+    "end": "2026-12-22T12:00"
   },
   {
-    "course": "PHIL 475",
+    "course": "PHIL 349",
     "section": "001",
-    "title": "Topics in Contem European Phil",
-    "type": "IN-PERSON - 2 DAY ORAL - D.T. CAMPUS",
-    "start": "2026-04-16T09:00",
-    "end": "2026-04-17T12:00"
-  },
-    {
-    "course": "PHYS 102",
-    "section": "001",
-    "title": "Intro Physics-Electromagnetism",
+    "title": "Environmental Philosophy",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-27T09:00",
-    "end": "2026-04-27T12:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
+    "start": "2026-12-14T18:30",
+    "end": "2026-12-14T21:30"
   },
-    {
-    "course": "PHYS 142",
+  {
+    "course": "PHIL 360",
     "section": "001",
-    "title": "Electromagnetism & Optics",
+    "title": "17th Century Philosophy",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-27T09:00",
-    "end": "2026-04-27T12:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
+    "start": "2026-12-11T14:00",
+    "end": "2026-12-11T17:00"
   },
-    {
-    "course": "PHYS 181",
+  {
+    "course": "PHIL 375",
     "section": "001",
-    "title": "Everyday Physics",
+    "title": "Existentialism",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-21T09:00",
-    "end": "2026-04-21T12:00",
-    "building": "McGill Sports Complex",
-    "room": "BLEACHERS"
+    "start": "2026-12-11T14:00",
+    "end": "2026-12-11T17:00"
   },
-    {
-    "course": "PHYS 183",
+  {
+    "course": "PHIL 454",
     "section": "001",
-    "title": "The Milky Way Inside and Out",
+    "title": "Ancient Moral Theory",
+    "type": "IN-PERSON - ORAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-16T14:00",
+    "end": "2026-12-16T17:00"
+  },
+  {
+    "course": "PHYS 101",
+    "section": "001",
+    "title": "Intro Physics - Mechanics",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-28T09:00",
-    "end": "2026-04-28T12:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
+    "start": "2026-12-18T09:00",
+    "end": "2026-12-18T12:00"
   },
-    {
-    "course": "PHYS 186",
+  {
+    "course": "PHYS 131",
     "section": "001",
-    "title": "Astrobiology",
+    "title": "Mechanics and Waves",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-21T14:00",
-    "end": "2026-04-21T17:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
+    "start": "2026-12-15T18:30",
+    "end": "2026-12-15T21:30"
   },
-    {
-    "course": "PHYS 228",
+  {
+    "course": "PHYS 180",
     "section": "001",
-    "title": "Energy and the Environment",
+    "title": "Space, Time & Matter",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-17T14:00",
+    "end": "2026-12-17T17:00"
+  },
+  {
+    "course": "PHYS 182",
+    "section": "001",
+    "title": "Our Evolving Universe",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-17T14:00",
+    "end": "2026-12-17T17:00"
+  },
+  {
+    "course": "PHYS 224",
+    "section": "001",
+    "title": "Physics of Music",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-18T09:00",
+    "end": "2026-12-18T12:00"
+  },
+  {
+    "course": "PHYS 230",
+    "section": "001",
+    "title": "Dynamics of Simple Systems",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-11T09:00",
+    "end": "2026-12-11T12:00"
+  },
+  {
+    "course": "PHYS 251",
+    "section": "001",
+    "title": "Honours Classical Mechanics 1",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-11T09:00",
+    "end": "2026-12-11T12:00"
+  },
+  {
+    "course": "PHYS 253",
+    "section": "001",
+    "title": "Thermal Physics",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-21T14:00",
+    "end": "2026-12-21T17:00"
+  },
+  {
+    "course": "PHYS 260",
+    "section": "001",
+    "title": "Modern Physics and Relativity",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-16T09:00",
+    "end": "2026-12-16T12:00"
+  },
+  {
+    "course": "PHYS 320",
+    "section": "001",
+    "title": "Introductory Astrophysics",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-15T14:00",
+    "end": "2026-12-15T17:00"
+  },
+  {
+    "course": "PHYS 328",
+    "section": "001",
+    "title": "Electronics",
     "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-04-27T09:00",
-    "end": "2026-04-27T12:00",
-    "building": "RPHYS",
-    "room": "103"
+    "start": "2026-12-09T14:00",
+    "end": "2026-12-09T17:00"
   },
-    {
-    "course": "PHYS 232",
+  {
+    "course": "PHYS 340",
     "section": "001",
-    "title": "Heat and Waves",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-22T14:00",
-    "end": "2026-04-22T17:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
-  },
-    {
-    "course": "PHYS 241",
-    "section": "001",
-    "title": "Signal Processing",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-21T09:00",
-    "end": "2026-04-21T12:00",
-    "building": "McGill Sports Complex",
-    "room": "STUDIO 1"
-  },
-    {
-    "course": "PHYS 242",
-    "section": "001",
-    "title": "Electricity & Magnetism",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-29T09:00",
-    "end": "2026-04-29T12:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
-  },
-    {
-    "course": "PHYS 319",
-    "section": "001",
-    "title": "Introduction to Biophysics",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-22T09:00",
-    "end": "2026-04-22T12:00",
-    "building": "McGill Sports Complex",
-    "room": "STUDIO 2"
-  },
-    {
-    "course": "PHYS 331",
-    "section": "001",
-    "title": "Topics in Classical Mechanics",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-30T09:00",
-    "end": "2026-04-30T12:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
-  },
-    {
-    "course": "PHYS 333",
-    "section": "001",
-    "title": "Thermal & Statistical Physics",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-20T18:30",
-    "end": "2026-04-20T21:30",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
-  },
-    {
-    "course": "PHYS 342",
-    "section": "001",
-    "title": "Majors Electromagnetic Waves",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-17T09:00",
-    "end": "2026-04-17T12:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
-  },
-    {
-    "course": "PHYS 351",
-    "section": "001",
-    "title": "Honours Classical Mechanics 2",
+    "title": "Majors Electricity & Magnetism",
     "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-04-24T14:00",
-    "end": "2026-04-24T17:00",
-    "building": "ARTS",
-    "room": "W-215"
+    "start": "2026-12-14T14:00",
+    "end": "2026-12-14T17:00"
   },
-    {
-    "course": "PHYS 362",
+  {
+    "course": "PHYS 346",
     "section": "001",
-    "title": "Statistical Mechanics",
+    "title": "Majors Quantum Physics",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-22T14:00",
-    "end": "2026-04-22T17:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
+    "start": "2026-12-08T14:00",
+    "end": "2026-12-08T17:00"
   },
-    {
-    "course": "PHYS 432",
+  {
+    "course": "PHYS 350",
     "section": "001",
-    "title": "Physics of Fluids",
+    "title": "Hons Electricity & Magnetism",
+    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
+    "start": "2026-12-14T14:00",
+    "end": "2026-12-14T17:00"
+  },
+  {
+    "course": "PHYS 352",
+    "section": "001",
+    "title": "Honours Electromagnetic Waves",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-27T14:00",
-    "end": "2026-04-27T17:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
+    "start": "2026-12-16T14:00",
+    "end": "2026-12-16T17:00"
   },
-    {
-    "course": "PHYS 447",
+  {
+    "course": "PHYS 357",
     "section": "001",
-    "title": "Majors Quantum Physics 2",
-    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-04-28T14:00",
-    "end": "2026-04-28T17:00",
-    "building": "RPHYS",
-    "room": "103"
-  },
-    {
-    "course": "PHYS 457",
-    "section": "001",
-    "title": "Honours Quantum Physics 2",
+    "title": "Honours Quantum Physics 1",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-28T14:00",
-    "end": "2026-04-28T17:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
+    "start": "2026-12-08T14:00",
+    "end": "2026-12-08T17:00"
   },
-    {
-    "course": "PHYS 514",
+  {
+    "course": "PHYS 404",
     "section": "001",
-    "title": "General Relativity",
+    "title": "Climate Physics",
     "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-04-24T09:00",
-    "end": "2026-04-24T12:00",
-    "building": "RPHYS",
-    "room": "103"
+    "start": "2026-12-07T14:00",
+    "end": "2026-12-07T17:00"
   },
-    {
-    "course": "PHYS 559",
+  {
+    "course": "PHYS 434",
     "section": "001",
-    "title": "Advanced Statistical Mechanics",
+    "title": "Optics",
     "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-04-29T09:00",
-    "end": "2026-04-29T12:00",
-    "building": "RPHYS",
-    "room": "103"
+    "start": "2026-12-22T09:00",
+    "end": "2026-12-22T12:00"
   },
-    {
-    "course": "PHYS 567",
+  {
+    "course": "PHYS 512",
     "section": "001",
-    "title": "Particle Physics",
+    "title": "Comp. Phys. with Applications",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-14T09:00",
+    "end": "2026-12-14T12:00"
+  },
+  {
+    "course": "PHYS 521",
+    "section": "001",
+    "title": "Astrophysics",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-18T14:00",
+    "end": "2026-12-18T17:00"
+  },
+  {
+    "course": "PHYS 551",
+    "section": "001",
+    "title": "Quantum Theory",
     "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-04-23T14:00",
-    "end": "2026-04-23T17:00",
-    "building": "ARTS",
-    "room": "260"
+    "start": "2026-12-07T14:00",
+    "end": "2026-12-07T17:00"
   },
-    {
-    "course": "PLNT 310",
+  {
+    "course": "PHYS 558",
     "section": "001",
-    "title": "Plant Propagation",
+    "title": "Solid State Physics",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-21T09:00",
+    "end": "2026-12-21T12:00"
+  },
+  {
+    "course": "PLNT 200",
+    "section": "001",
+    "title": "Introduction to Crop Science",
     "type": "IN-PERSON - FORMAL EXAM - MAC CAMPUS",
-    "start": "2026-04-17T14:00",
-    "end": "2026-04-17T17:00",
-    "building": "CENTEN",
-    "room": "Ballroom"
-  },
-    {
-    "course": "PLNT 322",
-    "section": "001",
-    "title": "Greenhouse Management",
-    "type": "IN-PERSON - FORMAL EXAM - MAC CAMPUS",
-    "start": "2026-04-22T14:00",
-    "end": "2026-04-22T17:00",
-    "building": "CENTEN",
-    "room": "Ballroom"
+    "start": "2026-12-14T14:00",
+    "end": "2026-12-14T17:00"
   },
   {
-    "course": "PLNT 430",
+    "course": "PLNT 302",
     "section": "001",
-    "title": "Pesticides in Agriculture",
-    "type": "ONLINE - TAKE-HOME - 48 HOURS",
-    "start": "2026-04-28T14:00",
-    "end": "2026-04-30T14:00"
+    "title": "Forage Crops and Pastures",
+    "type": "IN-PERSON - LAB EXAM - MAC CAMPUS",
+    "start": "2026-12-18T14:00",
+    "end": "2026-12-18T17:00"
   },
-    {
-    "course": "POLI 222",
+  {
+    "course": "POLI 210",
     "section": "001",
-    "title": "Political Proc&Behav in Canada",
+    "title": "Poli Sci Research Methods",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-24T09:00",
-    "end": "2026-04-24T12:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
+    "start": "2026-12-18T09:00",
+    "end": "2026-12-18T12:00"
   },
-    {
-    "course": "POLI 227",
+  {
+    "course": "POLI 212",
     "section": "001",
-    "title": "Intro to Compar Pol-Global S.",
+    "title": "Intro to ComparPol-Eur/NAmerca",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-24T14:00",
-    "end": "2026-04-24T17:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
+    "start": "2026-12-15T18:30",
+    "end": "2026-12-15T21:30"
   },
-    {
+  {
+    "course": "POLI 221",
+    "section": "001",
+    "title": "Government of Canada",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-21T09:00",
+    "end": "2026-12-21T12:00"
+  },
+  {
+    "course": "POLI 226",
+    "section": "001",
+    "title": "La vie politique qu b coise",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-14T14:00",
+    "end": "2026-12-14T17:00"
+  },
+  {
     "course": "POLI 231",
     "section": "001",
     "title": "Intro to Political Theory",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-20T18:30",
-    "end": "2026-04-20T21:30",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
+    "start": "2026-12-21T18:30",
+    "end": "2026-12-21T21:30"
   },
-    {
+  {
+    "course": "POLI 244",
+    "section": "001",
+    "title": "Intl Politics: State Behaviour",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-16T18:30",
+    "end": "2026-12-16T21:30"
+  },
+  {
     "course": "POLI 311",
     "section": "001",
     "title": "Intro to Quantitative Pol Sci",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-20T18:30",
-    "end": "2026-04-20T21:30",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
+    "start": "2026-12-10T09:00",
+    "end": "2026-12-10T12:00"
   },
-    {
-    "course": "POLI 321",
+  {
+    "course": "POLI 322",
     "section": "001",
-    "title": "Issues:Canadian Public Policy",
+    "title": "Political Change: South Asia",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-17T14:00",
-    "end": "2026-04-17T17:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
+    "start": "2026-12-16T09:00",
+    "end": "2026-12-16T12:00"
   },
-    {
-    "course": "POLI 329",
+  {
+    "course": "POLI 324",
     "section": "001",
-    "title": "Russian Politics",
+    "title": "Comparative Politics of Africa",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-22T14:00",
-    "end": "2026-04-22T17:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
+    "start": "2026-12-18T14:00",
+    "end": "2026-12-18T17:00"
   },
-    {
-    "course": "POLI 331",
+  {
+    "course": "POLI 325",
     "section": "001",
-    "title": "Politics in E Central Europe",
+    "title": "U.S. Politics",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-28T14:00",
-    "end": "2026-04-28T17:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
+    "start": "2026-12-08T18:30",
+    "end": "2026-12-08T21:30"
   },
-    {
-    "course": "POLI 334",
+  {
+    "course": "POLI 333",
     "section": "001",
-    "title": "Western Political Theory 2",
+    "title": "Western Political Theory 1",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-29T14:00",
-    "end": "2026-04-29T17:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
+    "start": "2026-12-11T14:00",
+    "end": "2026-12-11T17:00"
+  },
+  {
+    "course": "POLI 340",
+    "section": "001",
+    "title": "Compar Pol of the Middle East",
+    "type": "ONLINE - TAKE-HOME - 72 HOURS",
+    "start": "2026-12-07T09:00",
+    "end": "2026-12-10T09:00"
+  },
+  {
+    "course": "POLI 341",
+    "section": "001",
+    "title": "Foreign Policy:The Middle East",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-08T09:00",
+    "end": "2026-12-08T12:00"
   },
   {
     "course": "POLI 342",
     "section": "001",
     "title": "Canadian Foreign Policy",
-    "type": "ONLINE - TAKE-HOME - 10 DAYS",
-    "start": "2026-04-20T14:00",
-    "end": "2026-04-30T14:00"
+    "type": "ONLINE - TAKE-HOME - 72 HOURS",
+    "start": "2026-12-09T09:00",
+    "end": "2026-12-12T09:00"
   },
-    {
-    "course": "POLI 345",
+  {
+    "course": "POLI 353",
     "section": "001",
-    "title": "International Organizations",
+    "title": "Politics Intl Refugee Regime",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-28T09:00",
-    "end": "2026-04-28T12:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
+    "start": "2026-12-17T18:30",
+    "end": "2026-12-17T21:30"
   },
-    {
-    "course": "POLI 347",
+  {
+    "course": "POLI 355",
     "section": "001",
-    "title": "Arab-Israel Confl,Crisis,Peace",
+    "title": "The Politics of Intl Law",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-27T09:00",
-    "end": "2026-04-27T12:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
+    "start": "2026-12-15T14:00",
+    "end": "2026-12-15T17:00"
   },
-    {
-    "course": "POLI 352",
+  {
+    "course": "POLI 360",
     "section": "001",
-    "title": "Intl Pol/Foreign Pol:Africa",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-21T09:00",
-    "end": "2026-04-21T12:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
+    "title": "Security: War and Peace",
+    "type": "ONLINE - TAKE-HOME - 72 HOURS",
+    "start": "2026-12-07T09:00",
+    "end": "2026-12-10T09:00"
   },
-    {
-    "course": "POLI 369",
+  {
+    "course": "POLI 362",
     "section": "001",
-    "title": "Politics of Southeast Asia",
+    "title": "Political Theory and IR",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-21T09:00",
-    "end": "2026-04-21T12:00",
-    "building": "McGill Sports Complex",
-    "room": "STUDIO 2"
+    "start": "2026-12-21T18:30",
+    "end": "2026-12-21T21:30"
   },
-    {
+  {
+    "course": "POLI 367",
+    "section": "001",
+    "title": "Liberal Political Theory",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-16T18:30",
+    "end": "2026-12-16T21:30"
+  },
+  {
+    "course": "POLI 368",
+    "section": "001",
+    "title": "Political Theory & Indigeneity",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-15T09:00",
+    "end": "2026-12-15T12:00"
+  },
+  {
+    "course": "POLI 371",
+    "section": "001",
+    "title": "Challenge of Cnd Federalism",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-09T18:30",
+    "end": "2026-12-09T21:30"
+  },
+  {
     "course": "POLI 379",
     "section": "001",
     "title": "Topics in Canadian Politics",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-29T09:00",
-    "end": "2026-04-29T12:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
-  },
-    {
-    "course": "POLI 381",
-    "section": "001",
-    "title": "Politics in Japan and S Korea",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-17T09:00",
-    "end": "2026-04-17T12:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
+    "start": "2026-12-22T09:00",
+    "end": "2026-12-22T12:00"
   },
   {
-    "course": "POLI 410",
+    "course": "POLI 433",
     "section": "001",
-    "title": "Canadian Political Parties",
-    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-04-27T09:00",
-    "end": "2026-04-27T12:00"
-  },
-    {
-    "course": "POLI 427",
-    "section": "001",
-    "title": "Sel Topics:Canadian Politics",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-22T09:00",
-    "end": "2026-04-22T12:00",
-    "building": "McGill Sports Complex",
-    "room": "BLEACHERS"
-  },
-    {
-    "course": "POLI 431",
-    "section": "001",
-    "title": "Nations and Nationalism",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-30T09:00",
-    "end": "2026-04-30T12:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
-  },
-    {
-    "course": "POLI 434",
-    "section": "001",
-    "title": "Hist of Pol/Soc Theory 4",
+    "title": "Hist of Pol/Soc Theory 3",
     "type": "IN-PERSON - ORAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-16T09:00",
-    "end": "2026-04-16T12:00",
-    "building": "FERR",
-    "room": "418"
-  },
-    {
-    "course": "POLI 435",
-    "section": "001",
-    "title": "Identity and Inequality",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-17T14:00",
-    "end": "2026-04-17T17:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
+    "start": "2026-12-18T08:30",
+    "end": "2026-12-18T18:30"
   },
   {
-    "course": "POLI 441",
-    "section": "001",
-    "title": "IPE: Trade",
-    "type": "ONLINE - TAKE-HOME - 10 DAYS",
-    "start": "2026-04-20T14:00",
-    "end": "2026-04-30T14:00"
-  },
-    {
     "course": "POLI 442",
     "section": "001",
     "title": "Int'l Rel of Ethnic Conflict",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-16T09:00",
-    "end": "2026-04-16T12:00",
-    "building": "McGill Sports Complex",
-    "room": "STUDIO 1"
+    "start": "2026-12-07T14:00",
+    "end": "2026-12-07T17:00"
   },
-    {
+  {
     "course": "POLI 448",
     "section": "001",
     "title": "Gender and Intl Relations",
+    "type": "ONLINE - TAKE-HOME - 72 HOURS",
+    "start": "2026-12-09T09:00",
+    "end": "2026-12-12T09:00"
+  },
+  {
+    "course": "POLI 458",
+    "section": "001",
+    "title": "(De-)Coloniality",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-30T14:00",
-    "end": "2026-04-30T17:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
+    "start": "2026-12-16T09:00",
+    "end": "2026-12-16T12:00"
   },
   {
-    "course": "POLI 452",
+    "course": "PSYC 100",
     "section": "001",
-    "title": "Conflict Simulation",
-    "type": "ONLINE - TAKE-HOME - 72 HOURS",
-    "start": "2026-04-20T09:00",
-    "end": "2026-04-23T09:00"
+    "title": "Introduction to Psychology",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-07T14:00",
+    "end": "2026-12-07T17:00"
   },
   {
-    "course": "POLI 473",
-    "section": "001",
-    "title": "Democracy and the Market.",
-    "type": "ONLINE - TAKE-HOME - 72 HOURS",
-    "start": "2026-04-27T09:00",
-    "end": "2026-04-30T09:00"
-  },
-  {
-    "course": "POLI 614",
-    "section": "001",
-    "title": "Proseminar in Political Theory",
-    "type": "IN-PERSON - ALL DAY ORAL - D.T. CAMPUS",
-    "start": "2026-04-16T09:00",
-    "end": "2026-04-16T17:00"
-  },
-    {
     "course": "PSYC 204",
     "section": "001",
     "title": "Intro to Psychological Stats",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-22T09:00",
-    "end": "2026-04-22T12:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
+    "start": "2026-12-10T09:00",
+    "end": "2026-12-10T12:00"
   },
-    {
+  {
     "course": "PSYC 211",
     "section": "001",
     "title": "Intro Behavioural Neuroscience",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-20T18:30",
-    "end": "2026-04-20T21:30",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
+    "start": "2026-12-11T09:00",
+    "end": "2026-12-11T12:00"
   },
-    {
-    "course": "PSYC 212",
-    "section": "001",
-    "title": "Perception",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-27T14:00",
-    "end": "2026-04-27T17:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
-  },
-    {
+  {
     "course": "PSYC 213",
     "section": "001",
     "title": "Cognition",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-22T18:30",
-    "end": "2026-04-22T21:30",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
+    "start": "2026-12-16T09:00",
+    "end": "2026-12-16T12:00"
   },
-    {
+  {
     "course": "PSYC 215",
     "section": "001",
     "title": "Social Psychology",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-29T14:00",
-    "end": "2026-04-29T17:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
+    "start": "2026-12-15T14:00",
+    "end": "2026-12-15T17:00"
   },
-    {
-    "course": "PSYC 302",
-    "section": "001",
-    "title": "Pain",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-17T14:00",
-    "end": "2026-04-17T17:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
-  },
-    {
-    "course": "PSYC 304",
-    "section": "001",
-    "title": "Child Development",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-22T18:30",
-    "end": "2026-04-22T21:30",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
-  },
-    {
+  {
     "course": "PSYC 305",
     "section": "001",
     "title": "Statistics for Exper Design",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-22T09:00",
-    "end": "2026-04-22T12:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
+    "start": "2026-12-21T18:30",
+    "end": "2026-12-21T21:30"
   },
-    {
+  {
     "course": "PSYC 306",
     "section": "001",
     "title": "Research Methods in Psychology",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-21T14:00",
-    "end": "2026-04-21T17:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
+    "start": "2026-12-17T18:30",
+    "end": "2026-12-17T21:30"
   },
-    {
-    "course": "PSYC 333",
+  {
+    "course": "PSYC 311",
     "section": "001",
-    "title": "Personality & Social Psych",
+    "title": "Human Cognition and the Brain",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-29T18:30",
-    "end": "2026-04-29T21:30",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
+    "start": "2026-12-07T14:00",
+    "end": "2026-12-07T17:00"
   },
-    {
+  {
+    "course": "PSYC 331",
+    "section": "001",
+    "title": "Inter-Group Relations",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-22T09:00",
+    "end": "2026-12-22T12:00"
+  },
+  {
+    "course": "PSYC 332",
+    "section": "001",
+    "title": "Intro to Personality",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-08T14:00",
+    "end": "2026-12-08T17:00"
+  },
+  {
     "course": "PSYC 337",
     "section": "001",
     "title": "Intro to Psychopathology",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-20T14:00",
-    "end": "2026-04-20T17:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
+    "start": "2026-12-07T09:00",
+    "end": "2026-12-07T12:00"
   },
-    {
-    "course": "PSYC 342",
+  {
+    "course": "PSYC 341",
     "section": "001",
-    "title": "Hormones & Behaviour",
+    "title": "The Psychology of Bilingualism",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-21T09:00",
-    "end": "2026-04-21T12:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
+    "start": "2026-12-07T18:30",
+    "end": "2026-12-07T21:30"
   },
-    {
+  {
+    "course": "PSYC 403",
+    "section": "001",
+    "title": "Modern Psych in Hist Persp",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-14T18:30",
+    "end": "2026-12-14T21:30"
+  },
+  {
+    "course": "PSYC 406",
+    "section": "001",
+    "title": "Psychological Tests",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-08T09:00",
+    "end": "2026-12-08T12:00"
+  },
+  {
+    "course": "PSYC 408",
+    "section": "001",
+    "title": "Princip&Apps of Psychother",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-21T09:00",
+    "end": "2026-12-21T12:00"
+  },
+  {
     "course": "PSYC 410",
     "section": "001",
     "title": "Sp Topics in Neuropsychology",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-30T09:00",
-    "end": "2026-04-30T12:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
+    "start": "2026-12-15T18:30",
+    "end": "2026-12-15T21:30"
   },
-    {
-    "course": "PSYC 412",
+  {
+    "course": "PSYC 414",
     "section": "001",
-    "title": "Child Dev.: Psychopathol.",
+    "title": "Social Development",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-27T18:30",
-    "end": "2026-04-27T21:30",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
+    "start": "2026-12-16T18:30",
+    "end": "2026-12-16T21:30"
   },
-    {
-    "course": "PSYC 427",
+  {
+    "course": "PSYC 444",
     "section": "001",
-    "title": "Sensorimotor Neuroscience",
+    "title": "Sleep Mechanisms and Behaviour",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-28T14:00",
-    "end": "2026-04-28T17:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
+    "start": "2026-12-15T14:00",
+    "end": "2026-12-15T17:00"
   },
-    {
-    "course": "PSYC 433",
+  {
+    "course": "PSYC 473",
     "section": "001",
-    "title": "Cognitive Science",
+    "title": "Social Cognition and the Self",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-23T18:30",
-    "end": "2026-04-23T21:30",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
+    "start": "2026-12-18T09:00",
+    "end": "2026-12-18T12:00"
   },
-    {
-    "course": "PSYC 439",
+  {
+    "course": "PSYT 301",
     "section": "001",
-    "title": "Correlational Techniques",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-27T09:00",
-    "end": "2026-04-27T12:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
-  },
-    {
-    "course": "PSYC 443",
-    "section": "001",
-    "title": "Affective Neuroscience",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-20T09:00",
-    "end": "2026-04-20T12:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
-  },
-    {
-    "course": "PSYC 471",
-    "section": "001",
-    "title": "Human Motivation",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-29T09:00",
-    "end": "2026-04-29T12:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
-  },
-    {
-    "course": "PSYT 500",
-    "section": "001",
-    "title": "Adv: Neur of Mtl Disorders",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-16T14:00",
-    "end": "2026-04-16T17:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
-  },
-    {
-    "course": "PSYT 522",
-    "section": "001",
-    "title": "Early Adversity, Development and H.",
+    "title": "Issues in Drug Dependence",
     "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-04-28T14:00",
-    "end": "2026-04-28T17:00",
-    "building": "2001 McGill College",
-    "room": "461"
+    "start": "2026-12-10T09:00",
+    "end": "2026-12-10T12:00"
   },
-    {
-    "course": "RELG 204",
+  {
+    "course": "RELG 203",
     "section": "001",
-    "title": "Judaism, Christianity&Islam",
+    "title": "Bible and Western Culture",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-23T18:30",
-    "end": "2026-04-23T21:30",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
+    "start": "2026-12-18T09:00",
+    "end": "2026-12-18T12:00"
   },
-    {
-    "course": "RELG 222",
+  {
+    "course": "RELG 210",
     "section": "001",
-    "title": "World Christianity",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-17T09:00",
-    "end": "2026-04-17T12:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
+    "title": "Jesus of Nazareth",
+    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
+    "start": "2026-12-21T14:00",
+    "end": "2026-12-21T17:00"
   },
-    {
+  {
+    "course": "RELG 212",
+    "section": "001",
+    "title": "Intro to AfricanRelgs&Cultures",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-21T18:30",
+    "end": "2026-12-21T21:30"
+  },
+  {
     "course": "RELG 254",
     "section": "001",
     "title": "Intro to Yoga Traditions",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-20T14:00",
-    "end": "2026-04-20T17:00",
-    "building": "McGill Sports Complex",
-    "room": "STUDIO 2"
-  },
-    {
-    "course": "RELG 312",
-    "section": "001",
-    "title": "The Gospels",
-    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-04-21T09:00",
-    "end": "2026-04-21T12:00",
-    "building": "ENGTR",
-    "room": "1080"
-  },
-    {
-    "course": "RELG 336",
-    "section": "001",
-    "title": "Contemp Theological Issues",
-    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-04-24T14:00",
-    "end": "2026-04-24T17:00",
-    "building": "BIRKS",
-    "room": "203"
+    "start": "2026-12-07T09:00",
+    "end": "2026-12-07T12:00"
   },
   {
-    "course": "RELG 411",
+    "course": "RELG 311",
     "section": "001",
-    "title": "New Testament Exegesis",
+    "title": "Formation of the New Testament",
     "type": "ONLINE - TAKE-HOME - 48 HOURS",
-    "start": "2026-04-16T09:00",
-    "end": "2026-04-18T09:00"
-  },
-    {
-    "course": "RUSS 224",
-    "section": "001",
-    "title": "Russian 19c. Literary Giants 2",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-20T14:00",
-    "end": "2026-04-20T17:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
+    "start": "2026-12-09T14:00",
+    "end": "2026-12-11T14:00"
   },
   {
-    "course": "RUSS 337",
+    "course": "RELG 341",
     "section": "001",
-    "title": "Vladimir Nabokov",
-    "type": "ONLINE - TAKE-HOME - 48 HOURS",
-    "start": "2026-04-22T14:00",
-    "end": "2026-04-24T14:00"
+    "title": "Intro:Philosophy of Religion",
+    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
+    "start": "2026-12-10T14:00",
+    "end": "2026-12-10T17:00"
   },
-    {
+  {
+    "course": "RELG 373",
+    "section": "001",
+    "title": "Christian Ethics of Love",
+    "type": "IN-PERSON - ORAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-18T14:00",
+    "end": "2026-12-18T17:00"
+  },
+  {
+    "course": "RUSS 223",
+    "section": "001",
+    "title": "Russian 19c: Literary Giants 1",
+    "type": "ONLINE - TAKE-HOME - 72 HOURS",
+    "start": "2026-12-07T09:00",
+    "end": "2026-12-10T09:00"
+  },
+  {
     "course": "SOCI 210",
     "section": "001",
     "title": "Sociological Perspectives",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-23T14:00",
-    "end": "2026-04-23T17:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
+    "start": "2026-12-17T09:00",
+    "end": "2026-12-17T12:00"
   },
-    {
+  {
     "course": "SOCI 211",
     "section": "001",
     "title": "Sociological Inquiry",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-27T14:00",
-    "end": "2026-04-27T17:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
+    "start": "2026-12-11T14:00",
+    "end": "2026-12-11T17:00"
   },
-    {
-    "course": "SOCI 230",
+  {
+    "course": "SOCI 212",
     "section": "001",
-    "title": "Sociology of Ethnic Relations",
+    "title": "International Migration",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-29T18:30",
-    "end": "2026-04-29T21:30",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
+    "start": "2026-12-14T14:00",
+    "end": "2026-12-14T17:00"
   },
-    {
-    "course": "SOCI 234",
+  {
+    "course": "SOCI 213",
     "section": "001",
-    "title": "Population & Society",
+    "title": "Deviance",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-29T18:30",
-    "end": "2026-04-29T21:30",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
+    "start": "2026-12-08T18:30",
+    "end": "2026-12-08T21:30"
   },
-    {
-    "course": "SOCI 245",
+  {
+    "course": "SOCI 222",
     "section": "001",
-    "title": "The Sociology of Emotions",
+    "title": "Urban Sociology",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-30T09:00",
-    "end": "2026-04-30T12:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
+    "start": "2026-12-22T09:00",
+    "end": "2026-12-22T12:00"
   },
-    {
-    "course": "SOCI 254",
+  {
+    "course": "SOCI 247",
     "section": "001",
-    "title": "Development&Underdevelopment",
+    "title": "Family & Modern Society",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-23T18:30",
-    "end": "2026-04-23T21:30",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
+    "start": "2026-12-10T18:30",
+    "end": "2026-12-10T21:30"
   },
-    {
-    "course": "SOCI 270",
+  {
+    "course": "SOCI 325",
     "section": "001",
-    "title": "Sociology of Gender",
+    "title": "Sociology of Science",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-29T18:30",
-    "end": "2026-04-29T21:30",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
+    "start": "2026-12-16T09:00",
+    "end": "2026-12-16T12:00"
   },
-    {
-    "course": "SOCI 305",
+  {
+    "course": "SOCI 326",
     "section": "001",
-    "title": "Socialization",
+    "title": "Political Sociology 01",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-29T18:30",
-    "end": "2026-04-29T21:30",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
+    "start": "2026-12-10T14:00",
+    "end": "2026-12-10T17:00"
   },
-    {
-    "course": "SOCI 307",
+  {
+    "course": "SOCI 333",
     "section": "001",
-    "title": "Globalization",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-23T18:30",
-    "end": "2026-04-23T21:30",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
+    "title": "Social Stratification",
+    "type": "ONLINE - TAKE-HOME - 72 HOURS",
+    "start": "2026-12-14T09:00",
+    "end": "2026-12-17T09:00"
   },
-    {
-    "course": "SOCI 309",
+  {
+    "course": "SOCI 335",
     "section": "001",
-    "title": "Health and Illness",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-29T09:00",
-    "end": "2026-04-29T12:00",
-    "building": "McGill Sports Complex",
-    "room": "FIELD HOUSE"
+    "title": "Soci of Aging & the Life Crse",
+    "type": "ONLINE - TAKE-HOME - 72 HOURS",
+    "start": "2026-12-14T09:00",
+    "end": "2026-12-17T09:00"
   },
-    {
-    "course": "SOCI 330",
+  {
+    "course": "SOCI 350",
     "section": "001",
-    "title": "Sociological Theory",
+    "title": "Statistics in Social Research",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-23T09:00",
-    "end": "2026-04-23T12:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
+    "start": "2026-12-07T14:00",
+    "end": "2026-12-07T17:00"
   },
-    {
+  {
+    "course": "SOCI 385",
+    "section": "001",
+    "title": "Sociology of Human Sexuality",
+    "type": "ONLINE - TAKE-HOME - 72 HOURS",
+    "start": "2026-12-10T09:00",
+    "end": "2026-12-13T09:00"
+  },
+  {
+    "course": "SOCI 426",
+    "section": "001",
+    "title": "Intro to Demographic Methods",
+    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
+    "start": "2026-12-11T14:00",
+    "end": "2026-12-11T17:00"
+  },
+  {
+    "course": "SOCI 430",
+    "section": "001",
+    "title": "Sociology of Citizenship",
+    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
+    "start": "2026-12-18T09:00",
+    "end": "2026-12-18T12:00"
+  },
+  {
+    "course": "SWRK 221",
+    "section": "001",
+    "title": "Public Socl Services in Canada",
+    "type": "ONLINE - TIMED EXAM - 3 HOURS",
+    "start": "2026-12-21T09:00",
+    "end": "2026-12-21T12:00"
+  },
+  {
+    "course": "WCOM 250",
+    "section": "701",
+    "title": "Research Essay and Rhetoric",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-21T18:30",
+    "end": "2026-12-21T21:30"
+  },
+  {
     "course": "WCOM 250",
     "section": "702",
     "title": "Research Essay and Rhetoric",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-24T09:00",
-    "end": "2026-04-24T12:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
+    "start": "2026-12-21T18:30",
+    "end": "2026-12-21T21:30"
   },
-    {
+  {
+    "course": "WCOM 250",
+    "section": "703",
+    "title": "Research Essay and Rhetoric",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-21T18:30",
+    "end": "2026-12-21T21:30"
+  },
+  {
     "course": "WCOM 250",
     "section": "704",
     "title": "Research Essay and Rhetoric",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-24T09:00",
-    "end": "2026-04-24T12:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
+    "start": "2026-12-21T18:30",
+    "end": "2026-12-21T21:30"
   },
-    {
-    "course": "WCOM 250",
-    "section": "705",
-    "title": "Research Essay and Rhetoric",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-04-24T09:00",
-    "end": "2026-04-24T12:00",
-    "building": "McGill Sports Complex",
-    "room": "MAIN GYM"
-  },
-    {
-    "course": "WILD 350",
+  {
+    "course": "WILD 302",
     "section": "001",
-    "title": "Mammalogy",
+    "title": "Fish Ecology",
     "type": "IN-PERSON - FORMAL EXAM - MAC CAMPUS",
-    "start": "2026-04-20T09:00",
-    "end": "2026-04-20T12:00",
-    "building": "CENTEN",
-    "room": "Ballroom"
+    "start": "2026-12-15T14:00",
+    "end": "2026-12-15T17:00"
   },
-    {
-    "course": "WILD 350",
-    "section": "001L",
-    "title": "Mammalogy",
-    "type": "IN-PERSON - LAB EXAM - MAC CAMPUS",
-    "start": "2026-04-28T14:00",
-    "end": "2026-04-28T17:00",
-    "building": "MCD-STEWART",
-    "room": "MSB-023"
-  },
-    {
-    "course": "WILD 350",
+  {
+    "course": "WILD 307",
     "section": "001",
-    "title": "Mammalogy",
+    "title": "Natural History of Vertebrates",
     "type": "IN-PERSON - FORMAL EXAM - MAC CAMPUS",
-    "start": "2026-04-20T09:00",
-    "end": "2026-04-20T12:00",
-    "building": "CENTEN",
-    "room": "Ballroom"
+    "start": "2026-12-22T09:00",
+    "end": "2026-12-22T12:00"
   },
-    {
-    "course": "WILD 350",
-    "section": "001L",
-    "title": "Mammalogy",
-    "type": "IN-PERSON - LAB EXAM - MAC CAMPUS",
-    "start": "2026-04-28T14:00",
-    "end": "2026-04-28T17:00",
-    "building": "MCD-STEWART",
-    "room": "MSB-023"
-  },
-    {
-    "course": "MUPG 575D2",
+  {
+    "course": "WILD 420",
     "section": "001",
-    "title": "Organ Rep. and Perf. Practice",
-    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-04-20T09:00",
-    "end": "2026-04-20T12:00",
-    "building": "Strathcona Music Building",
-    "room": "C-412"
+    "title": "Ornithology",
+    "type": "MAC ONLINE - TAKE-HOME - 48 HOURS",
+    "start": "2026-12-16T14:00",
+    "end": "2026-12-18T14:00"
   }
 ];

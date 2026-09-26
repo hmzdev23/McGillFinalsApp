@@ -5,6 +5,7 @@ import { ArrowLeft, Download } from 'lucide-react'
 import { EXAMS } from '../data/exams'
 import type { Exam, CourseChip } from '../data/types'
 import ExamCard from './ExamCard'
+import ScheduleNotice from './ScheduleNotice'
 import { downloadICS } from '../lib/calendarUtils'
 
 function matchExams(chips: CourseChip[]): Exam[] {
@@ -112,13 +113,14 @@ export default function Results({ courses, onBack }: ResultsProps) {
 
       {/* Main Content Area */}
       <main className="max-w-screen-2xl mx-auto w-full px-6 pt-32 pb-32 md:px-12">
+        <div className="mb-8"><ScheduleNotice /></div>
         {exams.length === 0 ? (
           <div className="flex flex-col items-center justify-center min-h-[60vh] text-center">
             <h2 className="font-display text-6xl md:text-8xl tracking-tight leading-[0.9] font-light italic mb-8 opacity-20">
               0 Exams
             </h2>
             <p className="font-body text-lg font-light opacity-60 max-w-md">
-              None of your courses appear in the April 2026 scheduling bloc. Double-check your course codes.
+              None of your courses appear in the Fall 2026 tentative exam schedule. Double-check your course codes and sections.
             </p>
           </div>
         ) : (
@@ -129,7 +131,7 @@ export default function Results({ courses, onBack }: ResultsProps) {
               </h1>
               {exams.length > 0 && (
                 <button
-                  onClick={() => downloadICS(exams, 'findmyexams-all.ics')}
+                  onClick={() => downloadICS(exams, 'findmyexams-fall-2026.ics')}
                   className="flex items-center gap-4 px-8 py-4 bg-obsidian text-cream hover:bg-mcgill hover:text-white transition-colors duration-500 rounded-full group cursor-pointer shadow-xl shrink-0"
                 >
                   <span className="text-sm uppercase tracking-widest font-body font-medium">Export All</span>
