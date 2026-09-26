@@ -1,62 +1,64 @@
 # FindMyExams McGill
 
-A fast, privacy-first interface to locate your Fall 2026 finals using McGill's tentative December 2026 schedule.
+Find your McGill **Fall 2026 final exams** using the **tentative December 2026 schedule**. Search by course and section, then export your schedule to Google Calendar, Apple Calendar, or Outlook.
 
-## Schedule data
+Live site: [findmyexams.app](https://www.findmyexams.app)
 
-The source is `public/schedules/december_2026_tentative_schedule_2.pdf`, supplied from Downloads. It contains 799 rows across 19 pages, including one identical duplicate for CIVE 320 section 001. The app includes all 798 unique entries, including GEOG 417's November 15–29 take-home window. Room locations have not yet been published; no April room assignments are retained. All times are Montreal local time (EST), and calendar exports identify the schedule as tentative.
+## Current schedule
 
-Regenerate or verify the data using Python 3 and Poppler (`brew install poppler`):
+- **Source:** [McGill December 2026 tentative schedule](public/schedules/december_2026_tentative_schedule_2.pdf).
+- **Coverage:** 798 unique exam entries from 799 rows across 19 pages. The PDF repeats CIVE 320 section 001 once; the app includes it once.
+- **Dates:** Fall 2026 only, including GEOG 417's November 15–29 take-home window. Previous-semester exam data is not used by the active app.
+- **Time zone:** Montreal local time, Eastern Standard Time (EST), for these exam dates.
+- **Locations:** Building and room assignments are currently omitted from the interface and calendar exports. Campus names are shown where supplied in the PDF. Rooms will be added when the updated schedule is available.
+- **Status:** Tentative. Dates and times may change; confirm your exams against the university's latest schedule.
 
-```bash
-python3 scripts/import-schedule.py public/schedules/december_2026_tentative_schedule_2.pdf
-python3 scripts/import-schedule.py public/schedules/december_2026_tentative_schedule_2.pdf --check
-```
+This is an independent student project, not an official McGill University website.
 
-The importer validates this PDF's row count and date format before writing the dataset. A future schedule revision may require updating those checks.
+## Search and calendar exports
 
-## Features
+Enter a course such as `COMP 251`, `NUR1 221`, or `ECON 230D1`. Add a section to narrow the results, for example `ANAT 315 001L`. Course codes also work without spaces.
 
-- **Instant Search**: Type your course codes and immediately see your exam schedule.
-- **Filtering**: Filter by specific sections to cut out the noise.
-- **Calendar Integration**: Export your exam schedule directly to Apple Calendar, Google Calendar, or Outlook.
-- **Privacy-First**: All data is processed locally. No sign-ups required.
+Results combine sections that share the same exam type and time. Separate lab exams and multi-day take-home windows remain distinct.
 
-## Tech Stack
+- **Google Calendar:** Opens a prefilled event with Fall 2026 dates and the `America/Toronto` time zone.
+- **Apple Calendar / Outlook:** Download an `.ics` file for one exam or use **Export All** for the full selected schedule. Events are marked tentative and include Fall 2026 in their titles.
+- **Existing imports:** Calendar exports are snapshots, not subscriptions. Previously imported events do not automatically change when the website is updated.
 
-This project was recently revamped to utilize a modern, highly performant stack:
+Course lookup runs in the browser and does not require an account. The site uses Vercel Analytics and Speed Insights.
 
-- **Framework**: Next.js (App Router)
-- **Styling**: Tailwind CSS
-- **Language**: TypeScript
-- **Icons**: Lucide React
-- **Analytics & Performance**: Vercel Analytics and Speed Insights
-- **Typography**: `Instrument Serif` (Display) and `Manrope` (Body) via `next/font/google`
-
-## Aesthetic & Design
-
-The UI has been completely overhauled to reflect a sophisticated, editorial design pattern. 
-
-- **Colors**: Warm Cream (`#FBF7EF`), Soft Black (`#141414`), and McGill Red (`#ED1B2F`) for accents.
-- **Layout**: Generous negative space, delicate 1px borders, and large typographic forms replacing standard web card layouts.
-- **Motion**: Subtle, elegant CSS animations (fade-ins, staggered reveals).
-
-## Getting Started
-
-First, install the dependencies:
+## Local development
 
 ```bash
-npm install
-```
-
-Then, run the development server:
-
-```bash
+npm ci
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [localhost:3000](http://localhost:3000).
+
+```bash
+npm run build  # Production build and TypeScript checks
+npm run start  # Serve the production build
+npm run lint   # ESLint (currently includes pre-existing issues and archived code)
+```
+
+The stack is Next.js 16, React 19, TypeScript, Tailwind CSS 4, and Lucide icons. Instrument Serif and Manrope are loaded through `next/font/google`; builds need access to Google Fonts.
+
+## Verify or regenerate exam data
+
+The checked-in PDF is the source for `src/data/exams.ts`. With Python 3 and Poppler installed (`brew install poppler` on macOS):
+
+```bash
+python3 scripts/import-schedule.py public/schedules/december_2026_tentative_schedule_2.pdf --check
+python3 scripts/import-schedule.py public/schedules/december_2026_tentative_schedule_2.pdf
+```
+
+The importer checks the schedule heading, course and section formats, dates, row count, and duplicate count. It records the source PDF's SHA-256 in the generated file. Its checks are specific to this schedule revision; update them and review every imported row when replacing the PDF.
 
 ## Deployment
 
-This project is configured for seamless deployment on [Vercel](https://vercel.com/).
+The Vercel project is `mcgillfinalsapp`, connected to this repository's `main` branch. The application root is the repository root, with the Next.js framework preset and `npm run build`.
+
+After pushing, verify that Vercel creates a successful production deployment whose source commit matches GitHub's latest `main` commit. A successful Git push alone does not confirm that the live site has updated.
+
+`old-vite/` is archived code and is not the active application or deployment root.
