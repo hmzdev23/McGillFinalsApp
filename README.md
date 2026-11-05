@@ -6,12 +6,13 @@ Live site: [findmyexams.app](https://www.findmyexams.app)
 
 ## Current schedule
 
-- **Source:** [McGill December 2026 tentative schedule](public/schedules/december_2026_tentative_schedule_2.pdf).
-- **Coverage:** 798 unique exam entries from 799 rows across 19 pages. The PDF repeats CIVE 320 section 001 once; the app includes it once.
-- **Dates:** Fall 2026 only, including GEOG 417's November 15–29 take-home window. Previous-semester exam data is not used by the active app.
+- **Source:** [McGill December 2026 schedule, October 27 revision](public/schedules/december_2026_final_exam_scheduleoct27.pdf), downloaded from [McGill](https://www.mcgill.ca/exams/files/exams/december_2026_final_exam_scheduleoct27.pdf) on November 5, 2026.
+- **Coverage:** 832 unique exam entries from 833 rows across 21 pages. The PDF repeats CIVE 320 section 001 once; the app includes it once.
+- **Changes:** 134 existing entries changed (124 with date/time changes), 41 were added, and 7 were removed. See the [complete before/after comparison](docs/schedule-changes-2026-11-05.md).
+- **Dates:** Fall 2026 only. BMDE 558 has a November 30–December 6 online window; GEOG 417 now runs December 7–10. Previous-semester exam data is not used by the active app.
 - **Time zone:** Montreal local time, Eastern Standard Time (EST), for these exam dates.
 - **Locations:** Building and room assignments are currently omitted from the interface and calendar exports. Campus names are shown where supplied in the PDF. Rooms will be added when the updated schedule is available.
-- **Status:** Tentative. Dates and times may change; confirm your exams against the university's latest schedule.
+- **Status:** The site and calendar exports remain labeled tentative. Dates and times may change; confirm your exams against the university's latest schedule.
 
 This is an independent student project, not an official McGill University website.
 
@@ -49,8 +50,8 @@ The stack is Next.js 16, React 19, TypeScript, Tailwind CSS 4, and Lucide icons.
 The checked-in PDF is the source for `src/data/exams.ts`. With Python 3 and Poppler installed (`brew install poppler` on macOS):
 
 ```bash
-python3 scripts/import-schedule.py public/schedules/december_2026_tentative_schedule_2.pdf --check
-python3 scripts/import-schedule.py public/schedules/december_2026_tentative_schedule_2.pdf
+python3 scripts/import-schedule.py public/schedules/december_2026_final_exam_scheduleoct27.pdf --check
+python3 scripts/import-schedule.py public/schedules/december_2026_final_exam_scheduleoct27.pdf
 ```
 
 The importer checks the schedule heading, course and section formats, dates, row count, and duplicate count. It records the source PDF's SHA-256 in the generated file. Its checks are specific to this schedule revision; update them and review every imported row when replacing the PDF.

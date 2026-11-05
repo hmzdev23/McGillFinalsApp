@@ -1,4 +1,4 @@
-"""Import the December 2026 PDF with Poppler's pdftotext (brew install poppler)."""
+"""Import McGill's October 27 revision of the December 2026 schedule using pdftotext."""
 
 import argparse
 from datetime import datetime
@@ -17,7 +17,7 @@ text = subprocess.run(
     ["pdftotext", "-layout", str(args.pdf), "-"],
     check=True, capture_output=True, text=True,
 ).stdout
-assert "DECEMBER 2026 - TENTATIVE FINAL EXAMINATION SCHEDULE" in text
+assert "DECEMBER 2026 - FINAL EXAMINATION SCHEDULE" in text
 
 exams = []
 seen = set()
@@ -32,8 +32,8 @@ for line in text.splitlines():
     course, section, title, exam_type, start, end = columns
     assert re.fullmatch(r"[A-Z][A-Z0-9]{2,3} \d{3}[A-Z0-9]{0,3}", course), course
     assert re.fullmatch(r"\d{3}[A-Z]?\d?", section), section
-    start = datetime.strptime(start, "%d %b-%Y at %I:%M %p")
-    end = datetime.strptime(end, "%d %b-%Y at %I:%M %p")
+    start = datetime.strptime(start, "%d-%b-%Y at %I:%M %p")
+    end = datetime.strptime(end, "%d-%b-%Y at %I:%M %p")
     assert start < end, line
     assert start.year == end.year == 2026 and start.month in (11, 12) and end.month in (11, 12), line
     exam = dict(course=course, section=section, title=title, type=exam_type,
@@ -43,14 +43,15 @@ for line in text.splitlines():
         exams.append(exam)
         seen.add(key)
 
-assert source_rows == 799, f"Expected 799 source rows, got {source_rows}"
-assert len(exams) == 798, "Expected one duplicate CIVE 320 row in this PDF"
+assert source_rows == 833, f"Expected 833 source rows, got {source_rows}"
+assert len(exams) == 832, "Expected one duplicate CIVE 320 row in this PDF"
+assert len({(exam['course'], exam['section']) for exam in exams}) == len(exams), "Unexpected repeated course-section"
 digest = hashlib.sha256(args.pdf.read_bytes()).hexdigest()
 output = (
-    "// Auto-generated from McGill December 2026 Tentative Final Examination Schedule.\n"
+    "// Auto-generated from McGill December 2026 exam schedule (October 27 revision).\n"
     f"// Source: {args.pdf.name}\n"
     f"// SHA-256: {digest}\n"
-    "// 799 source rows; 798 unique exams (identical CIVE 320 row appears twice).\n"
+    "// 833 source rows; 832 unique exams (identical CIVE 320 row appears twice).\n"
     "// Times are Montreal local time (EST). Room locations are not yet published.\n"
     "import type { Exam } from './types'\n\n"
     "export const EXAMS: Exam[] = " + json.dumps(exams, indent=2, ensure_ascii=False) + ";\n"

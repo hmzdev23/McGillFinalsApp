@@ -41,7 +41,7 @@ function getBadgeInfo(type: string): { label: string; className: string } {
 }
 
 function getDuration(type: string): string | null {
-  const match = type.match(/(\d+)\s*(HOURS?|DAYS?|WEEK)/i)
+  const match = type.match(/(\d+)[\s-]*(HOURS?|DAYS?|WEEK)/i)
   if (match) {
     const num = match[1]
     const unit = match[2].toUpperCase()

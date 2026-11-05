@@ -1,7 +1,7 @@
-// Auto-generated from McGill December 2026 Tentative Final Examination Schedule.
-// Source: december_2026_tentative_schedule_2.pdf
-// SHA-256: 2b327ababe8201dd1be4493906bce2c0fad26abf897c695949a6dce5239a2465
-// 799 source rows; 798 unique exams (identical CIVE 320 row appears twice).
+// Auto-generated from McGill December 2026 exam schedule (October 27 revision).
+// Source: december_2026_final_exam_scheduleoct27.pdf
+// SHA-256: 3193d2d1d489e98ba866a4aedaa496f16738a327e1efb361219c61b785c4fab9
+// 833 source rows; 832 unique exams (identical CIVE 320 row appears twice).
 // Times are Montreal local time (EST). Room locations are not yet published.
 import type { Exam } from './types'
 
@@ -67,8 +67,8 @@ export const EXAMS: Exam[] = [
     "section": "001",
     "title": "Advanced Financial Accounting",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-12-16T09:00",
-    "end": "2026-12-16T12:00"
+    "start": "2026-12-08T18:30",
+    "end": "2026-12-08T21:30"
   },
   {
     "course": "ACCT 463",
@@ -123,8 +123,8 @@ export const EXAMS: Exam[] = [
     "section": "001",
     "title": "Intermediate Calculus",
     "type": "IN-PERSON - FORMAL EXAM - MAC CAMPUS",
-    "start": "2026-12-22T09:00",
-    "end": "2026-12-22T12:00"
+    "start": "2026-12-14T14:00",
+    "end": "2026-12-14T17:00"
   },
   {
     "course": "AEMA 310",
@@ -163,14 +163,14 @@ export const EXAMS: Exam[] = [
     "section": "001",
     "title": "Resource Economics",
     "type": "IN-PERSON - FORMAL EXAM - MAC CAMPUS",
-    "start": "2026-12-14T09:00",
-    "end": "2026-12-14T12:00"
+    "start": "2026-12-14T14:00",
+    "end": "2026-12-14T17:00"
   },
   {
     "course": "AGEC 491",
     "section": "001",
     "title": "Research & Methodology",
-    "type": "MAC ONLINE - TIMED EXAM - 3 HOURS",
+    "type": "ONLINE - TIMED EXAM - 3 HOURS",
     "start": "2026-12-22T09:00",
     "end": "2026-12-22T12:00"
   },
@@ -178,7 +178,7 @@ export const EXAMS: Exam[] = [
     "course": "AGRI 215",
     "section": "001",
     "title": "Agro-Ecosystems Field Course",
-    "type": "MAC ONLINE - TAKE-HOME - 48 HOURS",
+    "type": "ONLINE - TAKE-HOME - 48 HOURS",
     "start": "2026-12-15T09:00",
     "end": "2026-12-17T09:00"
   },
@@ -191,12 +191,28 @@ export const EXAMS: Exam[] = [
     "end": "2026-12-11T12:00"
   },
   {
+    "course": "ANAT 214",
+    "section": "001L",
+    "title": "Systemic Human Anatomy",
+    "type": "IN-PERSON - LAB EXAM - D.T. CAMPUS",
+    "start": "2026-12-14T14:00",
+    "end": "2026-12-14T17:00"
+  },
+  {
     "course": "ANAT 261",
     "section": "001",
     "title": "Intro to Dynamic Histology",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
     "start": "2026-12-08T18:30",
     "end": "2026-12-08T21:30"
+  },
+  {
+    "course": "ANAT 261",
+    "section": "001L",
+    "title": "Intro to Dynamic Histology",
+    "type": "IN-PERSON - LAB EXAM - D.T. CAMPUS",
+    "start": "2026-12-17T14:00",
+    "end": "2026-12-17T17:00"
   },
   {
     "course": "ANAT 315",
@@ -211,24 +227,24 @@ export const EXAMS: Exam[] = [
     "section": "001L",
     "title": "Clin Hum Musculoskeletal Anat",
     "type": "IN-PERSON - LAB EXAM - D.T. CAMPUS",
-    "start": "2026-12-07T09:00",
-    "end": "2026-12-07T12:00"
+    "start": "2026-12-11T14:00",
+    "end": "2026-12-11T17:00"
   },
   {
     "course": "ANAT 321",
     "section": "001",
     "title": "Circuitry of the Human Brain",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-12-15T18:30",
-    "end": "2026-12-15T21:30"
+    "start": "2026-12-21T09:00",
+    "end": "2026-12-21T12:00"
   },
   {
     "course": "ANAT 323",
     "section": "001",
     "title": "Clinical Neuroanatomy",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-12-22T09:00",
-    "end": "2026-12-22T12:00"
+    "start": "2026-12-07T18:30",
+    "end": "2026-12-07T21:30"
   },
   {
     "course": "ANAT 365",
@@ -303,52 +319,84 @@ export const EXAMS: Exam[] = [
     "end": "2026-12-17T12:00"
   },
   {
-    "course": "ANTH 385",
-    "section": "001",
-    "title": "Sex, Science and Culture",
-    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-12-22T09:00",
-    "end": "2026-12-22T12:00"
-  },
-  {
     "course": "ANTH 432",
     "section": "001",
     "title": "The Aztecs",
     "type": "IN-PERSON - ORAL EXAM - D.T. CAMPUS",
-    "start": "2026-12-21T09:00",
-    "end": "2026-12-21T12:00"
+    "start": "2026-12-09T09:00",
+    "end": "2026-12-09T12:00"
   },
   {
     "course": "ANTH 530",
     "section": "001",
     "title": "Material Turn in Archaeology",
     "type": "IN-PERSON - ORAL EXAM - D.T. CAMPUS",
-    "start": "2026-12-22T09:00",
-    "end": "2026-12-22T12:00"
+    "start": "2026-12-11T09:00",
+    "end": "2026-12-11T12:00"
+  },
+  {
+    "course": "ARCH 201",
+    "section": "001",
+    "title": "Communication, Behaviour&Arch",
+    "type": "IN-PERSON - ORAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-08T09:00",
+    "end": "2026-12-09T17:00"
   },
   {
     "course": "ARCH 250",
     "section": "001",
     "title": "Architectural History 1",
     "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-12-08T09:00",
-    "end": "2026-12-08T12:00"
+    "start": "2026-12-10T09:00",
+    "end": "2026-12-10T12:00"
   },
   {
     "course": "ARCH 250",
     "section": "002",
     "title": "Architectural History 1",
     "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
+    "start": "2026-12-10T09:00",
+    "end": "2026-12-10T12:00"
+  },
+  {
+    "course": "ARCH 303",
+    "section": "001",
+    "title": "Design and Construction 1",
+    "type": "IN-PERSON - ORAL EXAM - D.T. CAMPUS",
     "start": "2026-12-08T09:00",
-    "end": "2026-12-08T12:00"
+    "end": "2026-12-09T17:00"
+  },
+  {
+    "course": "ARCH 405",
+    "section": "001",
+    "title": "Design and Construction 3",
+    "type": "IN-PERSON - ORAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-09T09:00",
+    "end": "2026-12-10T17:00"
+  },
+  {
+    "course": "ARCH 672",
+    "section": "001",
+    "title": "Architectural Design Studio 1",
+    "type": "IN-PERSON - ORAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-08T09:00",
+    "end": "2026-12-09T17:00"
+  },
+  {
+    "course": "ARCH 676",
+    "section": "001",
+    "title": "Advanced Architectural Design",
+    "type": "IN-PERSON - ORAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-10T09:00",
+    "end": "2026-12-11T17:00"
   },
   {
     "course": "ARTH 223",
     "section": "001",
     "title": "Intro Ital Renai Art 1300-1500",
     "type": "ONLINE - TAKE-HOME - 72 HOURS",
-    "start": "2026-12-14T09:00",
-    "end": "2026-12-17T09:00"
+    "start": "2026-12-07T09:00",
+    "end": "2026-12-10T09:00"
   },
   {
     "course": "ARTH 225",
@@ -383,12 +431,44 @@ export const EXAMS: Exam[] = [
     "end": "2026-12-15T12:00"
   },
   {
+    "course": "ATOC 214",
+    "section": "001",
+    "title": "Intro:Physics of the Atmosph",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-15T14:00",
+    "end": "2026-12-15T17:00"
+  },
+  {
+    "course": "ATOC 312",
+    "section": "001",
+    "title": "Rotating Fluid Dynamics",
+    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
+    "start": "2026-12-21T09:00",
+    "end": "2026-12-21T12:00"
+  },
+  {
+    "course": "ATOC 315",
+    "section": "001",
+    "title": "Thermodynamics and Convection",
+    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
+    "start": "2026-12-14T09:00",
+    "end": "2026-12-14T12:00"
+  },
+  {
     "course": "ATOC 404",
     "section": "001",
     "title": "Climate Physics",
     "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
     "start": "2026-12-07T14:00",
     "end": "2026-12-07T17:00"
+  },
+  {
+    "course": "ATOC 521",
+    "section": "001",
+    "title": "Cloud Physics",
+    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
+    "start": "2026-12-07T09:00",
+    "end": "2026-12-07T12:00"
   },
   {
     "course": "ATOC 540",
@@ -403,8 +483,8 @@ export const EXAMS: Exam[] = [
     "section": "001",
     "title": "Intro. to Stats & Data Science",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-12-22T09:00",
-    "end": "2026-12-22T12:00"
+    "start": "2026-12-16T18:30",
+    "end": "2026-12-16T21:30"
   },
   {
     "course": "BIEN 219",
@@ -419,8 +499,8 @@ export const EXAMS: Exam[] = [
     "section": "001",
     "title": "Intro to Biomolecular Eng",
     "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-12-21T09:00",
-    "end": "2026-12-21T12:00"
+    "start": "2026-12-08T14:00",
+    "end": "2026-12-08T17:00"
   },
   {
     "course": "BIEN 314",
@@ -437,22 +517,6 @@ export const EXAMS: Exam[] = [
     "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
     "start": "2026-12-16T14:00",
     "end": "2026-12-16T17:00"
-  },
-  {
-    "course": "BIEN 510",
-    "section": "001",
-    "title": "Eng'd Nanomtls for Biomed Appl",
-    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-12-14T09:00",
-    "end": "2026-12-14T12:00"
-  },
-  {
-    "course": "BIEN 510",
-    "section": "002",
-    "title": "Eng'd Nanomtls for Biomed Appl",
-    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-12-14T09:00",
-    "end": "2026-12-14T12:00"
   },
   {
     "course": "BIEN 595",
@@ -547,8 +611,8 @@ export const EXAMS: Exam[] = [
     "section": "001",
     "title": "Molecular Biology of the Gene",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-12-15T09:00",
-    "end": "2026-12-15T12:00"
+    "start": "2026-12-07T18:30",
+    "end": "2026-12-07T21:30"
   },
   {
     "course": "BIOL 302",
@@ -611,16 +675,16 @@ export const EXAMS: Exam[] = [
     "section": "001",
     "title": "Biomedical Signals & Systems",
     "type": "ONLINE - TAKE-HOME - 72 HOURS",
-    "start": "2026-12-22T09:00",
-    "end": "2026-12-25T09:00"
+    "start": "2026-12-07T09:00",
+    "end": "2026-12-10T09:00"
   },
   {
     "course": "BMDE 558",
     "section": "001",
     "title": "Health Startups & Entrprnrship",
-    "type": "ONLINE - TIMED EXAM - 72 HOURS",
-    "start": "2026-12-15T14:00",
-    "end": "2026-12-18T14:00"
+    "type": "ONLINE - TIMED EXAM",
+    "start": "2026-11-30T09:00",
+    "end": "2026-12-06T23:59"
   },
   {
     "course": "BREE 216",
@@ -643,16 +707,16 @@ export const EXAMS: Exam[] = [
     "section": "001",
     "title": "Fluid Mechanics",
     "type": "IN-PERSON - FORMAL EXAM - MAC CAMPUS",
-    "start": "2026-12-17T14:00",
-    "end": "2026-12-17T17:00"
+    "start": "2026-12-16T14:00",
+    "end": "2026-12-16T17:00"
   },
   {
     "course": "BREE 312",
     "section": "001",
     "title": "Electric Circuits and Machines",
     "type": "IN-PERSON - FORMAL EXAM - MAC CAMPUS",
-    "start": "2026-12-08T14:00",
-    "end": "2026-12-08T17:00"
+    "start": "2026-12-07T09:00",
+    "end": "2026-12-07T12:00"
   },
   {
     "course": "BREE 319",
@@ -691,24 +755,24 @@ export const EXAMS: Exam[] = [
     "section": "001",
     "title": "Bio-Environmental Engineering",
     "type": "IN-PERSON - FORMAL EXAM - MAC CAMPUS",
-    "start": "2026-12-10T14:00",
-    "end": "2026-12-10T17:00"
+    "start": "2026-12-10T09:00",
+    "end": "2026-12-10T12:00"
   },
   {
     "course": "BREE 415",
     "section": "001",
     "title": "Design of Mach.&Struct.Elems",
     "type": "IN-PERSON - FORMAL EXAM - MAC CAMPUS",
-    "start": "2026-12-15T14:00",
-    "end": "2026-12-15T17:00"
+    "start": "2026-12-16T09:00",
+    "end": "2026-12-16T12:00"
   },
   {
     "course": "BTEC 501",
     "section": "001",
     "title": "Bioinformatics",
     "type": "IN-PERSON - FORMAL EXAM - MAC CAMPUS",
-    "start": "2026-12-21T14:00",
-    "end": "2026-12-21T17:00"
+    "start": "2026-12-16T09:00",
+    "end": "2026-12-16T12:00"
   },
   {
     "course": "CACC 621",
@@ -882,7 +946,7 @@ export const EXAMS: Exam[] = [
     "course": "CCMA 611",
     "section": "761",
     "title": "Managerial Accounting 1",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
     "start": "2026-12-16T18:30",
     "end": "2026-12-16T21:30"
   },
@@ -1051,8 +1115,8 @@ export const EXAMS: Exam[] = [
     "section": "001",
     "title": "Physical Chem/Biological Scis1",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-12-07T18:30",
-    "end": "2026-12-07T21:30"
+    "start": "2026-12-14T09:00",
+    "end": "2026-12-14T12:00"
   },
   {
     "course": "CHEM 212",
@@ -1091,8 +1155,8 @@ export const EXAMS: Exam[] = [
     "section": "001",
     "title": "Intrdctry Organic Chemistry 3",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-12-18T14:00",
-    "end": "2026-12-18T17:00"
+    "start": "2026-12-17T09:00",
+    "end": "2026-12-17T12:00"
   },
   {
     "course": "CHEM 345",
@@ -1163,8 +1227,8 @@ export const EXAMS: Exam[] = [
     "section": "001",
     "title": "Statics",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-12-22T09:00",
-    "end": "2026-12-22T12:00"
+    "start": "2026-12-08T09:00",
+    "end": "2026-12-08T12:00"
   },
   {
     "course": "CIVE 207",
@@ -1275,16 +1339,16 @@ export const EXAMS: Exam[] = [
     "section": "001",
     "title": "Wind Engineering",
     "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-12-16T14:00",
-    "end": "2026-12-16T17:00"
+    "start": "2026-12-10T09:00",
+    "end": "2026-12-10T12:00"
   },
   {
     "course": "CIVE 528",
     "section": "001",
     "title": "Design of Wood Structures",
     "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-12-21T09:00",
-    "end": "2026-12-21T12:00"
+    "start": "2026-12-14T09:00",
+    "end": "2026-12-14T12:00"
   },
   {
     "course": "CIVE 557",
@@ -1307,16 +1371,16 @@ export const EXAMS: Exam[] = [
     "section": "001",
     "title": "Introductory Latin 1",
     "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-12-21T18:30",
-    "end": "2026-12-21T21:30"
+    "start": "2026-12-21T09:00",
+    "end": "2026-12-21T12:00"
   },
   {
     "course": "CLAS 210",
     "section": "002",
     "title": "Introductory Latin 1",
     "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-12-21T18:30",
-    "end": "2026-12-21T21:30"
+    "start": "2026-12-21T09:00",
+    "end": "2026-12-21T12:00"
   },
   {
     "course": "CLAS 220",
@@ -1339,8 +1403,8 @@ export const EXAMS: Exam[] = [
     "section": "001",
     "title": "Gender in the Ancient World",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-12-14T18:30",
-    "end": "2026-12-14T21:30"
+    "start": "2026-12-07T09:00",
+    "end": "2026-12-07T12:00"
   },
   {
     "course": "CLAS 310",
@@ -1381,6 +1445,22 @@ export const EXAMS: Exam[] = [
     "type": "ONLINE - TAKE-HOME - 48 HOURS",
     "start": "2026-12-16T14:00",
     "end": "2026-12-18T14:00"
+  },
+  {
+    "course": "CLAS 410",
+    "section": "001",
+    "title": "Advanced Latin: Authors",
+    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
+    "start": "2026-12-11T09:00",
+    "end": "2026-12-11T12:00"
+  },
+  {
+    "course": "CLAS 610",
+    "section": "001",
+    "title": "Readings in Latin Literature",
+    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
+    "start": "2026-12-11T09:00",
+    "end": "2026-12-11T12:00"
   },
   {
     "course": "CMIS 422",
@@ -1483,8 +1563,8 @@ export const EXAMS: Exam[] = [
     "section": "001",
     "title": "Programming Lang & Paradigms",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-12-15T18:30",
-    "end": "2026-12-15T21:30"
+    "start": "2026-12-21T14:00",
+    "end": "2026-12-21T17:00"
   },
   {
     "course": "COMP 303",
@@ -1531,8 +1611,8 @@ export const EXAMS: Exam[] = [
     "section": "001",
     "title": "Algorithm Design",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-12-08T18:30",
-    "end": "2026-12-08T21:30"
+    "start": "2026-12-11T14:00",
+    "end": "2026-12-11T17:00"
   },
   {
     "course": "COMP 361D1",
@@ -1679,6 +1759,14 @@ export const EXAMS: Exam[] = [
     "end": "2026-12-07T21:30"
   },
   {
+    "course": "CORG 651",
+    "section": "771",
+    "title": "Behaviour in Organizations",
+    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
+    "start": "2026-12-08T18:30",
+    "end": "2026-12-08T21:30"
+  },
+  {
     "course": "CORG 653",
     "section": "781",
     "title": "Employee and Labour Relations",
@@ -1690,7 +1778,7 @@ export const EXAMS: Exam[] = [
     "course": "CPL2 652",
     "section": "761",
     "title": "Strategic Management",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
     "start": "2026-12-17T18:30",
     "end": "2026-12-17T21:30"
   },
@@ -1819,8 +1907,8 @@ export const EXAMS: Exam[] = [
     "section": "001",
     "title": "Govt Policy Towards Business",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-12-07T09:00",
-    "end": "2026-12-07T12:00"
+    "start": "2026-12-10T18:30",
+    "end": "2026-12-10T21:30"
   },
   {
     "course": "ECON 313",
@@ -1859,8 +1947,8 @@ export const EXAMS: Exam[] = [
     "section": "001",
     "title": "Urban Economics",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-12-07T18:30",
-    "end": "2026-12-07T21:30"
+    "start": "2026-12-15T18:30",
+    "end": "2026-12-15T21:30"
   },
   {
     "course": "ECON 406",
@@ -2019,8 +2107,8 @@ export const EXAMS: Exam[] = [
     "section": "001",
     "title": "Intro to Commun Sys & Networks",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-12-16T18:30",
-    "end": "2026-12-16T21:30"
+    "start": "2026-12-16T09:00",
+    "end": "2026-12-16T12:00"
   },
   {
     "course": "ECSE 310",
@@ -2035,8 +2123,8 @@ export const EXAMS: Exam[] = [
     "section": "001",
     "title": "Signals and Networks",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-12-21T09:00",
-    "end": "2026-12-21T12:00"
+    "start": "2026-12-17T18:30",
+    "end": "2026-12-17T21:30"
   },
   {
     "course": "ECSE 321",
@@ -2067,8 +2155,8 @@ export const EXAMS: Exam[] = [
     "section": "001",
     "title": "Electronics",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-12-14T09:00",
-    "end": "2026-12-14T12:00"
+    "start": "2026-12-07T14:00",
+    "end": "2026-12-07T17:00"
   },
   {
     "course": "ECSE 335",
@@ -2091,8 +2179,8 @@ export const EXAMS: Exam[] = [
     "section": "001",
     "title": "Electromagnetic Fields&Waves",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-12-21T09:00",
-    "end": "2026-12-21T12:00"
+    "start": "2026-12-10T18:30",
+    "end": "2026-12-10T21:30"
   },
   {
     "course": "ECSE 354",
@@ -2163,32 +2251,32 @@ export const EXAMS: Exam[] = [
     "section": "001",
     "title": "Linear Systems",
     "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-12-22T09:00",
-    "end": "2026-12-22T12:00"
+    "start": "2026-12-18T09:00",
+    "end": "2026-12-18T12:00"
   },
   {
     "course": "ECSE 501",
     "section": "002",
     "title": "Linear Systems",
     "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-12-22T09:00",
-    "end": "2026-12-22T12:00"
+    "start": "2026-12-18T09:00",
+    "end": "2026-12-18T12:00"
   },
   {
     "course": "ECSE 509",
     "section": "001",
     "title": "Probability & Random Signals 2",
     "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-12-18T14:00",
-    "end": "2026-12-18T17:00"
+    "start": "2026-12-11T14:00",
+    "end": "2026-12-11T17:00"
   },
   {
     "course": "ECSE 509",
     "section": "002",
     "title": "Probability & Random Signals 2",
     "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-12-18T14:00",
-    "end": "2026-12-18T17:00"
+    "start": "2026-12-11T14:00",
+    "end": "2026-12-11T17:00"
   },
   {
     "course": "ECSE 512",
@@ -2363,8 +2451,8 @@ export const EXAMS: Exam[] = [
     "section": "002",
     "title": "Research Methods",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-12-21T09:00",
-    "end": "2026-12-21T12:00"
+    "start": "2026-12-14T09:00",
+    "end": "2026-12-14T12:00"
   },
   {
     "course": "EDKP 485",
@@ -2435,8 +2523,8 @@ export const EXAMS: Exam[] = [
     "section": "001",
     "title": "Dept. Survey of English Lit. 1",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-12-18T14:00",
-    "end": "2026-12-18T17:00"
+    "start": "2026-12-09T09:00",
+    "end": "2026-12-09T12:00"
   },
   {
     "course": "ENGL 215",
@@ -2451,8 +2539,8 @@ export const EXAMS: Exam[] = [
     "section": "001",
     "title": "American Literature 2",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-12-22T09:00",
-    "end": "2026-12-22T12:00"
+    "start": "2026-12-09T18:30",
+    "end": "2026-12-09T21:30"
   },
   {
     "course": "ENGL 229",
@@ -2491,32 +2579,32 @@ export const EXAMS: Exam[] = [
     "section": "001",
     "title": "Poetics",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-12-18T14:00",
-    "end": "2026-12-18T17:00"
+    "start": "2026-12-15T18:30",
+    "end": "2026-12-15T21:30"
   },
   {
     "course": "ENGL 311",
     "section": "002",
     "title": "Poetics",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-12-18T14:00",
-    "end": "2026-12-18T17:00"
+    "start": "2026-12-15T18:30",
+    "end": "2026-12-15T21:30"
   },
   {
     "course": "ENGL 311",
     "section": "003",
     "title": "Poetics",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-12-18T14:00",
-    "end": "2026-12-18T17:00"
+    "start": "2026-12-15T18:30",
+    "end": "2026-12-15T21:30"
   },
   {
     "course": "ENGL 313",
     "section": "001",
     "title": "Canadian Drama and Theatre",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-12-16T09:00",
-    "end": "2026-12-16T12:00"
+    "start": "2026-12-10T18:30",
+    "end": "2026-12-10T21:30"
   },
   {
     "course": "ENGL 317",
@@ -2570,7 +2658,7 @@ export const EXAMS: Exam[] = [
     "course": "ENVB 410",
     "section": "001",
     "title": "Ecosystem Ecology",
-    "type": "MAC ONLINE - TAKE-HOME - 72 HOURS",
+    "type": "ONLINE - TAKE-HOME - 72 HOURS",
     "start": "2026-12-14T14:00",
     "end": "2026-12-17T14:00"
   },
@@ -2595,8 +2683,8 @@ export const EXAMS: Exam[] = [
     "section": "051",
     "title": "Society,Environ&Sustainability",
     "type": "ONLINE - TAKE-HOME - 72 HOURS",
-    "start": "2026-12-15T09:00",
-    "end": "2026-12-18T09:00"
+    "start": "2026-12-07T09:00",
+    "end": "2026-12-10T09:00"
   },
   {
     "course": "EPSC 185",
@@ -2701,6 +2789,14 @@ export const EXAMS: Exam[] = [
     "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
     "start": "2026-12-17T09:00",
     "end": "2026-12-17T12:00"
+  },
+  {
+    "course": "EXMD 510",
+    "section": "001",
+    "title": "Bioanalytical Separation Meth",
+    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
+    "start": "2026-12-07T09:00",
+    "end": "2026-12-07T12:00"
   },
   {
     "course": "FACC 220",
@@ -2922,17 +3018,17 @@ export const EXAMS: Exam[] = [
     "course": "FINE 443",
     "section": "001",
     "title": "Applied Corporate Finance",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "type": "ONLINE - TAKE-HOME - 48 HOURS",
     "start": "2026-12-11T14:00",
-    "end": "2026-12-11T17:00"
+    "end": "2026-12-13T14:00"
   },
   {
     "course": "FINE 443",
     "section": "002",
     "title": "Applied Corporate Finance",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "type": "ONLINE - TAKE-HOME - 48 HOURS",
     "start": "2026-12-11T14:00",
-    "end": "2026-12-11T17:00"
+    "end": "2026-12-13T14:00"
   },
   {
     "course": "FINE 443",
@@ -3015,12 +3111,28 @@ export const EXAMS: Exam[] = [
     "end": "2026-12-16T17:00"
   },
   {
+    "course": "FINE 681",
+    "section": "026",
+    "title": "International Capital Markets",
+    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
+    "start": "2026-12-08T11:30",
+    "end": "2026-12-08T13:30"
+  },
+  {
+    "course": "FINE 688",
+    "section": "066",
+    "title": "Mergers and Acquisitions",
+    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
+    "start": "2026-12-08T11:35",
+    "end": "2026-12-08T14:25"
+  },
+  {
     "course": "FMT4 002",
     "section": "001",
     "title": "Soil Tillage",
     "type": "IN-PERSON - FORMAL EXAM - MAC CAMPUS",
-    "start": "2026-12-17T14:00",
-    "end": "2026-12-17T17:00"
+    "start": "2026-12-11T14:00",
+    "end": "2026-12-11T17:00"
   },
   {
     "course": "FMT4 004",
@@ -3035,16 +3147,16 @@ export const EXAMS: Exam[] = [
     "section": "001",
     "title": "Introduction to Plant Science",
     "type": "IN-PERSON - FORMAL EXAM - MAC CAMPUS",
-    "start": "2026-12-18T14:00",
-    "end": "2026-12-18T17:00"
+    "start": "2026-12-10T09:00",
+    "end": "2026-12-10T12:00"
   },
   {
     "course": "FMT4 006",
     "section": "001",
     "title": "Pesticides and the Environment",
     "type": "IN-PERSON - FORMAL EXAM - MAC CAMPUS",
-    "start": "2026-12-11T14:00",
-    "end": "2026-12-11T17:00"
+    "start": "2026-12-17T14:00",
+    "end": "2026-12-17T17:00"
   },
   {
     "course": "FMT4 014",
@@ -3083,8 +3195,8 @@ export const EXAMS: Exam[] = [
     "section": "001",
     "title": "Human Resources",
     "type": "IN-PERSON - FORMAL EXAM - MAC CAMPUS",
-    "start": "2026-12-10T09:00",
-    "end": "2026-12-10T12:00"
+    "start": "2026-12-18T14:00",
+    "end": "2026-12-18T17:00"
   },
   {
     "course": "FMT4 035",
@@ -3130,9 +3242,17 @@ export const EXAMS: Exam[] = [
     "course": "GEOG 201",
     "section": "001",
     "title": "Intro Geo-Information Science",
-    "type": "ONLINE - TAKE-HOME - 72 HOURS",
-    "start": "2026-12-14T09:00",
-    "end": "2026-12-17T09:00"
+    "type": "ONLINE - TAKE-HOME - 8-DAY",
+    "start": "2026-12-07T09:00",
+    "end": "2026-12-15T09:00"
+  },
+  {
+    "course": "GEOG 203",
+    "section": "001",
+    "title": "Environmental Systems",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-09T18:30",
+    "end": "2026-12-09T21:30"
   },
   {
     "course": "GEOG 205",
@@ -3178,17 +3298,17 @@ export const EXAMS: Exam[] = [
     "course": "GEOG 408",
     "section": "001",
     "title": "Geography of Development",
-    "type": "TAKE-HOME - EXAM",
-    "start": "2026-12-21T09:00",
-    "end": "2026-12-21T12:00"
+    "type": "ONLINE - TAKE-HOME - 72 HOURS",
+    "start": "2026-12-08T09:00",
+    "end": "2026-12-11T09:00"
   },
   {
     "course": "GEOG 417",
     "section": "001",
     "title": "Urban Geography",
-    "type": "ONLINE - TAKE-HOME - 2 WEEKS",
-    "start": "2026-11-15T09:00",
-    "end": "2026-11-29T09:00"
+    "type": "ONLINE - TAKE-HOME - 72 HOURS",
+    "start": "2026-12-07T09:00",
+    "end": "2026-12-10T09:00"
   },
   {
     "course": "GERM 259",
@@ -3243,8 +3363,8 @@ export const EXAMS: Exam[] = [
     "section": "001",
     "title": "Ancient Mediterranean History",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-12-22T09:00",
-    "end": "2026-12-22T12:00"
+    "start": "2026-12-10T18:30",
+    "end": "2026-12-10T21:30"
   },
   {
     "course": "HIST 211",
@@ -3275,8 +3395,8 @@ export const EXAMS: Exam[] = [
     "section": "001",
     "title": "History of Law and Society",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-12-18T14:00",
-    "end": "2026-12-18T17:00"
+    "start": "2026-12-16T09:00",
+    "end": "2026-12-16T12:00"
   },
   {
     "course": "HIST 303",
@@ -3299,8 +3419,8 @@ export const EXAMS: Exam[] = [
     "section": "001",
     "title": "Themes: British Isles History",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-12-10T18:30",
-    "end": "2026-12-10T21:30"
+    "start": "2026-12-21T09:00",
+    "end": "2026-12-21T12:00"
   },
   {
     "course": "HIST 327",
@@ -3339,8 +3459,8 @@ export const EXAMS: Exam[] = [
     "section": "001",
     "title": "Fall of the Roman Empire",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-12-18T09:00",
-    "end": "2026-12-18T12:00"
+    "start": "2026-12-21T18:30",
+    "end": "2026-12-21T21:30"
   },
   {
     "course": "HIST 389",
@@ -3379,16 +3499,16 @@ export const EXAMS: Exam[] = [
     "section": "001",
     "title": "DataHandl&Coding for Analytics",
     "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-12-22T09:00",
-    "end": "2026-12-22T12:00"
+    "start": "2026-12-07T09:00",
+    "end": "2026-12-07T12:00"
   },
   {
     "course": "INSY 336",
     "section": "002",
     "title": "DataHandl&Coding for Analytics",
     "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-12-22T09:00",
-    "end": "2026-12-22T12:00"
+    "start": "2026-12-07T09:00",
+    "end": "2026-12-07T12:00"
   },
   {
     "course": "INSY 435",
@@ -3410,7 +3530,7 @@ export const EXAMS: Exam[] = [
     "course": "INSY 446",
     "section": "001",
     "title": "DataMiningforBusinessAnalytics",
-    "type": "TAKE-HOME - EXAM - 48 HOURS",
+    "type": "ONLINE - TAKE-HOME - 48 HOURS",
     "start": "2026-12-14T09:00",
     "end": "2026-12-16T09:00"
   },
@@ -3419,8 +3539,8 @@ export const EXAMS: Exam[] = [
     "section": "001",
     "title": "Quantitative Methods for Dev",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-12-16T18:30",
-    "end": "2026-12-16T21:30"
+    "start": "2026-12-21T18:30",
+    "end": "2026-12-21T21:30"
   },
   {
     "course": "INTD 364",
@@ -3467,16 +3587,16 @@ export const EXAMS: Exam[] = [
     "section": "001",
     "title": "Introductory Arabic",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-12-15T18:30",
-    "end": "2026-12-15T21:30"
+    "start": "2026-12-07T18:30",
+    "end": "2026-12-07T21:30"
   },
   {
     "course": "ISLA 221D1",
     "section": "002",
     "title": "Introductory Arabic",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-12-15T18:30",
-    "end": "2026-12-15T21:30"
+    "start": "2026-12-07T18:30",
+    "end": "2026-12-07T21:30"
   },
   {
     "course": "ISLA 232D1",
@@ -3485,6 +3605,14 @@ export const EXAMS: Exam[] = [
     "type": "IN-PERSON - ORAL EXAM - D.T. CAMPUS",
     "start": "2026-12-17T14:00",
     "end": "2026-12-17T17:00"
+  },
+  {
+    "course": "ISLA 300",
+    "section": "001",
+    "title": "Topic: Arabic Fundamentals",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-07T18:30",
+    "end": "2026-12-07T21:30"
   },
   {
     "course": "ISLA 315",
@@ -3498,7 +3626,7 @@ export const EXAMS: Exam[] = [
     "course": "ISLA 322D1",
     "section": "001",
     "title": "Lower Intermediate Arabic",
-    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
     "start": "2026-12-07T14:00",
     "end": "2026-12-07T17:00"
   },
@@ -3535,6 +3663,14 @@ export const EXAMS: Exam[] = [
     "end": "2026-12-15T12:00"
   },
   {
+    "course": "ISLA 489",
+    "section": "001",
+    "title": "Topic: Lower Interm Turkish",
+    "type": "IN-PERSON - ORAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-18T14:00",
+    "end": "2026-12-18T17:00"
+  },
+  {
     "course": "ISLA 524",
     "section": "001",
     "title": "Advanced Arabic 1",
@@ -3543,18 +3679,26 @@ export const EXAMS: Exam[] = [
     "end": "2026-12-22T12:00"
   },
   {
+    "course": "ISLA 581",
+    "section": "001",
+    "title": "Topic: Lower Interm Arabic",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-07T14:00",
+    "end": "2026-12-07T17:00"
+  },
+  {
     "course": "ISLA 621D1",
     "section": "001",
     "title": "Arabic for Reading 1",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-12-15T18:30",
-    "end": "2026-12-15T21:30"
+    "start": "2026-12-07T18:30",
+    "end": "2026-12-07T21:30"
   },
   {
     "course": "JWST 240",
     "section": "001",
     "title": "The Holocaust",
-    "type": "TAKE-HOME - EXAM",
+    "type": "ONLINE - TAKE-HOME",
     "start": "2026-12-11T14:00",
     "end": "2026-12-11T17:00"
   },
@@ -3573,6 +3717,14 @@ export const EXAMS: Exam[] = [
     "type": "ONLINE - TAKE-HOME - 72 HOURS",
     "start": "2026-12-14T09:00",
     "end": "2026-12-17T09:00"
+  },
+  {
+    "course": "LIBA 402",
+    "section": "001",
+    "title": "Seminar in Liberal Arts",
+    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
+    "start": "2026-12-11T09:00",
+    "end": "2026-12-11T12:00"
   },
   {
     "course": "LING 201",
@@ -3603,8 +3755,8 @@ export const EXAMS: Exam[] = [
     "section": "001",
     "title": "Phonetics",
     "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-12-07T09:00",
-    "end": "2026-12-07T12:00"
+    "start": "2026-12-14T14:00",
+    "end": "2026-12-14T17:00"
   },
   {
     "course": "LING 331",
@@ -3635,8 +3787,8 @@ export const EXAMS: Exam[] = [
     "section": "001",
     "title": "Syntax 1",
     "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-12-07T18:30",
-    "end": "2026-12-07T21:30"
+    "start": "2026-12-07T09:00",
+    "end": "2026-12-07T12:00"
   },
   {
     "course": "LING 419",
@@ -3661,6 +3813,14 @@ export const EXAMS: Exam[] = [
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
     "start": "2026-12-17T18:30",
     "end": "2026-12-17T21:30"
+  },
+  {
+    "course": "LLCU 199",
+    "section": "001",
+    "title": "FYS: Literary Animals",
+    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
+    "start": "2026-12-16T09:00",
+    "end": "2026-12-16T12:00"
   },
   {
     "course": "LLCU 301",
@@ -3851,8 +4011,8 @@ export const EXAMS: Exam[] = [
     "section": "001",
     "title": "Algebra 1",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-12-17T18:30",
-    "end": "2026-12-17T21:30"
+    "start": "2026-12-14T14:00",
+    "end": "2026-12-14T17:00"
   },
   {
     "course": "MATH 240",
@@ -4043,8 +4203,8 @@ export const EXAMS: Exam[] = [
     "section": "001",
     "title": "Euclidean Geometry",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-12-11T14:00",
-    "end": "2026-12-11T17:00"
+    "start": "2026-12-14T09:00",
+    "end": "2026-12-14T12:00"
   },
   {
     "course": "MATH 350",
@@ -4075,8 +4235,8 @@ export const EXAMS: Exam[] = [
     "section": "001",
     "title": "Honours Euclidean Geometry",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-12-11T14:00",
-    "end": "2026-12-11T17:00"
+    "start": "2026-12-14T09:00",
+    "end": "2026-12-14T12:00"
   },
   {
     "course": "MATH 417",
@@ -4163,16 +4323,16 @@ export const EXAMS: Exam[] = [
     "section": "001",
     "title": "Higher Algebra 1",
     "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-12-21T09:00",
-    "end": "2026-12-21T12:00"
+    "start": "2026-12-08T14:00",
+    "end": "2026-12-08T17:00"
   },
   {
     "course": "MATH 576",
     "section": "001",
     "title": "Geometry & Topology 1",
     "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-12-22T09:00",
-    "end": "2026-12-22T12:00"
+    "start": "2026-12-15T18:30",
+    "end": "2026-12-15T21:30"
   },
   {
     "course": "MATH 580",
@@ -4203,8 +4363,8 @@ export const EXAMS: Exam[] = [
     "section": "001",
     "title": "Analytical Mechanics",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-12-21T09:00",
-    "end": "2026-12-21T12:00"
+    "start": "2026-12-11T14:00",
+    "end": "2026-12-11T17:00"
   },
   {
     "course": "MECH 220",
@@ -4245,14 +4405,6 @@ export const EXAMS: Exam[] = [
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
     "start": "2026-12-09T14:00",
     "end": "2026-12-09T17:00"
-  },
-  {
-    "course": "MECH 289",
-    "section": "002",
-    "title": "Design Graphics",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-12-14T14:00",
-    "end": "2026-12-14T17:00"
   },
   {
     "course": "MECH 309",
@@ -4307,8 +4459,8 @@ export const EXAMS: Exam[] = [
     "section": "001",
     "title": "Heat Transfer",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-12-18T09:00",
-    "end": "2026-12-18T12:00"
+    "start": "2026-12-10T18:30",
+    "end": "2026-12-10T21:30"
   },
   {
     "course": "MECH 360",
@@ -4361,14 +4513,6 @@ export const EXAMS: Exam[] = [
   {
     "course": "MECH 530",
     "section": "002",
-    "title": "Mech of Composite Materials",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-12-15T14:00",
-    "end": "2026-12-15T17:00"
-  },
-  {
-    "course": "MECH 530",
-    "section": "003",
     "title": "Mech of Composite Materials",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
     "start": "2026-12-15T14:00",
@@ -4530,49 +4674,49 @@ export const EXAMS: Exam[] = [
     "course": "MGCR 222",
     "section": "001",
     "title": "Intro to Org Behaviour",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-12-14T09:00",
-    "end": "2026-12-14T12:00"
+    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
+    "start": "2026-12-15T18:30",
+    "end": "2026-12-15T21:30"
   },
   {
     "course": "MGCR 222",
     "section": "002",
     "title": "Intro to Org Behaviour",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-12-14T09:00",
-    "end": "2026-12-14T12:00"
+    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
+    "start": "2026-12-15T18:30",
+    "end": "2026-12-15T21:30"
   },
   {
     "course": "MGCR 222",
     "section": "003",
     "title": "Intro to Org Behaviour",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-12-14T09:00",
-    "end": "2026-12-14T12:00"
+    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
+    "start": "2026-12-15T18:30",
+    "end": "2026-12-15T21:30"
   },
   {
     "course": "MGCR 222",
     "section": "004",
     "title": "Intro to Org Behaviour",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-12-14T09:00",
-    "end": "2026-12-14T12:00"
+    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
+    "start": "2026-12-15T18:30",
+    "end": "2026-12-15T21:30"
   },
   {
     "course": "MGCR 222",
     "section": "005",
     "title": "Intro to Org Behaviour",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-12-14T09:00",
-    "end": "2026-12-14T12:00"
+    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
+    "start": "2026-12-15T18:30",
+    "end": "2026-12-15T21:30"
   },
   {
     "course": "MGCR 222",
     "section": "006",
     "title": "Intro to Org Behaviour",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-12-14T09:00",
-    "end": "2026-12-14T12:00"
+    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
+    "start": "2026-12-15T18:30",
+    "end": "2026-12-15T21:30"
   },
   {
     "course": "MGCR 233",
@@ -4619,48 +4763,48 @@ export const EXAMS: Exam[] = [
     "section": "001",
     "title": "Business Statistics",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-12-10T18:30",
-    "end": "2026-12-10T21:30"
+    "start": "2026-12-16T18:30",
+    "end": "2026-12-16T21:30"
   },
   {
     "course": "MGCR 271",
     "section": "002",
     "title": "Business Statistics",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-12-10T18:30",
-    "end": "2026-12-10T21:30"
+    "start": "2026-12-16T18:30",
+    "end": "2026-12-16T21:30"
   },
   {
     "course": "MGCR 271",
     "section": "003",
     "title": "Business Statistics",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-12-10T18:30",
-    "end": "2026-12-10T21:30"
+    "start": "2026-12-16T18:30",
+    "end": "2026-12-16T21:30"
   },
   {
     "course": "MGCR 271",
     "section": "004",
     "title": "Business Statistics",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-12-10T18:30",
-    "end": "2026-12-10T21:30"
+    "start": "2026-12-16T18:30",
+    "end": "2026-12-16T21:30"
   },
   {
     "course": "MGCR 271",
     "section": "005",
     "title": "Business Statistics",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-12-10T18:30",
-    "end": "2026-12-10T21:30"
+    "start": "2026-12-16T18:30",
+    "end": "2026-12-16T21:30"
   },
   {
     "course": "MGCR 271",
     "section": "006",
     "title": "Business Statistics",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-12-10T18:30",
-    "end": "2026-12-10T21:30"
+    "start": "2026-12-16T18:30",
+    "end": "2026-12-16T21:30"
   },
   {
     "course": "MGCR 293",
@@ -4715,48 +4859,48 @@ export const EXAMS: Exam[] = [
     "section": "001",
     "title": "Information Technology Mgmt",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-12-21T18:30",
-    "end": "2026-12-21T21:30"
+    "start": "2026-12-18T09:00",
+    "end": "2026-12-18T12:00"
   },
   {
     "course": "MGCR 331",
     "section": "002",
     "title": "Information Technology Mgmt",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-12-21T18:30",
-    "end": "2026-12-21T21:30"
+    "start": "2026-12-18T09:00",
+    "end": "2026-12-18T12:00"
   },
   {
     "course": "MGCR 331",
     "section": "003",
     "title": "Information Technology Mgmt",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-12-21T18:30",
-    "end": "2026-12-21T21:30"
+    "start": "2026-12-18T09:00",
+    "end": "2026-12-18T12:00"
   },
   {
     "course": "MGCR 331",
     "section": "004",
     "title": "Information Technology Mgmt",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-12-21T18:30",
-    "end": "2026-12-21T21:30"
+    "start": "2026-12-18T09:00",
+    "end": "2026-12-18T12:00"
   },
   {
     "course": "MGCR 331",
     "section": "005",
     "title": "Information Technology Mgmt",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-12-21T18:30",
-    "end": "2026-12-21T21:30"
+    "start": "2026-12-18T09:00",
+    "end": "2026-12-18T12:00"
   },
   {
     "course": "MGCR 331",
     "section": "006",
     "title": "Information Technology Mgmt",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-12-21T18:30",
-    "end": "2026-12-21T21:30"
+    "start": "2026-12-18T09:00",
+    "end": "2026-12-18T12:00"
   },
   {
     "course": "MGCR 341",
@@ -4943,6 +5087,22 @@ export const EXAMS: Exam[] = [
     "end": "2026-12-07T12:00"
   },
   {
+    "course": "MGCR 617",
+    "section": "026",
+    "title": "Operations Management",
+    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
+    "start": "2026-12-15T14:35",
+    "end": "2026-12-15T17:25"
+  },
+  {
+    "course": "MGCR 642",
+    "section": "026",
+    "title": "Financial Reporting",
+    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
+    "start": "2026-12-14T14:35",
+    "end": "2026-12-14T17:25"
+  },
+  {
     "course": "MGSC 372",
     "section": "001",
     "title": "Advanced Business Statistics",
@@ -4965,6 +5125,46 @@ export const EXAMS: Exam[] = [
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
     "start": "2026-12-15T14:00",
     "end": "2026-12-15T17:00"
+  },
+  {
+    "course": "MGSC 404",
+    "section": "001",
+    "title": "Founds of Decision Analytics",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-17T18:30",
+    "end": "2026-12-17T21:30"
+  },
+  {
+    "course": "MGSC 404",
+    "section": "002",
+    "title": "Founds of Decision Analytics",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-17T18:30",
+    "end": "2026-12-17T21:30"
+  },
+  {
+    "course": "MGSC 640",
+    "section": "026",
+    "title": "Fund. of Decision Analytics",
+    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
+    "start": "2026-12-09T16:30",
+    "end": "2026-12-09T18:30"
+  },
+  {
+    "course": "MGSC 661",
+    "section": "077",
+    "title": "Multivariate Statcl Analysis",
+    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
+    "start": "2026-12-07T10:00",
+    "end": "2026-12-07T12:00"
+  },
+  {
+    "course": "MGSC 706",
+    "section": "051",
+    "title": "Management Research Statistics",
+    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
+    "start": "2026-12-09T12:00",
+    "end": "2026-12-09T14:00"
   },
   {
     "course": "MICR 338",
@@ -5051,8 +5251,8 @@ export const EXAMS: Exam[] = [
     "section": "001",
     "title": "Hydrochemical Processing",
     "type": "ONLINE - TIMED EXAM - 24 HOURS",
-    "start": "2026-12-17T09:00",
-    "end": "2026-12-18T09:00"
+    "start": "2026-12-08T09:00",
+    "end": "2026-12-09T09:00"
   },
   {
     "course": "MIME 356",
@@ -5103,14 +5303,6 @@ export const EXAMS: Exam[] = [
     "end": "2026-12-18T17:00"
   },
   {
-    "course": "MIME 426",
-    "section": "001",
-    "title": "Mine Design & Prefeasib Study",
-    "type": "IN-PERSON - ORAL EXAM - D.T. CAMPUS",
-    "start": "2026-12-16T14:00",
-    "end": "2026-12-16T17:00"
-  },
-  {
     "course": "MIME 465",
     "section": "001",
     "title": "Metal & Ceram Powd Proc",
@@ -5138,6 +5330,22 @@ export const EXAMS: Exam[] = [
     "course": "MIME 513",
     "section": "001",
     "title": "Mine Plan Optim Under Uncert",
+    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
+    "start": "2026-12-14T09:00",
+    "end": "2026-12-14T12:00"
+  },
+  {
+    "course": "MIME 515",
+    "section": "001",
+    "title": "(Bio)mat Surface Analy&Modfctn",
+    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
+    "start": "2026-12-14T09:00",
+    "end": "2026-12-14T12:00"
+  },
+  {
+    "course": "MIME 515",
+    "section": "002",
+    "title": "(Bio)mat Surface Analy&Modfctn",
     "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
     "start": "2026-12-14T09:00",
     "end": "2026-12-14T12:00"
@@ -5187,8 +5395,8 @@ export const EXAMS: Exam[] = [
     "section": "001",
     "title": "Microbial Physiology",
     "type": "ONLINE - TIMED EXAM - 3 HOURS",
-    "start": "2026-12-21T14:00",
-    "end": "2026-12-21T17:00"
+    "start": "2026-12-14T09:00",
+    "end": "2026-12-14T12:00"
   },
   {
     "course": "MIMM 324",
@@ -5211,8 +5419,8 @@ export const EXAMS: Exam[] = [
     "section": "001",
     "title": "Advanced Immunology",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-12-11T14:00",
-    "end": "2026-12-11T17:00"
+    "start": "2026-12-07T09:00",
+    "end": "2026-12-07T12:00"
   },
   {
     "course": "MIMM 465",
@@ -5287,12 +5495,44 @@ export const EXAMS: Exam[] = [
     "end": "2026-12-08T17:00"
   },
   {
+    "course": "NUR1 209",
+    "section": "001",
+    "title": "Pathophysiology for Nursing 1",
+    "type": "ONLINE - TIMED EXAM - 3 HOURS",
+    "start": "2026-12-10T09:00",
+    "end": "2026-12-10T12:00"
+  },
+  {
+    "course": "NUR1 209",
+    "section": "020",
+    "title": "Pathophysiology for Nursing 1",
+    "type": "ONLINE - TIMED EXAM - 3 HOURS",
+    "start": "2026-12-10T09:00",
+    "end": "2026-12-10T12:00"
+  },
+  {
     "course": "NUR1 221",
     "section": "001",
     "title": "Intro toProf Prac&SBN&Hlthcare",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
     "start": "2026-12-07T18:30",
     "end": "2026-12-07T21:30"
+  },
+  {
+    "course": "NUR1 300",
+    "section": "001",
+    "title": "Pharmacology for Nursing 1",
+    "type": "ONLINE - TIMED EXAM - 3 HOURS",
+    "start": "2026-12-14T09:00",
+    "end": "2026-12-14T12:00"
+  },
+  {
+    "course": "NUR1 300",
+    "section": "020",
+    "title": "Pharmacology for Nursing 1",
+    "type": "ONLINE - TIMED EXAM - 3 HOURS",
+    "start": "2026-12-14T09:00",
+    "end": "2026-12-14T12:00"
   },
   {
     "course": "NUR1 312",
@@ -5322,9 +5562,17 @@ export const EXAMS: Exam[] = [
     "course": "NUR1 424",
     "section": "020",
     "title": "Legal,Ethical&Prof Prac Issues",
-    "type": "ONLINE - TAKE-HOME - 48 HOURS",
-    "start": "2026-12-21T09:00",
-    "end": "2026-12-23T09:00"
+    "type": "ONLINE - TAKE-HOME - 72 HOURS",
+    "start": "2026-12-11T14:00",
+    "end": "2026-12-14T14:00"
+  },
+  {
+    "course": "NUR2 500",
+    "section": "001",
+    "title": "Integrated Health Sciences 1",
+    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
+    "start": "2026-12-15T09:00",
+    "end": "2026-12-15T12:00"
   },
   {
     "course": "NUR2 623",
@@ -5339,8 +5587,8 @@ export const EXAMS: Exam[] = [
     "section": "001",
     "title": "Nutrition and Health",
     "type": "IN-PERSON - FORMAL EXAM - MAC CAMPUS",
-    "start": "2026-12-22T09:00",
-    "end": "2026-12-22T12:00"
+    "start": "2026-12-17T09:00",
+    "end": "2026-12-17T12:00"
   },
   {
     "course": "NUTR 214",
@@ -5363,16 +5611,16 @@ export const EXAMS: Exam[] = [
     "section": "001",
     "title": "Applied Human Resources",
     "type": "IN-PERSON - FORMAL EXAM - MAC CAMPUS",
-    "start": "2026-12-14T09:00",
-    "end": "2026-12-14T12:00"
+    "start": "2026-12-22T09:00",
+    "end": "2026-12-22T12:00"
   },
   {
     "course": "NUTR 511",
     "section": "001",
     "title": "Nutrition and Behaviour",
     "type": "IN-PERSON - FORMAL EXAM - MAC CAMPUS",
-    "start": "2026-12-21T14:00",
-    "end": "2026-12-21T17:00"
+    "start": "2026-12-09T14:00",
+    "end": "2026-12-09T17:00"
   },
   {
     "course": "NUTR 512",
@@ -5388,15 +5636,15 @@ export const EXAMS: Exam[] = [
     "title": "Clinical Nutrition 2",
     "type": "IN-PERSON - ORAL EXAM - MAC CAMPUS",
     "start": "2026-12-18T14:00",
-    "end": "2026-12-20T14:00"
+    "end": "2026-12-20T17:00"
   },
   {
     "course": "NUTR 546",
     "section": "001",
     "title": "Clinical Nutrition 3",
     "type": "IN-PERSON - FORMAL EXAM - MAC CAMPUS",
-    "start": "2026-12-16T09:00",
-    "end": "2026-12-16T12:00"
+    "start": "2026-12-11T09:00",
+    "end": "2026-12-11T12:00"
   },
   {
     "course": "NUTR 551",
@@ -5475,8 +5723,8 @@ export const EXAMS: Exam[] = [
     "section": "001",
     "title": "Introductory Physiology Lab 1",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-12-16T18:30",
-    "end": "2026-12-16T21:30"
+    "start": "2026-12-07T09:00",
+    "end": "2026-12-07T12:00"
   },
   {
     "course": "PHGY 311",
@@ -5523,16 +5771,16 @@ export const EXAMS: Exam[] = [
     "section": "001",
     "title": "Intro to Hist & Phil of Sci 2",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-12-18T14:00",
-    "end": "2026-12-18T17:00"
+    "start": "2026-12-14T09:00",
+    "end": "2026-12-14T12:00"
   },
   {
     "course": "PHIL 230",
     "section": "001",
     "title": "Intro to Moral Philosophy 1",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-12-16T18:30",
-    "end": "2026-12-16T21:30"
+    "start": "2026-12-18T14:00",
+    "end": "2026-12-18T17:00"
   },
   {
     "course": "PHIL 242",
@@ -5555,8 +5803,8 @@ export const EXAMS: Exam[] = [
     "section": "001",
     "title": "Aesthetics",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-12-22T09:00",
-    "end": "2026-12-22T12:00"
+    "start": "2026-12-07T18:30",
+    "end": "2026-12-07T21:30"
   },
   {
     "course": "PHIL 349",
@@ -5579,8 +5827,8 @@ export const EXAMS: Exam[] = [
     "section": "001",
     "title": "Existentialism",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-12-11T14:00",
-    "end": "2026-12-11T17:00"
+    "start": "2026-12-14T09:00",
+    "end": "2026-12-14T12:00"
   },
   {
     "course": "PHIL 454",
@@ -5588,7 +5836,7 @@ export const EXAMS: Exam[] = [
     "title": "Ancient Moral Theory",
     "type": "IN-PERSON - ORAL EXAM - D.T. CAMPUS",
     "start": "2026-12-16T14:00",
-    "end": "2026-12-16T17:00"
+    "end": "2026-12-18T14:00"
   },
   {
     "course": "PHYS 101",
@@ -5611,8 +5859,8 @@ export const EXAMS: Exam[] = [
     "section": "001",
     "title": "Space, Time & Matter",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-12-17T14:00",
-    "end": "2026-12-17T17:00"
+    "start": "2026-12-11T14:00",
+    "end": "2026-12-11T17:00"
   },
   {
     "course": "PHYS 182",
@@ -5651,16 +5899,16 @@ export const EXAMS: Exam[] = [
     "section": "001",
     "title": "Thermal Physics",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-12-21T14:00",
-    "end": "2026-12-21T17:00"
+    "start": "2026-12-21T18:30",
+    "end": "2026-12-21T21:30"
   },
   {
     "course": "PHYS 260",
     "section": "001",
     "title": "Modern Physics and Relativity",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-12-16T09:00",
-    "end": "2026-12-16T12:00"
+    "start": "2026-12-16T14:00",
+    "end": "2026-12-16T17:00"
   },
   {
     "course": "PHYS 320",
@@ -5685,14 +5933,6 @@ export const EXAMS: Exam[] = [
     "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
     "start": "2026-12-14T14:00",
     "end": "2026-12-14T17:00"
-  },
-  {
-    "course": "PHYS 346",
-    "section": "001",
-    "title": "Majors Quantum Physics",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-12-08T14:00",
-    "end": "2026-12-08T17:00"
   },
   {
     "course": "PHYS 350",
@@ -5759,6 +5999,14 @@ export const EXAMS: Exam[] = [
     "end": "2026-12-07T17:00"
   },
   {
+    "course": "PHYS 557",
+    "section": "001",
+    "title": "Nuclear Physics",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-17T09:00",
+    "end": "2026-12-17T12:00"
+  },
+  {
     "course": "PHYS 558",
     "section": "001",
     "title": "Solid State Physics",
@@ -5778,9 +6026,17 @@ export const EXAMS: Exam[] = [
     "course": "PLNT 302",
     "section": "001",
     "title": "Forage Crops and Pastures",
-    "type": "IN-PERSON - LAB EXAM - MAC CAMPUS",
+    "type": "IN-PERSON - FORMAL EXAM - MAC CAMPUS",
     "start": "2026-12-18T14:00",
     "end": "2026-12-18T17:00"
+  },
+  {
+    "course": "PLNT 358",
+    "section": "001",
+    "title": "Flowering Plant Diversity",
+    "type": "IN-PERSON - LAB EXAM - MAC CAMPUS",
+    "start": "2026-12-07T14:00",
+    "end": "2026-12-07T17:00"
   },
   {
     "course": "POLI 210",
@@ -5851,8 +6107,8 @@ export const EXAMS: Exam[] = [
     "section": "001",
     "title": "Comparative Politics of Africa",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-12-18T14:00",
-    "end": "2026-12-18T17:00"
+    "start": "2026-12-14T09:00",
+    "end": "2026-12-14T12:00"
   },
   {
     "course": "POLI 325",
@@ -5931,8 +6187,8 @@ export const EXAMS: Exam[] = [
     "section": "001",
     "title": "Liberal Political Theory",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-12-16T18:30",
-    "end": "2026-12-16T21:30"
+    "start": "2026-12-22T09:00",
+    "end": "2026-12-22T12:00"
   },
   {
     "course": "POLI 368",
@@ -5964,15 +6220,15 @@ export const EXAMS: Exam[] = [
     "title": "Hist of Pol/Soc Theory 3",
     "type": "IN-PERSON - ORAL EXAM - D.T. CAMPUS",
     "start": "2026-12-18T08:30",
-    "end": "2026-12-18T18:30"
+    "end": "2026-12-18T18:00"
   },
   {
     "course": "POLI 442",
     "section": "001",
     "title": "Int'l Rel of Ethnic Conflict",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-12-07T14:00",
-    "end": "2026-12-07T17:00"
+    "start": "2026-12-16T18:30",
+    "end": "2026-12-16T21:30"
   },
   {
     "course": "POLI 448",
@@ -6075,16 +6331,16 @@ export const EXAMS: Exam[] = [
     "section": "001",
     "title": "Intro to Psychopathology",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-12-07T09:00",
-    "end": "2026-12-07T12:00"
+    "start": "2026-12-16T18:30",
+    "end": "2026-12-16T21:30"
   },
   {
     "course": "PSYC 341",
     "section": "001",
     "title": "The Psychology of Bilingualism",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-12-07T18:30",
-    "end": "2026-12-07T21:30"
+    "start": "2026-12-10T18:30",
+    "end": "2026-12-10T21:30"
   },
   {
     "course": "PSYC 403",
@@ -6143,12 +6399,28 @@ export const EXAMS: Exam[] = [
     "end": "2026-12-18T12:00"
   },
   {
+    "course": "PSYC 507",
+    "section": "001",
+    "title": "Emotions, Stress, and Illness",
+    "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
+    "start": "2026-12-11T09:00",
+    "end": "2026-12-11T12:00"
+  },
+  {
     "course": "PSYT 301",
     "section": "001",
     "title": "Issues in Drug Dependence",
     "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
     "start": "2026-12-10T09:00",
     "end": "2026-12-10T12:00"
+  },
+  {
+    "course": "QCST 200",
+    "section": "001",
+    "title": "Intro to the Study of Quebec",
+    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "start": "2026-12-10T14:00",
+    "end": "2026-12-10T17:00"
   },
   {
     "course": "RELG 203",
@@ -6179,8 +6451,8 @@ export const EXAMS: Exam[] = [
     "section": "001",
     "title": "Intro to Yoga Traditions",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-12-07T09:00",
-    "end": "2026-12-07T12:00"
+    "start": "2026-12-09T09:00",
+    "end": "2026-12-09T12:00"
   },
   {
     "course": "RELG 311",
@@ -6203,8 +6475,8 @@ export const EXAMS: Exam[] = [
     "section": "001",
     "title": "Christian Ethics of Love",
     "type": "IN-PERSON - ORAL EXAM - D.T. CAMPUS",
-    "start": "2026-12-18T14:00",
-    "end": "2026-12-18T17:00"
+    "start": "2026-12-08T09:00",
+    "end": "2026-12-09T12:00"
   },
   {
     "course": "RUSS 223",
@@ -6218,9 +6490,9 @@ export const EXAMS: Exam[] = [
     "course": "SOCI 210",
     "section": "001",
     "title": "Sociological Perspectives",
-    "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
+    "type": "ONLINE - TAKE-HOME - 72 HOURS",
     "start": "2026-12-17T09:00",
-    "end": "2026-12-17T12:00"
+    "end": "2026-12-20T09:00"
   },
   {
     "course": "SOCI 211",
@@ -6299,8 +6571,8 @@ export const EXAMS: Exam[] = [
     "section": "001",
     "title": "Statistics in Social Research",
     "type": "IN-PERSON - FORMAL EXAM - D.T. CAMPUS",
-    "start": "2026-12-07T14:00",
-    "end": "2026-12-07T17:00"
+    "start": "2026-12-09T09:00",
+    "end": "2026-12-09T12:00"
   },
   {
     "course": "SOCI 385",
@@ -6315,8 +6587,8 @@ export const EXAMS: Exam[] = [
     "section": "001",
     "title": "Intro to Demographic Methods",
     "type": "IN-PERSON - IN DEPARTMENT EXAM - D.T. CAMPUS",
-    "start": "2026-12-11T14:00",
-    "end": "2026-12-11T17:00"
+    "start": "2026-12-08T09:00",
+    "end": "2026-12-08T12:00"
   },
   {
     "course": "SOCI 430",
@@ -6386,7 +6658,7 @@ export const EXAMS: Exam[] = [
     "course": "WILD 420",
     "section": "001",
     "title": "Ornithology",
-    "type": "MAC ONLINE - TAKE-HOME - 48 HOURS",
+    "type": "ONLINE - TAKE-HOME - 48 HOURS",
     "start": "2026-12-16T14:00",
     "end": "2026-12-18T14:00"
   }

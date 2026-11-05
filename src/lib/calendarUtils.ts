@@ -18,6 +18,7 @@ function buildDescription(exam: Exam): string {
   else parts.push(`Section: ${exam.section}`)
   parts.push(`Type: ${exam.type}`)
   parts.push('Fall 2026 tentative schedule - dates and times are subject to change.')
+  parts.push('Based on McGill\'s October 27, 2026 schedule revision.')
   parts.push('All times are Eastern Standard Time (America/Toronto).')
   if (exam.type.includes('IN-PERSON')) parts.push('Room location not yet published.')
   return parts.join('\n')
